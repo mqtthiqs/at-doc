@@ -1,6 +1,6 @@
 # GRM Tools Atelier
 
-Tagline: Creative Audio Workbench
+_Tagline_: Creative Audio Workbench
 
 ## Patch, play, discover
 
