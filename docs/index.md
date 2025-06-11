@@ -1,6 +1,8 @@
 # GRM Tools Atelier
 
-_[Work in progress]_
+Tagline: Creative Audio Workbench
+
+## Patch, play, discover
 
 _Atelier_ is a sandbox for the curious, a platform for exploring endless sonic ideas. Modular at its
 core, multichannel from the ground up, it is a tool that doesn't hand you the sound, but gives you
@@ -9,8 +11,6 @@ everything you need to uncover it yourself.
 Standing on decades of research in audio signal processing and electronic lutherie, and in close
 connection with avant-garde composers and sound designers, _Atelier_ is the new software platform of
 the GRM Tools series, coming straight from INA GRM's research & development department.
-
-[stg about the GRM Tools heritage]
 
 ## Features
 
@@ -24,6 +24,19 @@ the GRM Tools series, coming straight from INA GRM's research & development depa
   granular FX chain, or something never seen before.
 * _Sound Morphing_: Transition between module presets with smooth sonic interpolation, ideal for
   performance or evolving textures.
+
+## Philosophy
+
+* _The magic is in the making_: true to Pierre Schaeffer's founding principles of composing by
+  directly interacting with the musical material ("Le faire et l'entendre"), everything in Atelier
+  is real-time, interactive and modulatable: no planning required; just be guided by what you hear.
+* _Just tools_: The modules proposed all have simple and easy to understand functions: everything is
+  observable and documented, nothing is a black box. Just by playing, you will learn how things
+  work, and discover new uses for the tools. You build the complexity if you want it; we are just
+  giving you the tools to do so.
+* _Classics, reinvented_: Atelier is a reinvention of the venerable GRM Tools 3 suite: while
+  respecting and preserving the underlying philosophy, it bears no single line of code in common
+  with its older sibling.
 
 ## What's in the box
 
