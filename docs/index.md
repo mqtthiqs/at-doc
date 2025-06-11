@@ -5,12 +5,12 @@ _Tagline_: Creative Audio Workbench
 ## Patch, play, discover
 
 _Atelier_ is a sandbox for the curious, a platform for exploring endless sonic ideas. Modular at its
-core, multichannel from the ground up, it is a tool that doesn't hand you the sound, but gives you
-everything you need to uncover it yourself.
+core, multichannel from the ground up, it is the modern tool for all sound adventurers. _Atelier_
+doesn't hand you the sound: it gives you everything you need to uncover it yourself.
 
-Standing on decades of research in audio signal processing and electronic lutherie, and in close
-connection with avant-garde composers and sound designers, _Atelier_ is the new software platform of
-the GRM Tools series, coming straight from INA GRM's research & development department.
+Standing on decades of research in audio signal processing and electronic lutherie, _Atelier_ is the
+new software platform of the GRM Tools series, coming straight from INA GRM's research & development
+department and developed in close connection with GRM's avant-garde composers and sound designers.
 
 ## Features
 
