@@ -1,0 +1,25 @@
+site_name: GRM Tools Atelier
+theme:
+  name: mkdocs
+  color_mode: dark
+
+nav:
+  - index.md
+  - Atelier:
+      - atelier/getting-started.md
+      - atelier/modulation.md
+      - atelier/multichannel.md
+      - atelier/faq.md
+  - Processors:
+      - modules/viz.md
+      - modules/gain.md
+      - modules/gen.md
+      - modules/comb.md
+      - modules/band.md
+      - modules/pitch.md
+      - modules/play.md
+      - modules/time.md
+  - Modulators:
+      - modules/agitation.md
+      - modules/control.md
+      - modules/peak.md
