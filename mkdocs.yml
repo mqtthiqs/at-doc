@@ -6,7 +6,8 @@ theme:
   font:
     text: Lato
   logo: assets/app_icon.svg
-
+  features:
+    - navigation.instant
 nav:
   - index.md
   - Atelier:
