@@ -1,6 +1,6 @@
 # Agitation
 
-_Tagline_: Source of possibility
+##### Source of possibility
 
 _Agitation_ is a versatile source of random modulations, able to turn any static sound-processing
 patch into a dynamic and evolving system of interactions. From subtle variation to utter chaos, from

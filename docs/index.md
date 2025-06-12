@@ -1,6 +1,6 @@
 # Atelier
 
-_Tagline_: Creative Audio Workbench
+##### Creative Audio Workbench
 
 ## Patch, play, discover
 

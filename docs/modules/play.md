@@ -1,3 +1,3 @@
 # Play
 
-!!! warning "Work in progress"
+!!! warning "This section is a **work in progress**"

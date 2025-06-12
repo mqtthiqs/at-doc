@@ -1,6 +1,6 @@
 # Time
 
-!!! warning "Work in progress"
+!!! warning "This section is a **work in progress**"
 
 At its heart, _Time_ is a multi-tap delay with per-tap built-in resonant filter, taking inspiration
 from GRM's Phonogene and Morphophone family of instruments.
