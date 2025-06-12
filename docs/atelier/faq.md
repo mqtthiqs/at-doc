@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-_[Work in progress]_
+!!! warning "Work in progress"
 
 ## Where is my configuration stored?
 

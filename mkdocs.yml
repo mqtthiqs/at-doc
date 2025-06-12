@@ -15,6 +15,11 @@ theme:
     - navigation.indexes
     - toc.follow
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Atelier:
       - index.md

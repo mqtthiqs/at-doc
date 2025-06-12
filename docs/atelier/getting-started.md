@@ -1,6 +1,6 @@
 # Getting Started
 
-_[Work in progress]_
+!!! warning "Work in progress"
 
 ## Installation
 
