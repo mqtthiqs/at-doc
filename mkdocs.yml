@@ -1,7 +1,8 @@
-site_name: GRM Tools Atelier
+site_name: GRM Tools Atelier documentation
 theme:
-  name: mkdocs
-  color_mode: dark
+  name: material
+  palette:
+    scheme: slate
 
 nav:
   - index.md
