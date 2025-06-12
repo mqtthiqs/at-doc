@@ -1,4 +1,4 @@
-# GRM Tools Atelier
+# Atelier
 
 _Tagline_: Creative Audio Workbench
 
