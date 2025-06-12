@@ -33,19 +33,19 @@ Every parameter has as many independently-modulatable instances as there are out
 this modulator (ie. the sum of all wires' instance number, see
 [Modulation](../atelier/modulation.md)).
 
-- **Amplitude**: Amplitude of the agitation signals.
-- **Frequency**: Determines the time between two successive random steps. Goes down to 0 Hz
+- **Amplitude:** Amplitude of the agitation signals.
+- **Frequency:** Determines the time between two successive random steps. Goes down to 0 Hz
   (stalled).
-- **Ease**: Shape of the transition between two successive random steps. At 0%, the shape is
+- **Ease:** Shape of the transition between two successive random steps. At 0%, the shape is
   sine-like; at 100% it jumps immediately to the next value; at -100% it stays at the current value
   until the last moment.
-- **Slant**: Ratio of the time spent going up vs. going down. At 0%, it spends the same time raising
+- **Slant:** Ratio of the time spent going up vs. going down. At 0%, it spends the same time raising
   than falling.
-- **Cyclic**: Periodicity of the successive random steps, from completely random to fully cyclic
+- **Cyclic:** Periodicity of the successive random steps, from completely random to fully cyclic
   (alternating up and down).
-- **Jitter**: Amount of randomization of the time between to successive steps.
-- **Running**: Enable to run; when disabled, will finish its current transition and then stall.
-- **Multiplicity**: When enabled, each destination has its own independent agitation engine; when
+- **Jitter:** Amount of randomization of the time between to successive steps.
+- **Running:** Enable to run; when disabled, will finish its current transition and then stall.
+- **Multiplicity:** When enabled, each destination has its own independent agitation engine; when
   disabled, they all move in unison.
 
 !!! note

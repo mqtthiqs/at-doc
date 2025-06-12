@@ -36,19 +36,19 @@ Every parameter has as many independently-modulatable instances as there are out
 this modulator (ie. the sum of all wires' instance number, see
 [Modulation](../atelier/modulation.md)).
 
-- **Trigger**: Triggers the envelope, i.e. begins the _rise_ stage. If held and **Hold** on, holds
+- **Trigger:** Triggers the envelope, i.e. begins the _rise_ stage. If held and **Hold** on, holds
   at maximum value once reached.
-- **Time**: Total time of the envelope, including repeats, at full amplitude.
-- **Slant**: Ratio of the time spent going up vs. down.
-- **Ease**: Shape of the rise and fall curves (logarithmic, sine, linear, s-shaped, exponential).
-- **Delay**: Delay before starting to rise, after being (re-)triggered.
-- **Repeat**: Number of retriggers after a **Trigger** or a repetition. Keeps the total **Time**
+- **Time:** Total time of the envelope, including repeats, at full amplitude.
+- **Slant:** Ratio of the time spent going up vs. down.
+- **Ease:** Shape of the rise and fall curves (logarithmic, sine, linear, s-shaped, exponential).
+- **Delay:** Delay before starting to rise, after being (re-)triggered.
+- **Repeat:** Number of retriggers after a **Trigger** or a repetition. Keeps the total **Time**
   constant.
-- **Chance**: Probability that **Trigger** actually triggers.
-- **Amplitude**: Envelope starts falling or holding when this value is reached.
-- **Hold**: When off, envelope falls right after reaching **Amplitude**. When on, holds at maximum
+- **Chance:** Probability that **Trigger** actually triggers.
+- **Amplitude:** Envelope starts falling or holding when this value is reached.
+- **Hold:** When off, envelope falls right after reaching **Amplitude**. When on, holds at maximum
   value until **Trigger** is released.
-- **Infinite repeat**: Loop the envelope indefinitely. When enabled, **Trigger** re-triggers or
+- **Infinite repeat:** Loop the envelope indefinitely. When enabled, **Trigger** re-triggers or
   holds the envelope.
 
 ## Tips and tricks

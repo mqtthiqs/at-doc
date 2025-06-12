@@ -13,7 +13,7 @@ patch-mastery.
 Atelier's modules expose parameters to the user that are mostly technical in nature (Pitch, Window,
 Spread...). Often, controlling a patch in a specific perceptual or artistic way involves moving
 several controls at once, in various proportions; this is where _Control_ comes into play. At its
-core, it is a single slider, **Value**: when moved up or down, all its destination parameters move
+core, it is a single slider, **Value:** when moved up or down, all its destination parameters move
 up or down by as much, taking modulation range into account. Therefore, patch-programming a complex
 macro-control amounts to connecting a Control to several parameters and adjusting each connection's
 modulation range, and mapping it to e.g. a MIDI controller:
@@ -44,14 +44,14 @@ Every parameter has as many independently-modulatable instances as there are out
 this modulator (ie. the sum of all wires' instance number, see
 [Modulation](../atelier/modulation.md)).
 
-* **Value**: Main value of the Control; modulated destinations are displaced by this amount.
-* **Smoothing time**: Amount of smoothing applied to the **Value** parameter, or time it takes for
+* **Value:** Main value of the Control; modulated destinations are displaced by this amount.
+* **Smoothing time:** Amount of smoothing applied to the **Value** parameter, or time it takes for
   it to reach its set value.
-* **Slant**: Difference of slew times between rises and falls. At 0%, the rise and fall times are
+* **Slant:** Difference of slew times between rises and falls. At 0%, the rise and fall times are
   identical; at -100%, rises are immediate, at +100%, falls are immediate.
-* **Delay**: Lag between a movement of the input (the **Value** parameter) and the corresponding
+* **Delay:** Lag between a movement of the input (the **Value** parameter) and the corresponding
   movement of its output (what it is connected to).
-* **Loop**: How much of past movements of **Value** is layered on top of the current movement. The
+* **Loop:** How much of past movements of **Value** is layered on top of the current movement. The
   delay parameter sets the time of the loop. At 100%, it creates an infinite loop of length
   **Delay** containing the last movements of the **Value** parameter. At 50%, the current **Value**
   is added the value it had **Delay** seconds ago, creating a slowly-settling feedback loop.

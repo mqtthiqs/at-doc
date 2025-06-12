@@ -30,15 +30,15 @@ otherwise.
 
 All parameters have as many independently-modulatable instances as there are input/output channels.
 
-- **Gain**: Controls the volume, and the amount of "distancing" effect. At 0dB (maximum value), the
+- **Gain:** Controls the volume, and the amount of "distancing" effect. At 0dB (maximum value), the
   audio is unaffected. As **Gain** is lowered, the audio is attenuated and more-and-more affected by
   **Muffle** and **Distance**.
-- **Trim**: Adjusts the input gain, before applying the effect of **Gain**.
-- **Muffle**: As **Gain** is lowered, sublty scrapes off high frequency content, attenuating
+- **Trim:** Adjusts the input gain, before applying the effect of **Gain**.
+- **Muffle:** As **Gain** is lowered, sublty scrapes off high frequency content, attenuating
   harshness just like air does. It works by applying a gentle (6 dB/oct) low-pass filter, with a
   cutoff frequency determined by **Gain** and the percentage of muffling chosen: at 0%, no filtering
   is ever applied; at 100%, the cutoff gets smaller quickly when **Gain** lowers.
-- **Distance**: As **Gain** is lowered, introduce a small delay, simulating the speed of sound in
+- **Distance:** As **Gain** is lowered, introduce a small delay, simulating the speed of sound in
   air, and a subtle room-like reverberation, simulating reflections against closeby surfaces.
 
 ## Tips and tricks

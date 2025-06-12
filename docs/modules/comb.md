@@ -50,31 +50,31 @@ Each comb filter has three controls:
 The following parameters have as many independently-modulatable instances as there are comb filters
   (see [Modulation](../atelier/modulation.md)).
 
-- **Transposition**: Transposes all comb filters by a given amount of semitones.
-- **Decay scale**: Scales the decay time by the given multiplier.
+- **Transposition:** Transposes all comb filters by a given amount of semitones.
+- **Decay scale:** Scales the decay time by the given multiplier.
 
 ### Global controls
 
-- **Mix**: Crossfades the dry signal (0%) with the wet signal (100%).
+- **Mix:** Crossfades the dry signal (0%) with the wet signal (100%).
 
 The following parameters have as many independently-modulatable instances as there are comb filters
   (see [Modulation](../atelier/modulation.md)).
 
-- **Spread**: Channel-locality of each comb filter's processes. At 0%, each comb filter processes
+- **Spread:** Channel-locality of each comb filter's processes. At 0%, each comb filter processes
   only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread)
   section); at 100%, each comb filter processes all channels in parallel (multi-mono).
-- **Gain**: Output gain of all comb filters. Combined with the gain of each filter.
-- **Damp**: Amount of damping, or how much high frequencies (higher than the resonance) are
+- **Gain:** Output gain of all comb filters. Combined with the gain of each filter.
+- **Damp:** Amount of damping, or how much high frequencies (higher than the resonance) are
   attenuated as decay progresses. At 0% no or very minimal damping is applied, leading to a metallic
   tone; at 100%, the harmonic content of the input is immediately attenuated into a sine at the
   resonance frequency.
-- **Warp**: Warps the resonant partials, from purely harmonic (0%) to . It works by introducing a
+- **Warp:** Warps the resonant partials, from purely harmonic (0%) to . It works by introducing a
   complex all-pass filter in the feedback loop, delaying some frequencies more than others at each
   round-trip.
-- **Phase**: Controls where in the delay loop the output signal is picked up, i.e. only at the end
+- **Phase:** Controls where in the delay loop the output signal is picked up, i.e. only at the end
   (0%) or in the middle as the sum of the forward and backward direction (100%). At 100%, phase
   cancellations are such that only odd harmonics ring.
-- **Predelay**: Introduces a short delay before the input signal hits the comb filter loop.
+- **Predelay:** Introduces a short delay before the input signal hits the comb filter loop.
 
 ## Tips and tricks
 

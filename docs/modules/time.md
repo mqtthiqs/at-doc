@@ -9,22 +9,22 @@ from GRM's Phonogene and Morphophone family of instruments.
 
 ## Controls
 
-- **Mix**: Crossfades between the dry signal (0%) and the wet signal (100%).
-- **Spread**:
-- **Gain**:
-- **Feedback**:
-- **Rotate**:
-- **Bandpass**:
-- **Speed**:
-- **Repitch/Fade**:
+- **Mix:** Crossfades between the dry signal (0%) and the wet signal (100%).
+- **Spread:**
+- **Gain:**
+- **Feedback:**
+- **Rotate:**
+- **Bandpass:**
+- **Speed:**
+- **Repitch/Fade:**
 
-- **Delay**:
-- **Gain**:
-- **Cutoff**:
+- **Delay:**
+- **Gain:**
+- **Cutoff:**
 
-- **Delay scale**:
-- **Transposition**:
-- **Y axis parameter**: The combo box determines which parameter is displayed on the Y axis (and
+- **Delay scale:**
+- **Transposition:**
+- **Y axis parameter:** The combo box determines which parameter is displayed on the Y axis (and
   consequently which is displayed on the Z axis, ie. the cursors' size): either **Gain** or **Cutoff**
 
 - **Clear audio buffer**
