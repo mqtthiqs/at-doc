@@ -8,6 +8,9 @@ theme:
   logo: assets/app_icon.svg
   features:
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+
 nav:
   - index.md
   - Atelier:
