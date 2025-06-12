@@ -3,6 +3,9 @@ theme:
   name: material
   palette:
     scheme: slate
+  font:
+    text: Lato
+  logo: assets/app_icon.svg
 
 nav:
   - index.md
