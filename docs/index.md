@@ -30,8 +30,8 @@ comprises a set of _modules_, which are freely chainable and connectible:
   simple and understandable, yet reward curiosity and creative misuse.
 * _Hybrid Workflow_: Sound generation and processing in one place; build an advanced synth, a
   granular FX chain, or something never seen before.
-* _Sound Morphing_: Transition between module presets with smooth sonic interpolation, ideal for
-  performance or evolving textures.
+* _Sound Morphing_: Transition between module presets or randomize parameters with smooth sonic
+  interpolation, ideal for performance, evolving patches or to be surprise.
 
 ## Philosophy
 
