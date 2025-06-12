@@ -15,9 +15,9 @@ the modulation system is certainly its brain.
 
 ## Features
 
-- _Polyadic_ modulation: each destination is its own independent modulation engine
-- Composable: scale and sum as many modulations to a single parameter as wanted
-- Modulate the modulators: all modulators parameters are themselves modulatable, polyadically
+- **Polyadic:** each destination is its own independent modulation engine
+- **Accumulatable:** scale and sum as many modulations to a single parameter as wanted
+- **Composable:** all modulators parameters are themselves modulatable, polyadically
 
 ## Getting started
 
@@ -80,22 +80,25 @@ parameter's popup displays the list of connections. Each connection has its own 
 
 _[Screenshot]_
 
-Note: The 100% range of all modulators is able to span the entire range of a parameter, either
-bipolarly (plus or minus half the range), or unipolarly (0 to full range). If at some point the sum
-of the nominal parameter value and all its modulations exceed the limit of the parameter, it is
-clamped to the limit.
+!!! note
 
-Note: On/off buttons (like _Play_'s play/pause buttons) can also be modulated, but they differ from
-continuous parameters: if the sum of their modulation is positive, their actual value is the same as
-their nominal value (the state of the button); if it is negative, it is inverted.
+    The 100% range of all modulators is able to span the entire range of a parameter, either
+    bipolarly (plus or minus half the range), or unipolarly (0 to full range). If at some point the sum
+    of the nominal parameter value and all its modulations exceed the limit of the parameter, it is
+    clamped to the limit.
+
+!!! note
+
+    On/off buttons (like _Play_'s play/pause buttons) can also be modulated, but they differ from
+    continuous parameters: if the sum of their modulation is positive, their actual value is the same 
+    as their nominal value (the state of the button); if it is negative, it is inverted.
 
 ### Modulating the modulators
 
 All modulators parameters are themselves modulatable: just drag a wire from one modulator to another
-modulator's parameter. Note that these connections themselves are also polyadic: A modulator
-parameter has as many instances as there are connections going out of it. In other words, if a
-modulator's parameter is in turn modulated, each of its destination will spawn an
-individually-modulated modulator!
+modulator's parameter. These connections themselves are also polyadic: A modulator parameter has as
+many instances as there are connections going out of it. In other words, if a modulator's parameter
+is in turn modulated, each of its destination will spawn an individually-modulated modulator!
 
 _[Screenshot]_
 
@@ -103,9 +106,11 @@ For instance, if three oscillator in **Gen** have their pitch modulated by the s
 another agitation modulates its frequency, then each of the three pitch modulations will see its
 frequency agitated independently.
 
-Note: Because of their polyadic nature, modulation feedback loops do not make sense (they would
-require infinitely many parameter instances). The signal path of modulations must therefore be
-loop-free; Atelier will warn you whenever your patch involves a feedback loop.
+!!! note
+
+    Because of their polyadic nature, modulation feedback loops do not make sense (they would
+    require infinitely many parameter instances). The signal path of modulations must therefore be
+    loop-free; Atelier will warn you whenever your patch involves a feedback loop.
 
 ## Tips & tricks
 

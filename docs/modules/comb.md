@@ -98,8 +98,9 @@ When **Decay** is set to more than 20 sec and **Warp** is 0%, decay is _infinite
 input will resonate (almost) forever. Fed with an initial short signal, this can be useful to
 generate held tones, drones or textures.
 
-Note: Due to limitations in the model, this will work only if either **Damp** or **Warp** is 0% (one
-of the two).
+!!! note
+
+    Infinite decay works only if either **Damp** or **Warp** is 0% (one of the two).
 
 ### Crude reverb
 

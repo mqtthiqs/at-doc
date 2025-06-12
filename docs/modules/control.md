@@ -20,9 +20,11 @@ modulation range, and mapping it to e.g. a MIDI controller:
 
 _[Screenshot]_
 
-Note: Control is _bipolar_, meaning it moves equally above and below the destination parameter's set
-value. Therefore, to modulate across its full range of without clamping, the destination parameter
-must be centered and range set to 100%.
+!!! note
+
+    Control is _bipolar_, meaning it moves equally above and below the destination parameter's set
+    value. Therefore, to modulate across its full range of without clamping, the destination parameter
+    must be centered and range set to 100%.
 
 Furthermore, _Control_ provides additional tools to filter and transform the movements of the
 **Value** slider:
@@ -54,8 +56,10 @@ this modulator (ie. the sum of all wires' instance number, see
   **Delay** containing the last movements of the **Value** parameter. At 50%, the current **Value**
   is added the value it had **Delay** seconds ago, creating a slowly-settling feedback loop.
 
-Note: The content of the **Loop** buffer is not saved with the patch; upon relaunch, it will be
-initialized to 0.
+!!! note
+
+    The content of the **Loop** buffer is not saved with the patch; upon relaunch, it will be
+    initialized to 0.
 
 ## Tips and tricks
 

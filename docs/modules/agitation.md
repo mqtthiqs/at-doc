@@ -21,9 +21,11 @@ a wide range of controllable random waveforms. And since [modulations are
 polyadic](../atelier/modulation.md), each destination an agitation connects to will get a different
 random signal (**Multiplicity**).
 
-Note: Agitation is _bipolar_, meaning it moves equally above and below the destination parameter's
-set value. Therefore, to modulate across its full range of without clamping, the destination
-parameter must be centered and range set to 100%.
+!!! note
+
+    Agitation is _bipolar_, meaning it moves equally above and below the destination parameter's
+    set value. Therefore, to modulate across its full range of without clamping, the destination
+    parameter must be centered and range set to 100%.
 
 ## Controls
 
@@ -46,8 +48,10 @@ this modulator (ie. the sum of all wires' instance number, see
 - **Multiplicity**: When enabled, each destination has its own independent agitation engine; when
   disabled, they all move in unison.
 
-Note: the relative phases of agitations are chosen at random on initialization; they are not saved
-with the patch.
+!!! note
+
+    The relative phases of agitations are chosen at random on initialization; they are not saved
+    with the patch.
 
 ## Tips and tricks
 

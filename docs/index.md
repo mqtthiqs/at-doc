@@ -14,11 +14,12 @@ department and developed in close connection with GRM's avant-garde composers an
 
 ## What's in the box
 
-_Atelier_ is a standalone application and a plugin for DAWs (VST3, AUv2, AAX) for macOS. It
-comprises a set of _modules_, which are freely chainable and connectible:
+_Atelier_ is a standalone application and a plugin for DAWs (VST3, AUv2, AAX) for macOS (Windows
+support coming in 2026). It comprises a set of _modules_, which are freely chainable and
+connectible:
 
-* the _processors_, which generate or transform (multichannel) sound, and
-* the _modulators_, which generate (polyadic) modulations, freely assignable to any parameter
+* **Processors** which generate or transform (multichannel) sound, and
+* **Modulators** which generate (polyadic) modulations, freely assignable to any parameter
 
 ## Features
 

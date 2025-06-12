@@ -24,9 +24,11 @@ released). But triggering is always conditioned on a certain probability, set by
 Once reaching zero again it can optionally retrigger. This depends on **Repeat**, which sets a fixed
 set of (unconditional) repeats and **Infinite repeat**, which makes _Peak_ acts like an LFO.
 
-Note: Peak is _unipolar_, meaning it only moves up from the destination parameter's set value.
-Therefore, to modulate across its full range of without clamping, the destination parameter must be
-set to its lowest value, and range set to 100%.
+!!! note
+
+    _Peak_ is _unipolar_, meaning it only moves up from the destination parameter's set value.
+    Therefore, to modulate across its full range of without clamping, the destination parameter must be
+    set to its lowest value, and range set to 100%.
 
 ## Controls
 
