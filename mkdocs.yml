@@ -26,6 +26,7 @@ nav:
       - atelier/getting-started.md
       - atelier/modulation.md
       - atelier/multichannel.md
+      - atelier/morphing.md
       - atelier/faq.md
   - Processors:
       - modules/viz.md
