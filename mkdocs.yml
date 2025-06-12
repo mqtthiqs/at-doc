@@ -1,4 +1,4 @@
-site_name: GRM Tools Atelier documentation
+site_name: GRM Tools Atelier
 theme:
   name: material
   palette:
@@ -12,7 +12,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.indexes 
+    - navigation.indexes
     - toc.follow
 
 nav:
