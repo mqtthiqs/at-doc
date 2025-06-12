@@ -10,10 +10,11 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes 
 
 nav:
-  - index.md
   - Atelier:
+      - index.md
       - atelier/getting-started.md
       - atelier/modulation.md
       - atelier/multichannel.md
