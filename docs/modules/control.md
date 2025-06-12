@@ -1,6 +1,6 @@
 # Control
 
-##### The patch tamer
+_The patch tamer_
 
 One big slider; its position _is_ the modulation. Connect it to several destinations and
 adjust their dosages to get the desired macro-controller. Make it the entry point to a complex

@@ -1,6 +1,6 @@
 # Atelier
 
-##### Creative Audio Workbench
+_Creative Audio Workbench_
 
 ## Patch, play, discover
 
@@ -22,37 +22,38 @@ comprises a set of _modules_, which are freely chainable and connectible:
 
 ## Features
 
-* _Polyadic Modulation Engine_: A novel modulation paradigm: organic and per-voice control, making
+* **Polyadic Modulation Engine:** A novel modulation paradigm: organic and per-voice control, making
   it fast and expressive to build complex, evolving patches.
-* _Full Multichannel Support_: Create in stereo, quad, or 64+ channels without changing how you
+* **Full Multichannel Support:** Create in stereo, quad, or 64+ channels without changing how you
   work. Perfect for spatial composition.
-* _Simple yet groundbreaking modules_: From granular delays to multi-playhead samplers, modules are
-  simple and understandable, yet reward curiosity and creative misuse.
-* _Hybrid Workflow_: Sound generation and processing in one place; build an advanced synth, a
+* **Groundbreaking yet simple modules:** From granular delays to multi-playhead samplers, modules
+  are simple and understandable, yet reward curiosity and creative misuse.
+* **Hybrid Workflow:** Sound generation and processing in one place; build an advanced synth, a
   granular FX chain, or something never seen before.
-* _Sound Morphing_: Transition between module presets or randomize parameters with smooth sonic
+* **Sound Morphing:** Transition between module presets or randomize parameters with smooth sonic
   interpolation, ideal for performance, evolving patches or to be surprise.
 
 ## Philosophy
 
-* _By musicians, for musicians_: Like you, we are all passionate musicians, and GRM welcomes
+* **By musicians, for musicians:** Like you, we are all passionate musicians, and GRM welcomes
   resident avant-garde electronic music composers with whom we exchange every day. _Atelier_ was
   built with a single purpose: be the tool we are lacking. No market considerations, no revenue
   goals: all decisions taken by musicians, for musicians.
-* _The magic is in the making_: true to Pierre Schaeffer's founding principles of composing by
-  directly interacting with the musical material ("Le faire et l'entendre"), everything in Atelier
+* **The magic is in the making:** true to Pierre Schaeffer's founding principles of composing by
+  directly interacting with the musical material ("Le faire et l'entendre"), everything in _Atelier_
   is real-time, interactive and modulatable: no planning required; just be guided by what you hear.
-* _Just tools_: Every module has simple and easy to understand functions: everything is observable
+* **Just tools:** Every module has simple and easy to understand functions: everything is observable
   and documented, nothing is a black box. Just by playing, you will learn how things work, and
   discover new uses for the tools. Play it simple or build something complex; we are just giving you
   the tools to do so.
-* _Classics, reinvented_: Atelier is a reinvention of the venerable GRM Tools 3 suite: while
+* **Classics, reinvented:** _Atelier_ is a reinvention of the venerable GRM Tools 3 suite: while
   respecting and preserving the underlying philosophy, it bears no single line of code in common
   with its older sibling.
 
 ## The beginning of a beautiful friendship
 
 _Atelier_ is built to grow. As we develop new features it will evolve over time, including new
-modules, processors and modulators, and new core features. Your purchase of _Atelier_ v1.x.x is a
-lifetime purchase: . It includes all point-updates until v2.0; when this is out, we will propose
-discounted upgrade paths for existing v1 user.
+modules, processors and modulators, and new core features. Your purchase of _Atelier_ `v1.x` is a
+lifetime purchase: no subscription, no recurring fees. It includes all features that will be
+introduced in point-updates, i.e. about 1.5—2 years worth of upgrades. When `v2.0` is released, we
+will propose discounted upgrade paths for existing `v1.x` user.

@@ -1,6 +1,6 @@
 # The modulation system
 
-##### A new modulation paradigm
+_A new modulation paradigm_
 
 In Atelier just like on modern modular synthesizers, all parameters (sliders, cursors, buttons etc.)
 can be modulated. But Atelier's _polyadic_ modulation system goes far further than its analog

@@ -1,6 +1,6 @@
 # Comb
 
-##### The resonance treasure trove
+_The resonance treasure trove_
 
 At its heart, the comb filter is arguably the most basic building block of signal processing. Let's
 turn it into a creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple
