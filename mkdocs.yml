@@ -3,6 +3,8 @@ theme:
   name: material
   palette:
     scheme: slate
+    primary: blue
+    accent: blue
   font:
     text: Lato
   logo: assets/app_icon.svg
@@ -11,6 +13,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes 
+    - toc.follow
 
 nav:
   - Atelier:
