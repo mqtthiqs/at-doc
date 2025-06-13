@@ -23,7 +23,7 @@ random signal (**Multiplicity**).
 
 !!! note
 
-    Agitation is _bipolar_, meaning it moves equally above and below the destination parameter's
+    Agitation signals are _bipolar_, meaning they move equally above and below the destination parameter's
     set value. Therefore, to modulate across its full range of without clamping, the destination
     parameter must be centered and range set to 100%.
 

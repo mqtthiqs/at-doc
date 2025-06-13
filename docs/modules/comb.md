@@ -88,7 +88,7 @@ of plucked strings, glassy tone, bell sounds etc.
 ### Strummed chords
 
 Building on the previous tip, add more comb filters at different frequencies to make a chord. Now,
-put **Predelay** around 50ms, and modulate it slightly with a slow [Agitation](agitation.md). Every
+put **Predelay** around 50ms, and modulate it slightly with a slow [_Agitation_](agitation.md). Every
 filter will get its own randomly-evolving predelay, resulting in a "strumming" effect, as if strings
 were not plucked all at the same time.
 

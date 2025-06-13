@@ -8,9 +8,9 @@ parent, offering a new paradigm to interact with your modules. It is the key to 
 evolving patches, provoke surprises and program complex interactions.
 
 Animate a whole family of parameters in one click, let complex random movements guide your
-explorations ([Agitation](../modules/agitation.md)), construct tailor-made macro-controls for live
-interaction ([Control](../modules/control.md)), or trigger advanced envelopes with customizable
-contours ([Peak](../modules/peak.md))... If the modules of Atelier are its sound-processing heart,
+explorations ([_Agitation_](../modules/agitation.md)), construct tailor-made macro-controls for live
+interaction ([_Control_](../modules/control.md)), or trigger advanced envelopes with customizable
+contours ([_Peak_](../modules/peak.md))... If the modules of Atelier are its sound-processing heart,
 the modulation system is certainly its brain.
 
 ## Features
@@ -28,9 +28,10 @@ tremolo effect.
 
 _[Screenshot]_
 
-Click the "+" button in the bottom row of the interface to instantiate a modulator (e.g. Agitation).
-Each modulator has a handle in the top right corner (colored round); drag a wire from the handle to
-the parameter of your choice to make a new connection.
+Click the "+" button in the bottom row of the interface to instantiate a modulator (e.g.
+[_Agitation_](../modules/agitation.md)). Each modulator has a handle in the top right corner
+(colored round); drag a wire from the handle to the parameter of your choice to make a new
+connection.
 
 _[Screenshot]_
 
@@ -46,7 +47,7 @@ parameters, each destination gets its own independent modulation engine. Each of
 while sharing the modulator's parameters (speed, amplitude etc.), can have its own internal phase,
 random state etc.
 
-Try connecting the same modulator, say, an [Agitation](../modules/agitation.md), to two different
+Try connecting the same modulator, say, an [_Agitation_](../modules/agitation.md), to two different
 parameters: the two parameters will be agitated differently. Changing, say, the agitation's
 frequency will act on the two parameters, but the random trajectories of each modulations will stay
 independent.
@@ -118,7 +119,7 @@ frequency agitated independently.
 
 _[Screenshot]_
 
-Make 3 [Agitations](../modules/agitation.md), and set them up with increasing frequencies (say, 0.1
+Make 3 [_Agitations_](../modules/agitation.md), and set them up with increasing frequencies (say, 0.1
 Hz, 1 Hz and 10 Hz) and decreasing amplitudes (say, 60%, 30% and 5%). Now modulate a parameter with
 these three; the three agitations are summed together and result in a multi-scale agitation: large,
 smooth movements are combined with smaller, faster one. Increasing the number of agitations
@@ -130,12 +131,12 @@ noise](https://en.wikipedia.org/wiki/Perlin_noise)).
 
 _[Screenshot]_
 
-What happens if we connect a modulator, say an [Agitation](../modules/agitation.md), to the same
+What happens if we connect a modulator, say an [_Agitation_](../modules/agitation.md), to the same
 parameter multiple times, say 5 times? Each connection spawns an independent random oscillator, and
 they are all summed together. Let's reduce the amplitude to 20% (1/5th of 100%) so it does not risk
 clamping the parameter. The sum of all agitations is a random signal that has more chance to be
 found around 0 (close to the nominal parameter value), much like rolling 5 dices and summing the
 figures will get you a number likely close to 15 (5 * 6 / 2). 
 
-Got it? Now try to predict what will happen with a [Peak](../modules/peak.md) set to 50% chance of
+Got it? Now try to predict what will happen with a [_Peak_](../modules/peak.md) set to 50% chance of
 triggering.
