@@ -31,8 +31,8 @@ connectible:
   are simple and understandable, yet reward curiosity and creative misuse.
 * **Hybrid Workflow:** Sound generation and processing in one place; build an advanced synth, a
   granular FX chain, or something never seen before.
-* **Sound Morphing:** Transition between module presets or randomize parameters with smooth sonic
-  interpolation, ideal for performance, evolving patches or to be surprise.
+* **Parameter Morphing:** Transition between module presets or randomize parameters with smooth
+  sonic interpolation, ideal for performance, evolving patches or simply to be surprised.
 
 ## Philosophy
 
@@ -44,9 +44,9 @@ connectible:
   directly interacting with the musical material ("Le faire et l'entendre"), everything in _Atelier_
   is real-time, interactive and modulatable: no planning required; just be guided by what you hear.
 * **Just tools:** Every module has simple and easy to understand functions: everything is observable
-  and documented, nothing is a black box. Just by playing, you will learn how things work, and
-  discover new uses for the tools. Play it simple or build something complex; we are just giving you
-  the tools to do so.
+  and documented, nothing is a black box; there is no wrong way to use them. Just by playing, you
+  will learn how things work, and discover new uses for the tools. Keep it simple or build something
+  complex; we are just giving you the tools to do so.
 * **Classics, reinvented:** _Atelier_ is a reinvention of the venerable GRM Tools 3 suite: while
   respecting and preserving the underlying philosophy, it bears no single line of code in common
   with its older sibling.
