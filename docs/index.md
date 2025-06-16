@@ -15,7 +15,7 @@ department and developed in close connection with GRM's avant-garde composers an
 ## What's in the box
 
 _Atelier_ is a standalone application and a plugin for DAWs (VST3, AUv2, AAX) for macOS (Windows
-support coming in 2026). It comprises a set of _modules_, which are freely chainable and
+support coming soon). It comprises a set of _modules_, which are freely chainable and
 connectible:
 
 * **Processors** which generate or transform (multichannel) sound, and
@@ -36,10 +36,11 @@ connectible:
 
 ## Philosophy
 
-* **By musicians, for musicians:** Like you, we are all passionate musicians, and GRM welcomes
-  resident avant-garde electronic music composers with whom we exchange every day. _Atelier_ was
-  built with a single purpose: be the tool we are lacking. No market considerations, no revenue
-  goals: all decisions taken by musicians, for musicians.
+* **By musicians, for musicians:** Like you, we are all passionate musicians, and we exchange every
+  day with GRM residents avant-garde electronic music composers. _Atelier_ is built by a small and
+  dedicated team inside a public institution. We have a unique goal: make the instrument we are
+  dreaming of. No market considerations, no management pressure: all decisions taken by musicians,
+  for musicians.
 * **The magic is in the making:** true to Pierre Schaeffer's founding principles of composing by
   directly interacting with the musical material ("Le faire et l'entendre"), everything in _Atelier_
   is real-time, interactive and modulatable: no planning required; just be guided by what you hear.
