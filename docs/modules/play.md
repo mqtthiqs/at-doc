@@ -1,6 +1,6 @@
 # Play
 
-_From utalitarian file playback to granular repitching and stretching_
+_From standard file playback to creative granular repitching and stretching_
 
 _Play_ is a multi-playhead file player with versatile playback region and envelope controls. It allows mangling any source material into a wide variety of outcomes. From percussive glitches to mesmerizing drones. Its built-in recording functionality allows sampling of inputs or resampling of whole patches.
 
