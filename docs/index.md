@@ -37,17 +37,21 @@ connectible:
 ## Philosophy
 
 * **By musicians, for musicians:** Like you, we are all passionate musicians, and we exchange every
-  day with GRM residents avant-garde electronic music composers. _Atelier_ is built by a small and
-  dedicated team inside a public institution. We have a unique goal: make the instrument we are
-  dreaming of. No market considerations, no management pressure: all decisions taken by musicians,
-  for musicians.
+  day with avant-garde electronic music composers at GRM. _Atelier_ is built by a small and
+  dedicated team inside a public institution. We have a unique goal: make the universal instrument
+  we are dreaming of. No market considerations, no management pressure: all decisions taken by
+  musicians, for musicians.
 * **The magic is in the making:** true to Pierre Schaeffer's founding principles of composing by
   directly interacting with the musical material ("Le faire et l'entendre"), everything in _Atelier_
-  is real-time, interactive and modulatable: no planning required; just be guided by what you hear.
+  is real-time, interactive and modulatable: no forethought necessary; be guided by what you hear.
 * **Just tools:** Every module has simple and easy to understand functions: everything is observable
   and documented, nothing is a black box; there is no wrong way to use them. Just by playing, you
   will learn how things work, and discover new uses for the tools. Keep it simple or build something
   complex; we are just giving you the tools to do so.
+  information, all important information visible at all
+* **Functional user interface:** The UI never gets in the way: every element on screen has an
+  informative function, and no menu or tabs hides important information. A single screenshot should
+  be enough to fully understand a patch.
 * **Classics, reinvented:** _Atelier_ is a reinvention of the venerable GRM Tools 3 suite: while
   respecting and preserving the underlying philosophy, it bears no single line of code in common
   with its older sibling.
