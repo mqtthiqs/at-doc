@@ -14,6 +14,8 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 
 ## Context
 
+Spliced tape, varispeed and reversed reels: in the hands of musique concrète artists, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation.
+_Play_ taps into this history enabling polyphonic exploartion of the source material without cluttering your desk with snippets of magnetic tape.
 When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave.
 Each cursor can have an independent pitch and playback position. Fade is applied on play and pause as an envelope. In looped mode it additionally determines the overlap of the loop region. If fade is at 100% the sound will always overlap. When a region changes during playback the playhead will attempt to restart within the new region. To ensure a smooth and consistent playback it will keep fading out from its original position.
 
