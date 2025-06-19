@@ -1,10 +1,9 @@
 site_name: GRM Tools Atelier
+
 theme:
   name: material
   palette:
     scheme: slate
-    primary: blue
-    accent: blue
   font:
     text: Lato
   logo: assets/app_icon.svg
@@ -14,6 +13,9 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
