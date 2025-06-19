@@ -52,9 +52,12 @@ connectible:
 * **Functional user interface:** The UI never gets in the way: every element on screen has an
   informative function, and no menu or tabs hides important information. A single screenshot should
   be enough to fully understand a patch.
-* **Classics, reinvented:** _Atelier_ is a reinvention of the venerable GRM Tools 3 suite: while
+* **Classics, reinvented:** _Atelier_ is a reinvention of the venerable GRM Tools suite: while
   respecting and preserving the underlying philosophy, it bears no single line of code in common
   with its older sibling.
+
+  <!-- for the musician and the curious; what happens if;  -->
+  <!-- universal, no knowledge required,  -->
 
 ## The beginning of a beautiful friendship
 
