@@ -2,12 +2,19 @@
 
 !!! warning "This section is a **work in progress**"
 
+_Delay_
+
+A delay is a barely a musical device. For this exact reason, it can be a thousand things.
+A delay line is 
+
+purely time-domain operations
+
 At its heart, _Time_ is a multi-tap delay with granular playback and per-tap built-in resonant
 filter, taking inspiration from GRM's Phonogene and Morphophone family of instruments.
 
 ## Features
 
-- freely-tunable multi-tap delay (up to 32 taps)
+- freely-tunable delay with multiple tap (up to 32 taps)
 - per-tap resonant band-pass filter
 - variable-rate write/read speed
 - continuous control of repitching vs. granular (crossfading) playback
