@@ -9,6 +9,8 @@ A delay line is
 
 purely time-domain operations
 
+<!-- magnetic tape or digital samples: work the same -->
+
 At its heart, _Time_ is a multi-tap delay with granular playback and per-tap built-in resonant
 filter, taking inspiration from GRM's Phonogene and Morphophone family of instruments.
 
