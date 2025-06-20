@@ -16,7 +16,10 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 
 Spliced tape, varispeed and reversed reels: in the hands of musique concrète artists, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation.
 _Play_ taps into this history enabling polyphonic exploartion of the source material without cluttering your desk with snippets of magnetic tape.
-When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave.
+
+When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave. Playing the same material
+in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
+
 Each cursor can have an independent pitch and playback position. Fade is applied on play and pause as an envelope. In looped mode it additionally determines the overlap of the loop region. If fade is at 100% the sound will always overlap. When a region changes during playback the playhead will attempt to restart within the new region. To ensure a smooth and consistent playback it will keep fading out from its original position.
 
 ## Controls
@@ -33,7 +36,8 @@ Each cursor can have an independent pitch and playback position. Fade is applied
 
 ### Region overview
 
-!!! warning "This section is a **work in progress** (region selectors, etc….)"
+The region overview integrates a view of the entire file, the playback region and the envelope. When hovering the mouse over the waveform the pointer becomes a hand. Click-and-drag allows to pan and zoom the viewed region. Vertical drag changes the zoom level and horizontal drag adjusts the displayed range.
+The loop or single-shot playback region is represented by a blue bar at the top of the region overview. It can be manipulated by drag and drop: vertical drag shrinks/enlarges the region, horizontal drag moves it. Additionally start and end points can be adjusted by dragging the vertical bars at the beginning or end of the region. Holding down alt while dragging anywhere in the region overview allows to define a new playback region.
 
 ### Cursor area
 Click to add a playhead; double-click a playhead to remove it.
@@ -59,7 +63,7 @@ The following parameters have as many independently-modulatable instances as the
 - **Gain:** Output gain of all playheads. Combined with the gain of playhead.
 - **Fade:** Combined length of the fade-in and fade-out envelope. In loop mode it determines the cross fade time.
 - **Slant:** Distribution of fade time between fade in and fade out. At 0% the attack is instant and the entire time is used for the fade out; at 50% the envelope is symmetric; at 100% the envelope is slanted towards the right.
-- **Ease:**
+- **Ease:** Easing curve of the applied fades, from linear (0%), to abrupt (100%).
 - **Declick:** Time of short fade that is applied to suppress clicking.
 
 ## Tips and tricks
