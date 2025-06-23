@@ -11,7 +11,7 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 - Multiple playheads with adjustable playback rate, pitch and position.
 - Built-in recording into a temporary buffer with an option to save the recording to a file.
 - Looped and single shot playback
-- Global and individual transport controls for individual playheads
+- Global and individual transport controls for each playhead
 - Playback in forward and reverse direction (?)
 
 ## Context
