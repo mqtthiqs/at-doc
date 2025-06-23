@@ -32,3 +32,9 @@ The number of enabled output channels determines the number of channels the modu
 _Atelier_ can be used as a plugin in a VST3/AU/AAX host identically to the application.
 
 > change to: Atelier can be used as a plugin in a VST3/AU/AAX host. The plugin version supports the same features as the standalone application. Patches created on one can be used with the other. ?
+
+## And now?
+
+In the status bar next to the file icons is the patch browser. You can click on it to bring up a list of factory supplied library patches, draw some inspiration and explore the capablilties of _GRM Tools Atelier_.
+
+Happy patching!
