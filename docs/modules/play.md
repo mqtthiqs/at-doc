@@ -81,6 +81,11 @@ The following parameters have as many independently-modulatable instances as the
 To achieve a phasing effect — as popularized by Steve Reich — place two playheads at the same point. Then change the _Pitch_ parameter of one playhead to deviate by a very small amount. Note that holding down the shift key while dragging a slider allows for finer control. A very small difference (in the range of 0.05st) will create effects evocative of comb filtering. Slightly higher differences in playback speed result in faster alternating rhythmical patterns. This effect is easiest explored with short rhythmical loops but works on a large variety of material.
 
 ### Granular
+
+Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds.
+In line with _GRM Tools Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the _duration_ to a very small value (note that the absolute value of the loop duration is displayed right next to the duration slider) and choose a suitable position in the file to hear the sound. Next add a generous amount of fade (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to _position_. Voilà.
+Time and pitch stretching effects can be achieved by modulating _Duration_ with a linearly increasing curve (e.g. using [Peak](peak.md) in loop mode with Slant at 100%). Adjust the modulator's time to vary the speed and the playhead's pitch to repitch while keeping the overall tempo.
+
 ### Percussion of drone material using fades
 ### Cannon distributing playheads on y-axis
 ### (Maybe rec echoes?)
