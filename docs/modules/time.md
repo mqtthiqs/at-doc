@@ -4,12 +4,13 @@
 
 _Delay_
 
-A delay is a barely a musical device. For this exact reason, it can be a thousand things.
-A delay line is 
+Take some audio as input, and output it as-is... just a little while later: a _delay_ seems to be
+barely a musical device. This is precisely what makes it an indispensable tool: like a stick or a
+rope, it can be a thousand things!
 
-purely time-domain operations
-
-<!-- magnetic tape or digital samples: work the same -->
+<!-- purely time-domain operations -->
+<!-- unlike a traditional delay -->
+<!-- 10 milliseconds or 10 minutes -->
 
 At its heart, _Time_ is a multi-tap delay with granular playback and per-tap built-in resonant
 filter, taking inspiration from GRM's Phonogene and Morphophone family of instruments.
@@ -23,7 +24,8 @@ filter, taking inspiration from GRM's Phonogene and Morphophone family of instru
 
 ## Context
 
-The advent of magnetic tape
+<!-- magnetic tape or digital samples: work the same -->
+<!-- The advent of magnetic tape -->
 
 ## Controls
 
@@ -81,7 +83,9 @@ The following parameters have as many independently-modulatable instances as the
 
 ### Frippertronics
 
-As popularized by Robert Fripp, 
+<!-- As popularized by Robert Fripp, -->
+
+### Flangers, choruses and all that
 
 ### No delay
 
