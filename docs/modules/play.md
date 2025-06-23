@@ -74,7 +74,7 @@ The following parameters have as many independently-modulatable instances as the
 
 !!! note
 
-    Dragging an audio file from the patch recorder or the system’s file explorer anywhere into the module chain will create an instance of _Play_ preloaded with the dropped file in place.
+    Dragging an audio file from _GRM Tools Ateiler_'s own patch recorder or the system’s file explorer anywhere into the module chain will create an instance of _Play_ preloaded with the dropped file in place.
 
 ### Phasing
 
