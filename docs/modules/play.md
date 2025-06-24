@@ -87,6 +87,11 @@ In line with _GRM Tools Atelier_'s philosophy the parameter range of loop durati
 
 Time and pitch stretching effects can be achieved by modulating **Duration** with a linearly increasing curve (e.g. using [Peak](peak.md) in loop mode with **Slant** at 100%). Adjust the modulator's time to vary the speed and the playhead's pitch to repitch while keeping the overall tempo.
 
-### Percussion of drone material using fades
+### Percussions with drone material using fades
+
+Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to or close to 0%. Adjust **Ease** to make a fast decay. Note that **Declick** adds a bit of smoothing even if **Slant** is at 0%. If you want very sharp attacks set **Declick** to 0ms. To get a great variety of sounds slowly modulate **Position**.
+Tip: this might combine nicely with [Comb](comb.md) further down the chain.
+
+
 ### Cannon distributing playheads on y-axis
-### (Maybe rec echoes?)
+
