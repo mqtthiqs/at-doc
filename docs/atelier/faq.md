@@ -12,6 +12,14 @@ The app audio configuration, recent files and last loaded patch are stored in a 
 - In the popup, enter `~/Library/Application Support/`
 - The configuration `com.INAgrm.GRMTools.Atelier.settings`
 
+<!-- Can I install the plugin on more than one computer? (3 activations) -->
+<!-- edu discount -->
+<!-- license transfer not supported -->
+<!-- return policy -->
+<!-- demo & activation + account on website -->
+<!-- authorization key -->
+
+
 ## I customized my module presets, but they disappeared after starting a new patch
 
 Module presets are saved and can be different for each instances of each module. There is no way to

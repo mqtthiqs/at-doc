@@ -12,6 +12,8 @@ Running the installer will install on your system:
     * AU for use with _Apple Logic_ and compatible hosts in `/Library/Audio/Plugins/Components`;
     * VST3 for use in most hosts in `/Library/Audio/Plugins/VST3`.
 
+<!-- app & plugins are the same -->
+
 ## Authorization
 
 Start by running the standalone application. On the first start, you will be invited to authorize
@@ -38,3 +40,10 @@ _Atelier_ can be used as a plugin in a VST3/AU/AAX host identically to the appli
 In the status bar next to the file icons is the patch browser. You can click on it to bring up a list of factory supplied library patches, draw some inspiration and explore the capablilties of _GRM Tools Atelier_.
 
 Happy patching!
+
+<!-- modules: left-to-right, drag -->
+<!-- modulations: drag wire -->
+<!-- app: starts from last opened patch -->
+<!-- in/out gain meters+faders -->
+<!-- recorder -->
+<!-- slider/cursors: elastic -->
