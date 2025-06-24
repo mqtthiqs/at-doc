@@ -29,3 +29,5 @@ save (yet). Do reach out if you think it would be useful to you.
 
 The _Morph Time_ slider is in the drawer on the right. It controls preset morphing and elastic
 moves.
+
+<!-- ambisonics and other surround formats -->
