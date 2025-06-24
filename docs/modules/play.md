@@ -17,7 +17,7 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 ## Context
 
 Spliced tape, varispeed and reversed reels: in the hands of musique concrète artists, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation.
-_Play_ taps into this history enabling polyphonic exploartion of the source material without cluttering your desk with snippets of magnetic tape.
+_Play_ taps into this history enabling polyphonic exploration of the source material without cluttering your desk with snippets of magnetic tape.
 
 When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave. Playing the same material
 in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
