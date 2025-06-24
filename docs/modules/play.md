@@ -10,9 +10,9 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 
 - Multiple playheads with adjustable playback rate, pitch and position.
 - Built-in recording into a temporary buffer with an option to save the recording to a file.
-- Looped and single shot playback
-- Global and individual transport controls for each playhead
-- Playback in forward and reverse direction (?)
+- Looped and single shot playback.
+- Global and individual transport controls for each playhead.
+- Playback in forward and reverse direction.
 
 ## Context
 
@@ -90,8 +90,10 @@ Time and pitch stretching effects can be achieved by modulating **Duration** wit
 ### Percussions with drone material using fades
 
 Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to or close to 0%. Adjust **Ease** to make a fast decay. Note that **Declick** adds a bit of smoothing even if **Slant** is at 0%. If you want very sharp attacks set **Declick** to 0ms. To get a great variety of sounds slowly modulate **Position**.
-Tip: this might combine nicely with [Comb](comb.md) further down the chain.
+Tip: this might pair nicely with [Comb](comb.md) further down the chain.
 
 
 ### Cannon distributing playheads on y-axis
+
+    ...
 
