@@ -43,7 +43,7 @@ this modulator (ie. the sum of all wires' instance number, see
   than falling.
 - **Cyclic:** Periodicity of the successive random steps, from completely random to fully cyclic
   (alternating up and down).
-- **Jitter:** Amount of randomization of the time between to successive steps.
+- **Jitter:** Amount of randomization of the time between two successive steps.
 - **Running:** Enable to run; when disabled, will finish its current transition and then stall.
 - **Multiplicity:** When enabled, each destination has its own independent agitation engine; when
   disabled, they all move in unison.

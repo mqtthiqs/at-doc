@@ -68,9 +68,9 @@ The following parameters have as many independently-modulatable instances as the
   attenuated as decay progresses. At 0% no or very minimal damping is applied, leading to a metallic
   tone; at 100%, the harmonic content of the input is immediately attenuated into a sine at the
   resonance frequency.
-- **Warp:** Warps the resonant partials, from purely harmonic (0%) to . It works by introducing a
-  complex all-pass filter in the feedback loop, delaying some frequencies more than others at each
-  round-trip.
+- **Warp:** Warps the resonant partials, from purely harmonic (0%) to weirdly dissonant. It works by
+  introducing a complex all-pass filter in the feedback loop, delaying some frequencies more than
+  others at each round-trip.
 - **Phase:** Controls where in the delay loop the output signal is picked up, i.e. only at the end
   (0%) or in the middle as the sum of the forward and backward direction (100%). At 100%, phase
   cancellations are such that only odd harmonics ring.
