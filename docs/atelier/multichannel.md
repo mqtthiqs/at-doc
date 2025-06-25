@@ -16,14 +16,22 @@ A patch produced in one environment will automatically scale to fit any other se
 
 ## Multichannel processing in modules
 
-Whenever you add a tone generator or a processor in a module each of these processors will have one or more channels associated with it. For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. Color-coding is used to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area next to the title you'll see circles representing the associated channels.
+Whenever you add a tone generator or a filter in a module each of them will have one or more channels associated with it. For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. Color-coding is used to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area, next to the title you'll see circles representing the associated channels.
 
-![Gen showing a four note chord](../assets/images/multichannel-gen-chord.png){: .screenshot }
-/// caption
-A four note chord in [Gen](../modules/gen.md) on a four channel system. The notes are displayed in the colors of the corresponding channels. Oscillator one is selected.
-///
+![Gen showing a four note chord in a four channel system](../assets/images/multichannel-gen-chord.png){: .screenshot }
+!!! caption
+    A four note chord in [Gen](../modules/gen.md) on a four channel system. The notes are displayed in the colors of the corresponding channels. Oscillator one is selected.
+
+Similarly, if you add a filter in a processing module this filter will be applied to the associated input channels.
 
 ### Fanning and folding
+
+In the case there are as many filters as there are channels it is easy: each filter gets one channel. But what happens if the number of filters doesn't match the number of channels? This is where **fanning and folding** comes into play. It is a way of distributing channels ensuring that all channels are processed and all filters are applied. In essence if you have less filters than channels under the hood the filters are duplicated to match the number of channels. Conversely if you have more filters than channels the input channels will be duplicated and the output of the filters summed. This process is done in a way to maximize alternation.
+
+![Gen showing a four note chord in a stereo system besides the same chord in an eight channel system](../assets/images/multichannel-gen-chord-stereo-and-octo.png){: .screenshot }
+!!! caption
+    Left: the same chord in [Gen](../modules/gen.md) on a stereo system. Right: and in an octophonic setup.
+
 ### Spread
 
 ## Setup
