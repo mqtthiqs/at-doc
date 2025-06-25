@@ -22,6 +22,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.blocks.caption
+  - attr_list
 
 nav:
   - Atelier:

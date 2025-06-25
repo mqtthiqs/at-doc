@@ -15,3 +15,8 @@
 .md-header__title {
     font-size: 1.2rem;
 }
+
+/* rescale retina images to correspond to their logical (not physical) size */
+.screenshot {
+  width: 50%;
+}
