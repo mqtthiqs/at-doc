@@ -4,18 +4,24 @@
 
 Multichannel processing is part of _GRM Tools Atelier_'s core DNA. From its inception a flexible and adaptive performance in multi channel environments was one of the key design considerations. You can as easily compose for stereo setups as for quadrophony, octophony or 64+ channels. Even in a standard stereo setup _Atelier_'s unique design choices will by default produce outputs with wider stereo images than comparable tools.
 
-A patch produced in one environment will automatically scale to fit any other setup. This adaptability holds precedence over surgical operations on a particular channel in a particular setup. [...] Plenty of high-quality tools are available to mix discrete channels into a particular surround format.
+A patch produced in one environment will automatically scale to fit any other setup. This adaptability holds precedence over surgical operations on a particular channel in a particular setup. Likewise _Atelier_ doesn't operate in specific surround formats or with assumptions about the acoustic space. Instead it delivers a set of discrete channels that can be easily mixed into the required format using well established tools.
 
 ## Features
 
+- Deep integration of multichannel processing
 - Over 64 input and output channels
 - Automatic adoption of a patch created on one setup to a new environment
-- Wide stereo images and movement in channels by design rather than as a mixing afterthought
-- Simple, efficient and easy to understand algorithm to distribute processing and input channels (?)
+- Wide stereo images and movement in multichannel spaces by design rather than as a mixing afterthought
+- A simple, efficient and easy to understand algorithm to distribute processing and input channels
 
 ## Multichannel processing in modules
 
-Whenever you add a tone generator or a processor in a module it will have one or more channels assigned to it. Let's say you have four cursors in [Comb](../modules/comb.md) 
+Whenever you add a tone generator or a processor in a module each of these processors will have one or more channels associated with it. For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. Color-coding is used to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area next to the title you'll see circles representing the associated channels.
+
+![Gen showing a four note chord](../assets/images/multichannel-gen-chord.png){: .screenshot }
+/// caption
+A four note chord in [Gen](../modules/gen.md) on a four channel system. The notes are displayed in the colors of the corresponding channels. Oscillator one is selected.
+///
 
 ### Fanning and folding
 ### Spread
