@@ -57,5 +57,5 @@ save (yet). Do reach out if you think it would be useful to you.
 
 ### Presets morphing is cool, but where do I set the morph time?
 
-The _Morph Time_ slider is in the sidebar on the right. It controls preset morphing, elastic moves,
-and randomization morphing.
+The _Morph Time_ slider is in the sidebar on the right. It applies to morphing when loading a
+preset, when randomizing, and sets the speed of elastic moves.
