@@ -26,14 +26,12 @@ parameter manually, a _modulator_ generates a signal that moves it automatically
 instance modulate the gain of some audio input with a sine LFO (low frequency oscillator) to get a
 tremolo effect.
 
-_[Screenshot]_
+![An LFO connect to gain creating a tremolo effect](../assets/images/modulation-tremolo.png)
 
 Click the "+" button in the bottom row of the interface to instantiate a modulator (e.g.
 [_Agitation_](../modules/agitation.md)). Each modulator has a handle in the top right corner
 (colored round); drag a wire from the handle to the parameter of your choice to make a new
 connection.
-
-_[Screenshot]_
 
 Once a connection is made, the parameter is modulated relatively to its nominal value (the current
 position of the slider, the state of the button etc.). Its actual value is displayed as a small grey
@@ -54,7 +52,7 @@ parameters: the two parameters will be agitated differently. Changing, say, the 
 frequency will act on the two parameters, but the random trajectories of each modulations will stay
 independent.
 
-_[Screenshot]_
+![The same Agitation source connected to two parameters](../assets/images/modulation-same-mod-different-engine.png)
 
 This is in stark contrast with classic modulation in analog synthesis: if one was to patch a single
 source of modulation (e.g. an LFO) into several destinations (by multing its output), each
@@ -69,7 +67,7 @@ in _Gen_ applies a ratio to all oscillators' frequencies; if there are three osc
 **Ratio** has three instances: agitating **Ratio** will agitate the three actual ratios
 independently.
 
-_[Screenshot]_
+![Agitation independently modulating the pitch ratio of three oscillators in Gen](../assets/images/modulation-three-instances.png)
 
 The number of instances of a modulated parameter is shown on its wire (e.g. "x3"), and its actual
 values are displayed as grey dots on the button/slider.
@@ -81,7 +79,7 @@ modulator). Just drag several wires to the same parameter; modulations are summe
 parameter's popup displays the list of connections. Each connection has its own range (-200% to
 200%).
 
-_[Screenshot]_
+![Two modulations influencing the same pitch parameter. A popup allows editing modulations](../assets/images/modulation-accumulation.png)
 
 !!! note
 
