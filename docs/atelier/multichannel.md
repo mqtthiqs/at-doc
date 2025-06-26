@@ -16,7 +16,7 @@ A patch produced in one environment will automatically scale to fit any other se
 
 ## Multichannel processing in modules
 
-Whenever you add a tone generator or a filter in a module each of them will have one or more channels associated with it. For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. Color-coding is used to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area, next to the title you'll see circles representing the associated channels.
+Whenever you add a tone generator or a filter in a module each of them will automatically have one or more channels associated with it. For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. Color-coding of _[cursors](???)_ is used to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area, next to the title you'll see circles representing the associated channels.
 
 ![Gen showing a four note chord in a four channel system](../assets/images/multichannel-gen-chord.png){: .screenshot }
 !!! caption
@@ -26,13 +26,22 @@ Similarly, if you add a filter in a processing module this filter will be applie
 
 ### Fanning and folding
 
-In the case there are as many filters as there are channels it is easy: each filter gets one channel. But what happens if the number of filters doesn't match the number of channels? This is where **fanning and folding** comes into play. It is a way of distributing channels ensuring that all channels are processed and all filters are applied. In essence if you have less filters than channels under the hood the filters are duplicated to match the number of channels. Conversely if you have more filters than channels the input channels will be duplicated and the output of the filters summed. This process is done in a way to maximize alternation.
+In the case there are as many filters as there are channels it is easy: each filter gets one single channel. But what happens if the number of filters doesn't match the number of channels? This is where **fanning and folding** comes into play. It is a way of distributing channels ensuring that all channels are processed and all filters are applied. In essence if you have less filters than channels – under the hood – the filters are duplicated to match the number of channels. Conversely if you have more filters than channels the input channels will be duplicated and the output of the filters summed. This means that if you place for instance a single comb filter in [Comb](../modules/comb.md) at 440Hz all input channels will be resonating at that frequency. On the other hand if you have more filters than channels the filters process the channels in an alternating pattern.
 
 ![Gen showing a four note chord in a stereo system besides the same chord in an eight channel system](../assets/images/multichannel-gen-chord-stereo-and-octo.png){: .screenshot }
 !!! caption
     Left: the same chord in [Gen](../modules/gen.md) on a stereo system. Right: and in an octophonic setup.
 
 ### Spread
+
+To control the channel-locality most processors come with a **Spread** parameter. 
+
+<!-- Channel-locality of each comb filter's processes. At 0%, each comb filter processes
+  only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread)
+  section); at 100%, each comb filter processes all channels in parallel (multi-mono). 
+  
+  
+  colors, polyadic modulation -->
 
 ## Setup
 
@@ -55,6 +64,7 @@ TOC
   - colors mix to white
   - fanning & folding
   - spread
+    - colors
 - # of channels match # of output channels
   - settings in standalone
   - as a plugin: adjusts to track layout as setup in DAW
