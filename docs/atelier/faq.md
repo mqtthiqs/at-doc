@@ -1,7 +1,5 @@
 # Frequently Asked Questions
 
-!!! warning "This section is a **work in progress**"
-
 ## Sales policies
 
 ### Is there a demo version of _Atelier_?
