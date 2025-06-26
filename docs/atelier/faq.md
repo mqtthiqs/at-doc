@@ -27,9 +27,19 @@ We do not support license transfer at this point.
 
 _[TODO]_
 
-## Something seems wrong; where are the global settings and the audio configuration stored?
+## Using the software
 
-First, if you think you encountered a bug, please contact us! You are probably not alone
+### Do you support 42th-order ambisonics, Dolby Atmos, DTS:X?
+
+We don't, and [it is a choice](multichannel.md). _Atelier_ supports multichannel processing in a discrete and
+format-agnostic way. For _Atelier_, a channel is a channel: we make no presupposition on where it is
+placed in space or if it has a special function. This allows more flexibility at the composition
+stage, and you can rely on plenty of [other tools](https://plugins.iem.at/) to encode a set of
+discrete channels coming from _Atelier_ into your specific format.
+
+### Something seems wrong; where are the global settings stored?
+
+First, if you think you encountered a bug, please contact us! You are probably not alone.
 
 The application's audio configuration, recent files and last loaded patch are stored in a hidden
 file in your `Application Support` directory. In case you need to delete it, back it up or restore
@@ -40,20 +50,12 @@ it:
 - In the popup, enter `~/Library/Application Support/`
 - The configuration file is `com.INAgrm.GRMTools.Atelier.settings`
 
-## I customized my module presets, but they disappeared after starting a new patch
+### I customized my module presets, but they disappeared after starting a new patch
 
 Module presets are saved and can be different for each instances of each module. There is no way to
 save (yet). Do reach out if you think it would be useful to you.
 
-## Presets morphing is cool, but where do I set the morph time?
+### Presets morphing is cool, but where do I set the morph time?
 
 The _Morph Time_ slider is in the sidebar on the right. It controls preset morphing, elastic moves,
 and randomization morphing.
-
-## Do you support 42th-order ambisonics or Dolby Atmos
-
-We don't, and it is a choice. _Atelier_ supports multichannel processing in a discrete and
-format-agnostic way. For _Atelier_, a channel is a channel: we make no presupposition on where it is
-placed in space or if it has a special function. This allows more flexibility at the composition
-stage, and you can rely on plenty of [other tools](https://plugins.iem.at/) to encode a set of
-discrete channels coming from _Atelier_ into your specific format.
