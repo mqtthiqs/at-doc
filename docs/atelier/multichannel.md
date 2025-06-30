@@ -34,16 +34,13 @@ In the case there are as many filters as there are channels it is easy: each fil
 
 ### Spread
 
-To control the channel-locality most processors come with a **Spread** parameter. 
+To control the amount of channel-locality of each generator, playhead or filter most modules provide a **Spread** control. If **Spread** is at 0% they will only sound on their assigned channels. When the value is above 0% also filters that aren't assigned to a channel will be processed and mixed in by the specified amount. For instance if a [Comb](../modules/comb.md) module had two filters at different frequencies and **Spread** is at 50% the filter assigned to the processed channel would sound at full gain while the other filter would only sound at half the loudness. Cursors that visually represent a generator, playhead or filter in a module are drawn using colors representing the assigned channels. The higher the **Spread** amount is the whiter cursors will appear in the cursor area.
 
-<!-- Channel-locality of each comb filter's processes. At 0%, each comb filter processes
-  only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread)
-  section); at 100%, each comb filter processes all channels in parallel (multi-mono). 
-  
-  
-  colors, polyadic modulation -->
+Note that the **Spread** parameter has as many [parameter instances](modulation.md#parameter-instances) as there are cursors. Meaning that when you modulate **Spread** each filter has its own spread value and will "bleed" to other channels accordingly.
 
 ## Setup
+
+
 
 <!--
 TOC
