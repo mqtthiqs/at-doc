@@ -113,6 +113,9 @@ frequency agitated independently.
     require infinitely many parameter instances). The signal path of modulations must therefore be
     loop-free; Atelier will warn you whenever your patch involves a feedback loop.
 
+
+<!--  should the show all connected modulation wires feature be highlighted somewhere? -->
+
 ## Tips & tricks
 
 ### Brownian agitation
@@ -140,3 +143,4 @@ figures will get you a number likely close to 15 (5 * 6 / 2).
 
 Got it? Now try to predict what will happen with a [_Peak_](../modules/peak.md) set to 50% chance of
 triggering.
+<!-- the peak question is asked in connection to multiple connections? -->
