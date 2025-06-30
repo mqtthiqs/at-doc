@@ -32,6 +32,8 @@ positioning for interesting phase-cancellation effects.
 
 ## Controls
 
+![Comb module with a couple of comb filters](../assets/images/comb-controls.png)
+
 ### Cursor area
 
 Click to add a comb filter; double-click a comb filter to remove it. Each comb filter
@@ -80,12 +82,16 @@ The following parameters have as many independently-modulatable instances as the
 
 ### Noise bursts
 
+![A screenshot showing Gen agitated by Peak to create tonal material using Gen](../assets/images/comb-noise-bursts.png)
+
 _Comb_ shines with transient-rich input material. Using [Gen](gen.md) and [Peak](peak.md), make
 short bursts of noise. Follow with a single comb filter at a relatively high **Decay** (>1s); put
 **Mix** at 100%, and adjust **Damp** and the noise's length and color to taste to get a wide variety
 of plucked strings, glassy tone, bell sounds etc.
 
 ### Strummed chords
+
+![Video showing strummed chords example](../assets/videos/comb-strummed-chords.mp4)
 
 Building on the previous tip, add more comb filters at different frequencies to make a chord. Now,
 put **Predelay** around 50ms, and modulate it slightly with a slow [_Agitation_](agitation.md). Every
