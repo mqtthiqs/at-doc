@@ -38,6 +38,8 @@ position of the slider, the state of the button etc.). Its actual value is displ
 dot on sliders and buttons. Hovering over a modulated parameter shows a popup where one can scale
 the modulation, or remove a connection.
 
+![A video showing how to modulate the pitch of of an oscillator in Gen](../assets/videos/modulation-create-modulation.mp4)
+
 <!-- note: modulations can be renamed -->
 
 ## Polyadic modulation
