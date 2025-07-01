@@ -122,7 +122,7 @@ frequency agitated independently.
 
 ### Brownian agitation
 
-_[Screenshot]_
+![A screenshot showing three agitations with different frequency and amplitude settings modulating the frequency band of a noise generator](../assets/images/modulation-brownian-agitation.png)
 
 Make 3 [_Agitations_](../modules/agitation.md), and set them up with increasing frequencies (say, 0.1
 Hz, 1 Hz and 10 Hz) and decreasing amplitudes (say, 60%, 30% and 5%). Now modulate a parameter with
@@ -134,7 +134,7 @@ noise](https://en.wikipedia.org/wiki/Perlin_noise)).
 
 ### Multiple connections
 
-_[Screenshot]_
+![A screenshot showing the same agitation modulating the pitch of an oscillator five times](../assets/images/modulation-multiple-connections-trick.png)
 
 What happens if we connect a modulator, say an [_Agitation_](../modules/agitation.md), to the same
 parameter multiple times, say 5 times? Each connection spawns an independent random oscillator, and
