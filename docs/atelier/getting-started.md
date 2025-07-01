@@ -1,7 +1,7 @@
 # Getting Started
 
 Thanks for your interest in _GRM Tools Atelier_! Here are a few steps to help you get started making
-patches with _Atelier_.
+sound with _Atelier_.
 
 ## Installation
 
@@ -38,9 +38,8 @@ The number of output channels set up determines how many channels the processors
 
 ## Use as a plugin
 
-_Atelier_ can be used as a plugin in a VST3/AU/AAX host, identically to the application. The
-standalone app and the plugin offer the exact same functionality. Patches created on one can be used
-with the other.
+_Atelier_ can be used as a plugin in a VST3/AU/AAX host. The plugin and the standalone app offer the
+exact same functionality; patches created on one can be used with the other.
 
 ## And now?
 
@@ -70,16 +69,16 @@ In the sidebar are two meters and their associated gain sliders: input and outpu
 
 Once satisfied with the result, either save the patch (_File > Save_) or record an audio file in
 real time by clicking the "Record" button in the bottom right corner. The recording has as many
-channels as the number of outputs and is 32 bits floating point, so you don't have to worry about
-clipping.
+channels as the number of outputs configured and is 32 bits floating point, so you don't have to
+worry about clipping.
 
 The resulting file will be saved on the desktop by default, or in the current patch's directory.
 Click the "Burger" button to view all recordings and modify the destination directory.
 
 !!! note
 
-    In the file list popup, files can be dragged e.g. to your DAW's window for editing, or
+    In the recorded file list popup, files can be dragged e.g. to your DAW's window, or
     directly in the _Atelier_ window (processor row), which makes a new instance of _Play_. Perfect
-    for on-the-fly resampling.
+    for on-the-fly resampling!
 
 Happy patching!
