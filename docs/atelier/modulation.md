@@ -103,7 +103,7 @@ modulator's parameter. These connections themselves are also polyadic: A modulat
 many instances as there are connections going out of it. In other words, if a modulator's parameter
 is in turn modulated, each of its destination will spawn an individually-modulated modulator!
 
-_[Screenshot]_
+![An agitation modulating the frequency parameter of an agitation that modulates the pitch ratio of Gen with three oscillators](../assets/images/modulation-modulating-modulations-square.png)
 
 For instance, if three oscillator in **Gen** have their pitch modulated by the same agitation, and
 another agitation modulates its frequency, then each of the three pitch modulations will see its
