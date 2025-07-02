@@ -32,17 +32,17 @@ nav:
       - atelier/morphing.md
       - atelier/faq.md
   - Modules:
-    - modules/index.md
-    - Processors:
-        - modules/viz.md
-        - modules/gain.md
-        - modules/gen.md
-        - modules/comb.md
-        - modules/band.md
-        - modules/pitch.md
-        - modules/play.md
-        - modules/time.md
-    - Modulators:
-        - modules/agitation.md
-        - modules/control.md
-        - modules/peak.md
+      - modules/index.md
+      - Processors:
+          - modules/viz.md
+          - modules/gain.md
+          - modules/gen.md
+          - modules/comb.md
+          - modules/band.md
+          - modules/pitch.md
+          - modules/play.md
+          - modules/time.md
+      - Modulators:
+          - modules/agitation.md
+          - modules/control.md
+          - modules/peak.md
