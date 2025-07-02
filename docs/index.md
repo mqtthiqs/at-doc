@@ -2,6 +2,8 @@
 
 _Creative Audio Workbench_
 
+![Screenshot of the Viz module](assets/images/atelier.png)
+
 ## Patch, play, discover
 
 _Atelier_ is a sandbox for the curious, a platform for exploring endless sonic ideas. Modular at its
