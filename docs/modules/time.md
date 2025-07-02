@@ -1,12 +1,12 @@
 # Time
 
-!!! warning "This section is a **work in progress**"
+_Temporal machine_
 
 ![Screenshot of the Time module](../assets/images/time.png){.main-pic}
 
-_Delay_
+!!! warning "This section is a **work in progress**"
 
-Take some audio as input, and output it as-is... just a little while later: a _delay_ seems to be
+Take some audio as input, and output it as-is... just a while later: a _delay_ seems to be
 barely a musical device. This is precisely what makes it an indispensable tool: like a stick or a
 rope, it can be a thousand things!
 
