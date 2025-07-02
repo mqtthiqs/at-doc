@@ -38,9 +38,14 @@ position of the slider, the state of the button etc.). Its actual value is displ
 dot on sliders and buttons. Hovering over a modulated parameter shows a popup where one can scale
 the modulation, or remove a connection.
 
+Hovering over a modulator's handle displays its outgoing wires. Hold "w" or press the "Show all
+connected wires" button in the status bar to see all wires.
+
 ![A video showing how to modulate the pitch of of an oscillator in Gen](../assets/videos/modulation-create-modulation.mp4)
 
-<!-- note: modulations can be renamed -->
+!!! note
+
+    You can give each modulator instance a name: click on the empty space between the "close" button and the colored handle. This helps remembering who does what.
 
 ## Polyadic modulation
 
@@ -115,9 +120,6 @@ frequency agitated independently.
     require infinitely many parameter instances). The signal path of modulations must therefore be
     loop-free; Atelier will warn you whenever your patch involves a feedback loop.
 
-
-<!--  should the show all connected modulation wires feature be highlighted somewhere? -->
-
 ## Tips & tricks
 
 ### Brownian agitation
@@ -141,8 +143,7 @@ parameter multiple times, say 5 times? Each connection spawns an independent ran
 they are all summed together. Let's reduce the amplitude to 20% (1/5th of 100%) so it does not risk
 clamping the parameter. The sum of all agitations is a random signal that has more chance to be
 found around 0 (close to the nominal parameter value), much like rolling 5 dices and summing the
-figures will get you a number likely close to 15 (5 * 6 / 2). 
+figures will get you a number likely close to 15 (5 * 6 / 2).
 
 Got it? Now try to predict what will happen with a [_Peak_](../modules/peak.md) set to 50% chance of
 triggering.
-<!-- the peak question is asked in connection to multiple connections? -->
