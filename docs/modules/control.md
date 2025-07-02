@@ -1,6 +1,6 @@
 # Control
 
-_The patch tamer_
+_Patch tamer_
 
 ![Screenshot of the Control module](../assets/images/control.png){.main-pic-small}
 

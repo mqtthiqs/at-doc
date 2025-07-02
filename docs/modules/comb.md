@@ -1,6 +1,6 @@
 # Comb
 
-_The resonance treasure trove_
+_Resonance treasure trove_
 
 ![Screenshot of the Comb module](../assets/images/comb.png){.main-pic}
 

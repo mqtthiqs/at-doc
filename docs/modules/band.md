@@ -1,6 +1,6 @@
 # Band
 
-_The spectral scalpel_
+_Spectral scalpel_
 
 ![Screenshot of the Band module](../assets/images/band.png){.main-pic}
 
