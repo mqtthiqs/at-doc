@@ -12,6 +12,10 @@ account for this.
 
 Yes. Each license purchased comes with 3 activations, assignable freely.
 
+### Do I need an internet connection to activate my copy?
+
+Yes, our licensing scheme requires an internet connection on activation, but never after activation. Once _Atelier_ has been activated on your machine, you are free to disconnect forever.
+
 ### Do you offer education discount?
 
 Yes, we happily do! Students and teachers benefit from a 35% discount. When creating an
