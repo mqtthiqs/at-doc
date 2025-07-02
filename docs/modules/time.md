@@ -81,12 +81,59 @@ The following parameters have as many independently-modulatable instances as the
 
 ## Tips and tricks
 
-### Frippertronics
+### Rhythmic taps
 
-<!-- As popularized by Robert Fripp, -->
+Feed _Time_ some simple rhythmic loop. Introduce a few taps, and arrange them in time so that they
+repeat incoming audio in a rhythm of your choosing. Vary their gain and/or cutoff to taste. Tuning
+is a long but rewarding process, as you discover new syncopations and grooves.
+
+### Complex looping
+
+![A screenshot of Time used in a looping configuration](../assets/images/time-looper.png)
+
+With a single tap set to a long delay (several seconds), _Time_ can be used as a simple looper: just
+crank Feedback to 100% and the material in the buffer will accumulate and repeat indefinitely (this
+is Preset 5). Start here: feed some live-played input (voice, guitar, synth) and build layers upon
+layers, interacting with past material as if it was another player.
+
+From here, try out a few trics: modulate the delay time slightly for imperfect repetitions, lower **Speed** and/or increase **Bandpass** for generational degradation, add a second tap closeby for complex stereo interplays... the world of delays is your oyster.
 
 ### Flangers, choruses and all that
 
-### No delay
+![A screenshot of Time used as a flanger or chorus](../assets/images/time-flanger.png)
 
-### Haas effect
+Flanger, chorus, ensemble, vibrato... all these classic effects are just variants of the same
+concept that can easily be recreated with _Time_: short delays (1 to 50 ms) modulated by LFOs.
+Mixing the dry and delayed signals carves out pleasing peaks and troughs into the frequency content
+of your audio.
+
+An _Agitation_ with 100% **Cyclic** will do the LFO. Add one or several taps around 10 ms, and
+modulate their delay times (use **Delay scale**). Increase **Rotate** for stereo width. Increase
+**Feedback** to taste. This is your bread-and-butter modulation effect; now explore this space for
+effects unheard of: different LFO shapes, audio-rate modulation, degrading with **Speed** and
+**Bandpass**, fade instead of repitch...
+
+### Precedence effect
+
+![A screenshot of Time used for Haas or Precedence effect](../assets/images/time-precedence.png)
+
+One important cue to the localization of sound is its relative time of arrival: if one ear receives
+a sound before the other, the source will appear closer to it. A delay of a couple milliseconds is
+enough to trick our brain. It is sometimes called the Haas effect.
+
+Replicate this in _Time_: in stereo and listening on headphones, add two
+taps: one at 0 ms, one around 2 ms. Set **Spread** to 0% and **Mix** to 100%. Your input will sound
+like it leans to the left, even though the gain of each channel is the same. Vary the right-ear delay time and observe the effect.
+
+Using this creatively is a well of interesting ideas: the same principle with 4 or 8 channels (introducing the same number of taps) creates impossible spatial effects; modulating delay times instantly densifies simple material.
+
+### Reverb tails
+
+As soon as more than one tap is introduced, **Feedback** will not sound like your standard
+repetitions. This is because what is fed back is the _sum_ of all individual taps. For instance,
+with two taps at 1 and 0.1 seconds respectively and feedback high enough, you will get repetitions
+at seconds 0.1, 1, 1.1, 2, 2.1, 2.2, 3, 3.1, 3.2, 3.3 etc.: as the repetitions tail off, they become
+"denser" (closer to each other). This can be used at your advantage: with >4 taps and carefully
+choosing their times, we can come up with delay tails that quickly densify like reverbs, resulting
+in a variety of hybrid reverb/delay effects. This is especially true when delay times are slowly and
+slightly modulated, to cut off any resonance buildups.
