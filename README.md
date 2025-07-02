@@ -21,10 +21,15 @@ Alt-text shouldn't contain any additional information that isn't visible in the 
 ### Dimensions for module pages
 
 **Fold page image**: 756 x 504
+
 **Module logo**: 135 x 135
+
 **Features thumbnails**: 120 x 120
+
 **Screenshots in documentation**: 750 x variable height
+
 **Tips and tricks**: 650 x variable height
+
 **Carousel image (on main page)**: variable width x 345 px
 
 > Warning: Physical resolution still subject of negotiation
