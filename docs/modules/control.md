@@ -2,6 +2,8 @@
 
 _The patch tamer_
 
+![Screenshot of the Control module](../assets/images/control.png){.main-pic}
+
 One big slider; its position _is_ the modulation. Connect it to several destinations and
 adjust their dosages to get the desired macro-controller. Make it the entry point to a complex
 patch, or the hands-on control in your live performance. Smoothen, delay or loop your movements for

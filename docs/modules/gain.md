@@ -2,6 +2,8 @@
 
 _A volume fader. Or is it?_
 
+![Screenshot of the Gain module](../assets/images/gain.png){.main-pic}
+
 _Gain_ is the big fader of a mixer's channel strip: a simple volume control... but that's not all!
 The big **Gain** slider not only controls the amplitude of the incoming audio, but also affect its
 tonal and temporal characteristics to simulate a sense of _distance_ from the source to the

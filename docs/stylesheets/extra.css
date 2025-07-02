@@ -17,3 +17,19 @@
 .screenshot {
     width: 50%;
 }
+
+.main-pic {
+    display: block;
+    height: 600px !important;
+    margin: auto;
+}
+
+.carousel-img {
+    height: 330px !important;
+    padding: 5px;
+}
+
+.carousel-img-small {
+    height: 150px !important;
+    padding: 5px;
+}

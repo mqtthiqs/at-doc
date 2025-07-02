@@ -2,6 +2,8 @@
 
 _The resonance treasure trove_
 
+![Screenshot of the Comb module](../assets/images/comb.png){.main-pic}
+
 At its heart, the comb filter is arguably the most basic building block of signal processing. Let's
 turn it into a creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple
 component into it a fun and versatile physical modeling-inspired instrument with wide sonic

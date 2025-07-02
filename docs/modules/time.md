@@ -2,6 +2,8 @@
 
 !!! warning "This section is a **work in progress**"
 
+![Screenshot of the Time module](../assets/images/time.png){.main-pic}
+
 _Delay_
 
 Take some audio as input, and output it as-is... just a little while later: a _delay_ seems to be
