@@ -24,6 +24,12 @@
     margin: auto;
 }
 
+.main-pic-small {
+    display: block;
+    height: 200px !important;
+    margin: auto;
+}
+
 .carousel-img {
     height: 330px !important;
     padding: 5px;

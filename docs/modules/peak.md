@@ -2,7 +2,7 @@
 
 _Everything transient_
 
-![Screenshot of the Peak module](../assets/images/peak.png){.main-pic}
+![Screenshot of the Peak module](../assets/images/peak.png){.main-pic-small}
 
 _Peak_ is a simple envelope generator: it rises, then falls back down. Assign it to the gain
 of a sound source, you now have an actionable events trigger. But with its adjustable shape, looping
