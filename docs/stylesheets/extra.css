@@ -1,11 +1,8 @@
 :root>* {
-    --md-primary-fg-color: #141616;
+    --md-primary-fg-color: #2e3133;
     --md-default-bg-color: #1a1d1d;
-    --md-typeset-a-color: white;
-}
-
-.md-nav__link md-nav__link--active {
-    color: white;
+    --md-typeset-a-color: #3782AA !important;
+    --md-accent-fg-color: #79C2E7 !important;
 }
 
 .md-header__button.md-logo img {
@@ -18,5 +15,5 @@
 
 /* rescale retina images to correspond to their logical (not physical) size */
 .screenshot {
-  width: 50%;
+    width: 50%;
 }
