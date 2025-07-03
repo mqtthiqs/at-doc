@@ -26,7 +26,7 @@ connectible:
 ## Features
 
 * **Polyadic Modulation Engine:** A novel modulation paradigm: organic and per-voice control, making
-  it fast and expressive to build complex, evolving patches.
+  it fast and expressive to build complex, evolving patches. Everything modulatable, no artifacts.
 * **Full Multichannel Support:** Create in stereo, quad, or 64+ channels without changing how you
   work. Perfect for spatial composition.
 * **Groundbreaking yet simple modules:** From granular delays to multi-playhead samplers, modules
