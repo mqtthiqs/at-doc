@@ -40,6 +40,8 @@ Keep in mind that like all parameters in Atelier, the **Value** slider can itsel
 that this modulation itself is polyadic (see [Modulations](../atelier/modulation.md)). _Control_ can
 therefore be used as a filter for modulation signals, to smoothen, delay or loop them.
 
+---
+
 ## Controls
 
 Every parameter has as many independently-modulatable instances as there are outgoing instances of
@@ -62,6 +64,8 @@ this modulator (ie. the sum of all wires' instance number, see
 
     The content of the **Loop** buffer is not saved with the patch; upon relaunch, it will be
     initialized to 0.
+
+---
 
 ## Tips and tricks
 

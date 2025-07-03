@@ -28,6 +28,8 @@ _remoteness_ of a source, not just its gain. And combined with the [modulation
 system](../atelier/modulation.md), it is a surprising generator of sonic spaces, realistic or
 otherwise.
 
+---
+
 ## Controls
 
 All parameters have as many independently-modulatable instances as there are input/output channels.
@@ -42,6 +44,8 @@ All parameters have as many independently-modulatable instances as there are inp
   is ever applied; at 100%, the cutoff gets smaller quickly when **Gain** lowers.
 - **Distance:** As **Gain** is lowered, introduce a small delay, simulating the speed of sound in
   air, and a subtle room-like reverberation, simulating reflections against closeby surfaces.
+
+---
 
 ## Tips and tricks
 

@@ -29,6 +29,8 @@ random signal (**Multiplicity**).
     set value. Therefore, to modulate across its full range of without clamping, the destination
     parameter must be centered and range set to 100%.
 
+---
+
 ## Controls
 
 Every parameter has as many independently-modulatable instances as there are outgoing instances of
@@ -54,6 +56,8 @@ this modulator (ie. the sum of all wires' instance number, see
 
     The relative phases of agitations are chosen at random on initialization; they are not saved
     with the patch.
+
+---
 
 ## Tips and tricks
 

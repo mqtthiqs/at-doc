@@ -32,6 +32,8 @@ set of (unconditional) repeats and **Infinite repeat**, which makes _Peak_ acts 
     Therefore, to modulate across its full range of without clamping, the destination parameter must be
     set to its lowest value, and range set to 100%.
 
+---
+
 ## Controls
 
 Every parameter has as many independently-modulatable instances as there are outgoing instances of
@@ -52,6 +54,8 @@ this modulator (ie. the sum of all wires' instance number, see
   value until **Trigger** is released.
 - **Infinite repeat:** Loop the envelope indefinitely. When enabled, **Trigger** re-triggers or
   holds the envelope.
+
+---
 
 ## Tips and tricks
 

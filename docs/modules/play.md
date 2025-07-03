@@ -26,6 +26,8 @@ in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
 
 Each cursor can have an independent pitch and playback position. Fade is applied on play and pause as an envelope. In looped mode it additionally determines the overlap of the loop region. If fade is at 100% the sound will always overlap. When a region changes during playback the playhead will attempt to restart within the new region. To ensure a smooth and consistent playback it will keep fading out from its original position.
 
+---
+
 ## Controls
 
 ### Toolbar
@@ -44,6 +46,7 @@ The region overview integrates a view of the entire file, the playback region an
 The playback region is represented by a blue bar at the top of the region overview. It can be manipulated by drag and drop: vertical drag shrinks/enlarges the region, horizontal drag moves it. Additionally start and end points can be adjusted by dragging the vertical bars at the beginning or end of the region. Holding down alt while dragging anywhere on the waveform allows to define a new playback region.
 
 ### Cursor area
+
 Click to add a playhead; double-click a playhead to remove it.
 
 -	**Quantize button:** Click to quantize all playhead pitches to the closest semitone.
@@ -71,6 +74,8 @@ The following parameters have as many independently-modulatable instances as the
 - **Slant:** Distribution of fade time between fade in and fade out. At 0% the attack is instant and the entire time is used for the fade out; at 50% the envelope is symmetric; at 100% the envelope is slanted towards the right.
 - **Ease:** Easing curve of the applied fades, from linear (0%), to abrupt (100%).
 - **Declick:** Time of short fade that is applied to suppress clicking. This fade is applied on play, pause and loops.
+
+---
 
 ## Tips and tricks
 

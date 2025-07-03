@@ -51,6 +51,8 @@ frequency can be set (**Cutoff**), and is then summed to the output. The feedbac
 (**Feedback**) reinjects this sum back into the input, resulting in potentially complex impulse
 responses and reverberation-resonator-delay hybrids.
 
+---
+
 ## Controls
 
 ### Cursor area
@@ -102,6 +104,8 @@ The following parameters have as many independently-modulatable instances as the
   result in a crossfade, hence no repitch; at 0, grains are so small that playback is continuous,
   which repitches the input when delay time is changed. Grains are always played at speed 1, so
   lowering **Speed** while this is >0 will result in constant repitching.
+
+---
 
 ## Tips and tricks
 

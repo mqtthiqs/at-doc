@@ -32,6 +32,8 @@ often called _Karplus-Strong_ synthesis. _Comb_ takes this classic to new _digit
 territories with precise control over damping, unique inharmonic warping of partials and pick-up
 positioning for interesting phase-cancellation effects.
 
+---
+
 ## Controls
 
 ![Comb module with a couple of comb filters](../assets/images/modules/comb/comb-module.png)
@@ -79,6 +81,8 @@ The following parameters have as many independently-modulatable instances as the
   (0%) or in the middle as the sum of the forward and backward direction (100%). At 100%, phase
   cancellations are such that only odd harmonics ring.
 - **Predelay:** Introduces a short delay before the input signal hits the comb filter loop.
+
+---
 
 ## Tips and tricks
 
