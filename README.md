@@ -18,7 +18,7 @@ Or if not possible (modal windows prevent it):
 readers or when there was a problem loading an asset. It should describe what is visible.
 Alt-text shouldn't contain any additional information that isn't visible in the screenshot.
 
-### Dimensions for module pages
+### Dimensions for module pages (in logical pixels)
 
 **Fold page image**: 756 x 504
 
@@ -30,7 +30,8 @@ Alt-text shouldn't contain any additional information that isn't visible in the 
 
 **Tips and tricks**: 650 x variable height
 
-**Carousel image (on main page)**: variable width x 345 px
+**Carrousel image (on main page)**: variable width x 345 px
+Use `dev/reset-window-state.sh --profile Carrousel` to set appropriate display settings
 
 > Warning: Physical resolution still subject of negotiation
 
