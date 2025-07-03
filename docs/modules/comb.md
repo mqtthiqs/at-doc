@@ -36,8 +36,6 @@ positioning for interesting phase-cancellation effects.
 
 ## Controls
 
-![Comb module with a couple of comb filters](../assets/images/modules/comb/comb-module.png)
-
 ### Cursor area
 
 Click to add a comb filter; double-click a comb filter to remove it. Each comb filter
