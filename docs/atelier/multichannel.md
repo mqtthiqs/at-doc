@@ -16,9 +16,11 @@ A patch produced in one environment will automatically scale to fit any other se
 
 ## Multichannel processing in modules
 
-Whenever you add a tone generator or a filter in a module each of them will automatically have one or more channels associated with it. For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. In [Gen](../modules/gen.md) note oscillators are represented using 'cursors' on a grid. These are color-coded to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area, next to the title you'll see circles representing the associated channels.
+Whenever you add a tone generator or a filter in a module each of them will automatically have one or more channels associated with it. 
 
-![A screenshot of Gen showing a four note chord in a four channel system](../assets/images/atelier/multichannel/multichannel-gen-chord.png)
+![A screenshot of Gen showing a four note chord in a four channel system](../assets/images/atelier/multichannel/multichannel-gen-chord.png){width=50%, align=right}
+
+For example: if you create a simple chord in [Gen](../modules/gen.md) each individual note of that chord will sound loudest on its corresponding channels. The actual distribution of those channels depends on the number of output channels of the application and the number of notes in the chord. In [Gen](../modules/gen.md) note oscillators are represented using 'cursors' on a grid. These are color-coded to display the associated channels. You can get a more detailed overview by selecting a note. In the panel below the cursor area, next to the title you'll see circles representing the associated channels.
 
 Similarly, if you add a filter in a processing module e.g. in [Comb](../modules/comb.md) or [Band](../modules/band.md) or a delay tap in [Time](../modules/time.md) this filter will be applied to the associated input channels.
 
