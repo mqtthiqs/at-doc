@@ -1,7 +1,5 @@
 # Play
 
-!!! warning "This section is a **work in progress**"
-
 _A playground for audio files_
 
 ![Screenshot of the Play module](../assets/images/modules/play/play.png){.main-pic}
