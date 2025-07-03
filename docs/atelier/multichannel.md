@@ -36,6 +36,6 @@ Note that the **Spread** parameter has as many [parameter instances](modulation.
 
 ## Setup
 
-The numbers of channels in modules is equal to the number of output channels of the application. These can be changed in the [Audio and MIDI Setup](getting-started.md#application-audio-midi-setup). The number of input channels can be different to the number of output channels. In this case the [fanning and folding](#fanning-and-folding) technique described above is applied to distribute the channels as even as possible. That means the mono input from a microphone will be available on all channels.
+The numbers of channels in modules is equal to the number of output channels of the application. The hardware output channels can be configured in the [Audio and MIDI Setup](getting-started.md#application-audio-midi-setup). The number of input channels may differ from the number of output channels. In this case the [fanning and folding](#fanning-and-folding) technique described above is applied to distribute the channels as evenly as possible. That means for instance that the mono input from a microphone will be available on all channels.
 
 When _Atelier_ is used as a plug-in it automatically adapts to the numbers of channels of the track it is instantiated on.
