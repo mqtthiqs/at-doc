@@ -4,30 +4,52 @@ _Temporal machine_
 
 ![Screenshot of the Time module](../assets/images/modules/time/time.png){.main-pic}
 
-!!! warning "This section is a **work in progress**"
-
-Take some audio as input, and output it as-is... just a while later: a _delay_ seems to be
-barely a musical device. This is precisely what makes it an indispensable tool: like a stick or a
-rope, it can be a thousand things!
-
-<!-- purely time-domain operations -->
-<!-- unlike a traditional delay -->
-<!-- 10 milliseconds or 10 minutes -->
-
-At its heart, _Time_ is a multi-tap delay with granular playback and per-tap built-in resonant
-filter, taking inspiration from GRM's Phonogene and Morphophone family of instruments.
+_Time_ is a delay unlike any other. It an exploration of how far the concept of a delay can be
+pushed into uncharted territories. In its simplest form, it takes audio as input, stores it in a
+buffer and replays it a while later. But with up to 32 freely-tunable taps, variable transport
+speed, continuous granular playback and per-tap band-pass filters, it can reach sound
+transformations yet unheard of. _Time_ is the ace of spades of time-domain operations.
 
 ## Features
 
-- freely-tunable delay with multiple tap (up to 32 taps)
+- freely-tunable delay with multiple tap. Up to 32 taps, from milliseconds to minutes.
 - per-tap resonant band-pass filter
-- variable-rate write/read speed
+- variable-rate read/write speed
 - continuous control of repitching vs. granular (crossfading) playback
 
 ## Context
 
-<!-- magnetic tape or digital samples: work the same -->
-<!-- The advent of magnetic tape -->
+From the advent of magnetic tape to digital storage, using the medium as short-term storage for
+sound is an infinite source of sound manipulations.
+
+In the late 1950s, GRM started producing a series of revolutionary tape-playing machines used as
+sound processing instruments, [the _Phonogènes_ and
+_Morphophones_](https://sites.inagrm.com/grmstudio/activities/Historique_Manipulations.xhtml). Using
+complex pulley mechanisms and read-head drums, they could read small chunks of tapes at speeds
+independent of the tape transport, inventing the granular playback techniques that still power pitch
+shifting and time stretching algorithms nowadays. Using multiple read heads, arbitrarily placed on
+the tape and filtered indepedently, they could break free from the repetition of the simple feedback
+loop, radically transforming input sound material.
+
+![Photo of Pierre Schaeffer manipulating the Phonogene](../assets/images/schaeffer-phonogene.jpg)
+
+_Time_ takes up where these machines left off, maintaining the tape analogy that makes things
+logical and easy to understand. At its heart, _Time_ provides a large audio buffer, which the
+module's input is continuously written to. At any point in this buffer, one can place a read head (a
+_tap_), that reads the written material with a delay. The speed at which this buffer goes by is
+variable (**Speed**); like tape, the slower the speed the more delay, and the more the signal is
+degraded: there are less samples to record a given audio chunk.
+
+Each tap is actually made of two read heads quickly relaying each other in reading the audio at
+their position (granular playback). Therefore, if the delay time is changed, it smoothly crossfades
+to the new position without clicks or repitches. In fact, and contrarily to usual delays, this
+crossfade time is freely settable (**Repitch/Fade:**), allowing for repitches, crossfades and a
+wealth of interesting in-betweens.
+
+Just like on the Morphophone, each tap then goes to a band-pass filter (**Bandpass**) which resonant
+frequency can be set (**Cutoff**), and is then summed to the output. The feedback loop
+(**Feedback**) reinjects this sum back into the input, resulting in potentially complex impulse
+responses and reverberation-resonator-delay hybrids.
 
 ## Controls
 
@@ -87,7 +109,7 @@ The following parameters have as many independently-modulatable instances as the
 
 Feed _Time_ some simple rhythmic loop. Introduce a few taps, and arrange them in time so that they
 repeat incoming audio in a rhythm of your choosing. Vary their gain and/or cutoff to taste. Tuning
-is a long but rewarding process, as you discover new syncopations and grooves.
+is a precise but rewarding process, as you discover new syncopations and grooves.
 
 ### Complex looping
 
