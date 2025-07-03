@@ -2,9 +2,9 @@
 
 !!! warning "This section is a **work in progress**"
 
-![Screenshot of the Play module](../assets/images/modules/play/play.png){.main-pic}
-
 _A playground for audio files_
+
+![Screenshot of the Play module](../assets/images/modules/play/play.png){.main-pic}
 
 _Play_ is a multi-playhead file player with versatile playback region and envelope controls. It allows mangling any source material into a wide variety of outcomes. From percussive glitches to mesmerizing drones. Its built-in recording functionality allows sampling of inputs or resampling of whole patches.
 
@@ -36,7 +36,7 @@ _Play_ you can load mono, stereo and multichannel audio files. If the number of 
 
 - **Play/pause:** Global transport state. Toggles playback of all playheads. When playing after pause the playheads will resume from their last position. This parameter has as many independently-modulatable instances as there are playheads (see [Modulation](../atelier/modulation.md)).
 - **Stop:** Immediately stops playback of all playheads. Per-playhead transport controls will be reset. When playing the next time start positions will be determined by the playhead’s start position parameter.
-- **Loop/single shot:** When toggled on: playback will be looped until paused. When toggled: off the region will play when play/pause is on.
+- **Loop/single shot:** When toggled on: playback will be looped until paused. When toggled off: the region will play only once until Play/Pause is toggled another time.
 - **File browser:** Shows the currently loaded file. Click to bring up a list of audio files in the same directory.
 - **Record:** Records the input of the module into a temporary buffer (max. 1 minute).
 - **Save:** Save temporary buffer to file.
@@ -66,7 +66,7 @@ Each playhead has four controls:
 
 - **Mix:** Crossfades the dry signal (0%) with the wet signal (100%).
 
-The following parameters have as many independently-modulatable instances as there are comb filters (see [Modulation](../atelier/modulation.md)).
+The following parameters have as many independently-modulatable instances as there are playheads (see [Modulation](../atelier/modulation.md)).
 
 - **Position:** Center position of the playback region.
 - **Duration:** Duration of the playback region in percentage of the total file length.
@@ -83,25 +83,35 @@ The following parameters have as many independently-modulatable instances as the
 
 !!! note
 
-    Dragging an audio file from _GRM Tools Ateiler_'s own patch recorder or the system’s file explorer anywhere into the module chain will create an instance of _Play_ preloaded with the dropped file in place.
+    Dragging an audio file from _Ateiler_'s own patch recorder or the system’s file explorer anywhere into the module chain will create an instance of _Play_ preloaded with the dropped file in place.
 
 ### Phasing
+
+![Screenshot of Play with two playheads with slight difference in pitch](../assets/images/modules/play/play-tips-phasing-large.png)
 
 To achieve a phasing effect — as popularized by Steve Reich — place two playheads at the same point. Then change the **Pitch** parameter of one playhead to deviate by a very small amount. Note that holding down the shift key while dragging a slider allows for finer control. A very small difference (in the range of 0.05st) will create effects evocative of comb filtering. Slightly higher differences in playback speed result in faster alternating rhythmical patterns. This effect is easiest explored with short rhythmical loops but works on a large variety of material.
 
 ### Granular
 
-Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds.
-In line with _GRM Tools Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the **Duration** to a very small value. Note that the absolute value of the loop duration is displayed right next to the duration slider. Next add a generous amount of **Fade** (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to **Position**. Voilà.
+![Screenshot of four playheads at different pitches with very short smooth playback regions](../assets/images/modules/play/play-tips-granular-large.png)
 
-Time and pitch stretching effects can be achieved by modulating **Duration** with a linearly increasing curve (e.g. using [Peak](peak.md) in loop mode with **Slant** at 100%). Adjust the modulator's time to vary the speed and the playhead's pitch to repitch while keeping the overall tempo.
+Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds.
+In line with _Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the **Duration** to a very small value. Note that the absolute value of the loop duration is displayed right next to the duration slider. Next add a generous amount of **Fade** (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to **Position**. Voilà.
+
+Time and pitch stretching effects can be achieved by modulating **Duration** with a linearly increasing curve (e.g. using [Peak](peak.md) in loop mode with **Slant** at 100%). Adjust the modulator's time to vary the speed; adjust the playhead's pitch to repitch while keeping the overall tempo.
 
 ### Percussions with drone material using fades
+
+![Screenshot of Play with envelopes adjusted to create percussive sounds from a drone chained with Comb](../assets/images/modules/play/play-tips-percussive-large.png)
 
 Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to or close to 0%. Adjust **Ease** to make a fast decay. Note that **Declick** adds a bit of smoothing even if **Slant** is at 0%. If you want very sharp attacks set **Declick** to 0ms. To get a great variety of sounds slowly modulate **Position**.
 Tip: this might pair nicely with [Comb](comb.md) further down the chain.
 
 
-### Cannon distributing playheads on y-axis
+### Multichannel cannon
 
-    ...
+![Screenshot of Play with four playheads in a row creating a cannon effect](../assets/images/modules/play/play-tips-cannon-large.png)
+
+When a playhead's **Start (X axis)** parameter is less than 0% it will start out muted until it reaches the playback region. This effect can be exploited to create cannons. Place several playheads in a row spacing **Start** in regular intervals. Move the playheads to the left so that the right-most playhead is exactly at the dashed 0% line. To ensure that the pitch (and thus speed) of all playheads is equal press the **Quantize** button. Now, when you press **Play**, one playhead after the other will reach the the playback region with the predefined delay. Once they reached the end of the region they will loop and start from the beginning thus creating a cannon.
+
+If you want to play the cannon reversed move all the playheads so that the left-most playhead is at the 100% marker. Now set **Rate** to -1x.
