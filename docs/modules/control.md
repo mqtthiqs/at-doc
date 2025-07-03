@@ -2,7 +2,7 @@
 
 _Patch tamer_
 
-![Screenshot of the Control module](../assets/images/control.png){.main-pic-small}
+![Screenshot of the Control module](../assets/images/modules/control/control.png){.main-pic-small}
 
 One big slider; its position _is_ the modulation. Connect it to several destinations and
 adjust their dosages to get the desired macro-controller. Make it the entry point to a complex

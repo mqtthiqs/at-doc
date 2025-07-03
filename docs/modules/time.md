@@ -2,7 +2,7 @@
 
 _Temporal machine_
 
-![Screenshot of the Time module](../assets/images/time.png){.main-pic}
+![Screenshot of the Time module](../assets/images/modules/time/time.png){.main-pic}
 
 !!! warning "This section is a **work in progress**"
 
@@ -91,7 +91,7 @@ is a long but rewarding process, as you discover new syncopations and grooves.
 
 ### Complex looping
 
-![A screenshot of Time used in a looping configuration](../assets/images/time-looper.png)
+![A screenshot of Time used in a looping configuration](../assets/images/modules/time/time-looper.png)
 
 With a single tap set to a long delay (several seconds), _Time_ can be used as a simple looper: just
 crank Feedback to 100% and the material in the buffer will accumulate and repeat indefinitely (this
@@ -102,7 +102,7 @@ From here, try out a few trics: modulate the delay time slightly for imperfect r
 
 ### Flangers, choruses and all that
 
-![A screenshot of Time used as a flanger or chorus](../assets/images/time-flanger.png)
+![A screenshot of Time used as a flanger or chorus](../assets/images/modules/time/time-flanger.png)
 
 Flanger, chorus, ensemble, vibrato... all these classic effects are just variants of the same
 concept that can easily be recreated with _Time_: short delays (1 to 50 ms) modulated by LFOs.
@@ -117,7 +117,7 @@ effects unheard of: different LFO shapes, audio-rate modulation, degrading with 
 
 ### Precedence effect
 
-![A screenshot of Time used for Haas or Precedence effect](../assets/images/time-precedence.png)
+![A screenshot of Time used for Haas or Precedence effect](../assets/images/modules/time/time-precedence.png)
 
 One important cue to the localization of sound is its relative time of arrival: if one ear receives
 a sound before the other, the source will appear closer to it. A delay of a couple milliseconds is

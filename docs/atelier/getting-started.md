@@ -26,7 +26,7 @@ disappears, you are ready to go.
 
 Then, set up your audio interface. In the status bar, click the gear icon to reveal the settings:
 
-![A screenshot showing Atelier's audio setup popup](../assets/images/audio-midi-setup.png)
+![A screenshot showing Atelier's audio setup popup](../assets/images/atelier/getting-started/audio-midi-setup.png)
 
 * select an output device, and enable all channels connected to your speakers
 * optionally select an input device and enable the corresponding channels
@@ -46,7 +46,7 @@ exact same functionality; patches created on one can be used with the other.
 When first started, Atelier greets you with an empty patch, showing the list of available
 processors. Sound is passed through, unaffected.
 
-![A screenshot showing Atelier's splash screen](../assets/images/splash-screen.png)
+![A screenshot showing Atelier's splash screen](../assets/images/atelier/getting-started/splash-screen.png)
 
 !!! note
 
@@ -57,7 +57,7 @@ other modules, either processors or modulators. Processors process sound in seri
 right; drag a module from its title bar to move it. Drag a wire from the colored round handle of a
 modulator and start modulating a parameter.
 
-![A screenshot showing Atelier's patch browser](../assets/images/patch-library.png)
+![A screenshot showing Atelier's patch browser](../assets/images/atelier/getting-started/patch-library.png)
 
 In the status bar next to the file icons is the patch browser. Click it to bring up the
 factory-supplied library of patches, draw some inspiration and explore the capabilities of _GRM
@@ -65,7 +65,7 @@ Tools Atelier_.
 
 In the sidebar are two meters and their associated gain sliders: input and output.
 
-![A screenshot showing Atelier's recorder](../assets/images/recorder.png)
+![A screenshot showing Atelier's recorder](../assets/images/atelier/getting-started/recorder.png)
 
 Once satisfied with the result, either save the patch (_File > Save_) or record an audio file in
 real time by clicking the "Record" button in the bottom right corner. The recording has as many

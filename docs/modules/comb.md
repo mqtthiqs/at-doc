@@ -2,7 +2,7 @@
 
 _Resonance treasure trove_
 
-![Screenshot of the Comb module](../assets/images/comb.png){.main-pic}
+![Screenshot of the Comb module](../assets/images/modules/comb/comb.png){.main-pic}
 
 At its heart, the comb filter is arguably the most basic building block of signal processing. Let's
 turn it into a creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple
@@ -34,7 +34,7 @@ positioning for interesting phase-cancellation effects.
 
 ## Controls
 
-![Comb module with a couple of comb filters](../assets/images/comb-controls.png)
+![Comb module with a couple of comb filters](../assets/images/modules/comb/comb-controls.png)
 
 ### Cursor area
 
@@ -84,7 +84,7 @@ The following parameters have as many independently-modulatable instances as the
 
 ### Noise bursts
 
-![A screenshot showing Gen agitated by Peak to create tonal material using Gen](../assets/images/comb-noise-bursts.png)
+![A screenshot showing Gen agitated by Peak to create tonal material using Gen](../assets/images/modules/comb/comb-noise-bursts.png)
 
 _Comb_ shines with transient-rich input material. Using [Gen](gen.md) and [Peak](peak.md), make
 short bursts of noise. Follow with a single comb filter at a relatively high **Decay** (>1s); put
@@ -92,8 +92,6 @@ short bursts of noise. Follow with a single comb filter at a relatively high **D
 of plucked strings, glassy tone, bell sounds etc.
 
 ### Strummed chords
-
-![Video showing strummed chords example](../assets/videos/comb-strummed-chords.mp4)
 
 Building on the previous tip, add more comb filters at different frequencies to make a chord. Now,
 put **Predelay** around 50ms, and modulate it slightly with a slow [_Agitation_](agitation.md). Every

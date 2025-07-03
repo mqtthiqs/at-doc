@@ -2,7 +2,7 @@
 
 !!! warning "This section is a **work in progress**"
 
-![Screenshot of the Play module](../assets/images/play.png){.main-pic}
+![Screenshot of the Play module](../assets/images/modules/play/play.png){.main-pic}
 
 _A playground for audio files_
 

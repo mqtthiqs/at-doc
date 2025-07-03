@@ -2,7 +2,7 @@
 
 _Source of possibility_
 
-![Screenshot of the Agitation module](../assets/images/agitation.png){.main-pic-small}
+![Screenshot of the Agitation module](../assets/images/modules/agitation/agitation.png){.main-pic-small}
 
 _Agitation_ is a versatile source of random modulations, able to turn any static sound-processing
 patch into a dynamic and evolving system of interactions. From subtle variation to utter chaos, from

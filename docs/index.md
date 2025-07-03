@@ -2,7 +2,7 @@
 
 _Creative Audio Workbench_
 
-![Screenshot of the Viz module](assets/images/atelier.png)
+![Screenshot of a large patch](assets/images/atelier.png)
 
 ## Patch, play, discover
 

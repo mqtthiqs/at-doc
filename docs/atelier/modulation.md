@@ -26,7 +26,7 @@ parameter manually, a _modulator_ generates a signal that moves it automatically
 instance modulate the gain of some audio input with a sine LFO (low frequency oscillator) to get a
 tremolo effect.
 
-![An LFO connect to gain creating a tremolo effect](../assets/images/modulation-tremolo.png)
+![An LFO connect to gain creating a tremolo effect](../assets/images/atelier/modulation/modulation-tremolo.png)
 
 Click the "+" button in the bottom row of the interface to instantiate a modulator (e.g.
 [_Agitation_](../modules/agitation.md)). Each modulator has a handle in the top right corner
@@ -59,7 +59,7 @@ parameters: the two parameters will be agitated differently. Changing, say, the 
 frequency will act on the two parameters, but the random trajectories of each modulations will stay
 independent.
 
-![The same Agitation source connected to two parameters](../assets/images/modulation-same-mod-different-engine.png)
+![The same Agitation source connected to two parameters](../assets/images/atelier/modulation/modulation-same-mod-different-engine.png)
 
 This is in stark contrast with classic modulation in analog synthesis: if one was to patch a single
 source of modulation (e.g. an LFO) into several destinations (by multing its output), each
@@ -74,7 +74,7 @@ in _Gen_ applies a ratio to all oscillators' frequencies; if there are three osc
 **Ratio** has three instances: agitating **Ratio** will agitate the three actual ratios
 independently.
 
-![Agitation independently modulating the pitch ratio of three oscillators in Gen](../assets/images/modulation-three-instances.png)
+![Agitation independently modulating the pitch ratio of three oscillators in Gen](../assets/images/atelier/modulation/modulation-three-instances.png)
 
 The number of instances of a modulated parameter is shown on its wire (e.g. "x3"), and its actual
 values are displayed as grey dots on the button/slider.
@@ -86,7 +86,7 @@ modulator). Just drag several wires to the same parameter; modulations are summe
 parameter's popup displays the list of connections. Each connection has its own range (-200% to
 200%).
 
-![Two modulations influencing the same pitch parameter. A popup allows editing modulations](../assets/images/modulation-accumulation.png)
+![Two modulations influencing the same pitch parameter. A popup allows editing modulations](../assets/images/atelier/modulation/modulation-accumulation.png)
 
 !!! note
 
@@ -108,7 +108,7 @@ modulator's parameter. These connections themselves are also polyadic: A modulat
 many instances as there are connections going out of it. In other words, if a modulator's parameter
 is in turn modulated, each of its destination will spawn an individually-modulated modulator!
 
-![An agitation modulating the frequency parameter of an agitation that modulates the pitch ratio of Gen with three oscillators](../assets/images/modulation-modulating-modulations-square.png)
+![An agitation modulating the frequency parameter of an agitation that modulates the pitch ratio of Gen with three oscillators](../assets/images/atelier/modulation/modulation-modulating-modulations-square.png)
 
 For instance, if three oscillator in **Gen** have their pitch modulated by the same agitation, and
 another agitation modulates its frequency, then each of the three pitch modulations will see its
@@ -124,7 +124,7 @@ frequency agitated independently.
 
 ### Brownian agitation
 
-![A screenshot showing three agitations with different frequency and amplitude settings modulating the frequency band of a noise generator](../assets/images/modulation-brownian-agitation.png)
+![A screenshot showing three agitations with different frequency and amplitude settings modulating the frequency band of a noise generator](../assets/images/atelier/modulation/modulation-brownian-agitation.png)
 
 Make 3 [_Agitations_](../modules/agitation.md), and set them up with increasing frequencies (say, 0.1
 Hz, 1 Hz and 10 Hz) and decreasing amplitudes (say, 60%, 30% and 5%). Now modulate a parameter with
@@ -136,7 +136,7 @@ noise](https://en.wikipedia.org/wiki/Perlin_noise)).
 
 ### Multiple connections
 
-![A screenshot showing the same agitation modulating the pitch of an oscillator five times](../assets/images/modulation-multiple-connections-trick.png)
+![A screenshot showing the same agitation modulating the pitch of an oscillator five times](../assets/images/atelier/modulation/modulation-multiple-connections-trick.png)
 
 What happens if we connect a modulator, say an [_Agitation_](../modules/agitation.md), to the same
 parameter multiple times, say 5 times? Each connection spawns an independent random oscillator, and

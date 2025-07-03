@@ -2,4 +2,4 @@
 
 !!! warning "This section is a **work in progress**"
 
-![Screenshot of the Gen module](../assets/images/gen.png){.main-pic}
+![Screenshot of the Gen module](../assets/images/modules/gen/gen.png){.main-pic}
