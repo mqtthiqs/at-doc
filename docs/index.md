@@ -2,7 +2,7 @@
 
 _Creative Audio Workbench_
 
-![Screenshot of a large patch](assets/images/atelier.png)
+![Screenshot of a large patch](assets/images/atelier/atelier.png)
 
 ## Patch, play, discover
 

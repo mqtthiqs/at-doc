@@ -31,7 +31,7 @@ shifting and time stretching algorithms nowadays. Using multiple read heads, arb
 the tape and filtered indepedently, they could break free from the repetition of the simple feedback
 loop, radically transforming input sound material.
 
-![Photo of Pierre Schaeffer manipulating the Phonogene](../assets/images/schaeffer-phonogene.jpg)
+![Photo of Pierre Schaeffer manipulating the Phonogene](../assets/images/modules/time/schaeffer-phonogene.jpg)
 
 _Time_ takes up where these machines left off, maintaining the tape analogy that makes things
 logical and easy to understand. At its heart, _Time_ provides a large audio buffer, which the
