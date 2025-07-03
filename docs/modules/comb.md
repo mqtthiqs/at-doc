@@ -34,7 +34,7 @@ positioning for interesting phase-cancellation effects.
 
 ## Controls
 
-![Comb module with a couple of comb filters](../assets/images/modules/comb/comb-controls.png)
+![Comb module with a couple of comb filters](../assets/images/modules/comb/comb-module.png)
 
 ### Cursor area
 
@@ -84,7 +84,7 @@ The following parameters have as many independently-modulatable instances as the
 
 ### Noise bursts
 
-![A screenshot showing Gen agitated by Peak to create tonal material using Gen](../assets/images/modules/comb/comb-noise-bursts.png)
+![A screenshot showing Gen agitated by Peak to create impulses for comb](../assets/images/modules/comb/comb-tips-noise-bursts-large.png)
 
 _Comb_ shines with transient-rich input material. Using [Gen](gen.md) and [Peak](peak.md), make
 short bursts of noise. Follow with a single comb filter at a relatively high **Decay** (>1s); put
@@ -93,12 +93,16 @@ of plucked strings, glassy tone, bell sounds etc.
 
 ### Strummed chords
 
+![A screenshot showing modulation of Comb's Predelay](../assets/images/modules/comb/comb-tips-strummed-chord-large.png)
+
 Building on the previous tip, add more comb filters at different frequencies to make a chord. Now,
 put **Predelay** around 50ms, and modulate it slightly with a slow [_Agitation_](agitation.md). Every
 filter will get its own randomly-evolving predelay, resulting in a "strumming" effect, as if strings
 were not plucked all at the same time.
 
 ### Infinite decay
+
+![A screenshot showing Gen generating impulses using square waves fed into Comb with high decay](../assets/images/modules/comb/comb-tips-infinite-decay-large.png)
 
 When **Decay** is set to more than 20 sec and **Warp** is 0%, decay is _infinite_: any short-lived
 input will resonate (almost) forever. Fed with an initial short signal, this can be useful to
@@ -110,6 +114,8 @@ generate held tones, drones or textures.
 
 ### Crude reverb
 
+![A screenshot showing Play feeding into Comb and Agitation agitating Comb's transposition](../assets/images/modules/comb/comb-tips-reverb-large.png)
+
 Early digital reverberation units (now refered to as [Schröder
 reverbs](https://ieeexplore.ieee.org/document/6161610)) worked by simply feeding the input signal
 through several dampened comb filters in parallel. With **Mix** around 20%, make a cloud of a dozen
@@ -119,6 +125,8 @@ reverb time. Adjust **Predelay** to taste; slightly and slowly agitating **Trans
 attenuating some the metallic resoance.
 
 ### At time rate
+
+![A screenshot showing Gen feeding into Comb to produce delay effects](../assets/images/modules/comb/comb-tips-time-rate-large.png)
 
 A comb filter is a very short delay... but _Comb_ also supports longer delay! These will be heard as
 normal repetitions, so you can use _Comb_ as (a set of) regular delays, with some twists. Add a
