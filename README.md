@@ -14,18 +14,13 @@ Alt-text shouldn't contain any additional information that isn't visible in the 
 
 ### Dimensions for module pages (in logical pixels)
 
-**Fold page image**: 756 x 504
-
-**Module logo**: 135 x 135
-
-**Features thumbnails**: 120 x 120
-
-**Screenshots in documentation**: 750 x variable height
-
-**Tips and tricks**: 650 x variable height
-
-**Carrousel image (on main page)**: variable width x 345 px
-Use `dev/reset-window-state.sh --profile Carrousel` to set appropriate display settings
+- **Fold page image**: 756 x 504
+- **Module logo**: 135 x 135
+- **Features thumbnails**: 120 x 120
+- **Screenshots in documentation**: 750 x variable height
+- **Tips and tricks**: 650 x variable height
+- **Carrousel image (on main page)**: variable width x 345 px
+  Use `dev/reset-window-state.sh --profile Carrousel` to set appropriate display settings
 
 ## Typographic conventions
 
