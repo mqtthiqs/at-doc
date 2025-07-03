@@ -26,6 +26,8 @@ in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
 
 Each cursor can have an independent pitch and playback position. Fade is applied on play and pause as an envelope. In looped mode it additionally determines the overlap of the loop region. If fade is at 100% the sound will always overlap. When a region changes during playback the playhead will attempt to restart within the new region. To ensure a smooth and consistent playback it will keep fading out from its original position.
 
+_Play_ you can load mono, stereo and multichannel audio files. If the number of channels in the audio file don't match the number of channels of the module [fanning and folding](../atelier/multichannel.md#fanning-and-folding) will be employed to distribute the channels.
+
 ---
 
 ## Controls
