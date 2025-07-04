@@ -31,6 +31,11 @@ _[TODO]_
 
 ## Using the software
 
+### What are the system requirements for running _Atelier_?
+
+The minimum OS requirement is macOS 10.14 Mojave (2018). It was tested and runs on a 2015 Macbook
+Pro with 8 Gb RAM.
+
 ### Do you support 42th-order ambisonics, Dolby Atmos, DTS:X?
 
 We don't, and [it is a choice](multichannel.md). _Atelier_ supports multichannel processing in a discrete and
