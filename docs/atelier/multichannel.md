@@ -2,9 +2,9 @@
 
 !!! warning "This section is a **work in progress**"
 
-Multichannel processing is part of _GRM Tools Atelier_'s core DNA. From its inception a flexible and adaptive performance in multi channel environments was one of the key design considerations. You can as easily compose for stereo setups as for quadrophony, octophony or 64+ channels. Even in a standard stereo setup _Atelier_'s unique design choices will by default produce outputs with wider stereo images than comparable tools.
+Multichannel processing is part of _GRM Tools Atelier_'s core DNA. From its inception a flexible and adaptive performance in multi channel environments was one of the key design considerations. You can as easily compose for stereo setups as for quadrophony, octophony or 64+ channels.
 
-A patch produced in one environment will automatically scale to fit any other setup. This adaptability holds precedence over surgical operations on a particular channel in a particular setup. Likewise _Atelier_ doesn't operate in specific surround formats or with assumptions about the acoustic space. Instead it delivers a set of discrete channels that can be easily mixed into the required format using well established tools.
+A patch produced in one environment will automatically scale to fit any other setup. This adaptability holds precedence over surgical operations on a particular channel in a particular setup. Likewise _Atelier_ doesn't operate in specific surround formats or with assumptions about the acoustic space. Instead it delivers a set of discrete channels that can be easily mixed into the required format using well established tools. For example [iem](https://plugins.iem.at/) or GRM's own [new spaces](https://inagrm.com/en/showcase/news/598/nouveaux-spaces).
 
 ## Features
 
@@ -32,7 +32,7 @@ In the case there are as many filters as there are channels it is easy: each fil
 
 ### Spread
 
-To control the amount of channel-locality of each generator, playhead or filter most modules provide a **Spread** control. If **Spread** is at 0% they will only sound on their assigned channels. When the value is above 0% also filters that aren't assigned to a channel will be processed and mixed in by the specified amount. For instance if a [Comb](../modules/comb.md) module had two filters at different frequencies and **Spread** is at 50% the filter assigned to the processed channel would sound at full gain while the other filter would only be half as loud. Cursors that visually represent a generator, playhead or filter in a module are drawn using colors representing the assigned channels. The higher the **Spread** amount is the whiter cursors will appear in the cursor area.
+To control the amount of channel-locality of each generator, playhead or filter most modules provide a **Spread** control. If **Spread** is at 0% they will only sound on their associated channels. When the value is above 0% also filters that aren't assigned to a channel will be processed and mixed in by the specified amount. For instance if a [Comb](../modules/comb.md) module had two filters at different frequencies and **Spread** is at 50% the filter assigned to the processed channel would sound at full gain while the other filter would only be half as loud. Cursors that visually represent a generator, playhead or filter in a module are drawn using colors representing the assigned channels. The higher the **Spread** amount is the whiter cursors will appear in the cursor area.
 
 Note that the **Spread** parameter has as many [parameter instances](modulation.md#parameter-instances) as there are cursors. Meaning that when you modulate **Spread** each filter has its own spread value and will "bleed" to other channels accordingly.
 
