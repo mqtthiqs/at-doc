@@ -1,4 +1,4 @@
-# Viz
+# ![](../assets/images/modules/viz/viz.svg){.module-logo} Viz
 
 !!! warning "This section is a **work in progress**"
 

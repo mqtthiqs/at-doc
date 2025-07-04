@@ -1,6 +1,7 @@
-# Band
+Spectral scalpel
+{.tagline}
 
-_Spectral scalpel_
+# ![](../assets/images/modules/band/band.svg){.module-logo} Band
 
 ![Screenshot of the Band module](../assets/images/modules/band/band.png){.main-pic}
 

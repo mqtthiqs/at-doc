@@ -1,6 +1,7 @@
-# Control
+Patch tamer
+{.tagline}
 
-_Patch tamer_
+# ![](../assets/images/modules/control/control.svg){.module-logo} Control
 
 ![Screenshot of the Control module](../assets/images/modules/control/control.png){.main-pic-small}
 

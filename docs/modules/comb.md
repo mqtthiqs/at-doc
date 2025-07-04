@@ -1,6 +1,7 @@
-# Comb
+Resonance treasure trove
+{.tagline}
 
-_Resonance treasure trove_
+# ![](../assets/images/modules/comb/comb.svg){.module-logo} Comb
 
 ![Screenshot of the Comb module](../assets/images/modules/comb/comb.png){.main-pic}
 

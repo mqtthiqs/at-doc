@@ -1,6 +1,7 @@
-# Time
+Temporal machine
+{.tagline}
 
-_Temporal machine_
+# ![](../assets/images/modules/time/time.svg){.module-logo} Time
 
 ![Screenshot of the Time module](../assets/images/modules/time/time.png){.main-pic}
 

@@ -1,6 +1,7 @@
-# Gain
+A volume fader. Or is it?
+{.tagline}
 
-_A volume fader. Or is it?_
+# ![](../assets/images/modules/gain/gain.svg){.module-logo} Gain
 
 ![Screenshot of the Gain module](../assets/images/modules/gain/gain.png){.main-pic}
 
