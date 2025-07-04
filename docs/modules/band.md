@@ -49,8 +49,7 @@ The following parameters have as many independently-modulatable instances as the
   assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, all
   bands process all channels in parallel (multi-mono).
 - **Gain:** Global gain of all bands.
-- **Slope:** Slope of each band: number of semitones to transition from cutting to passing, and
-  conversely.
+- **Slope:** Number of semitones to transition from cutting to passing, and conversely.
 - **Bump:** Adds a bell-shaped boost at the transition frequencies. The bump's width is determined
   by **Slope**, and its height is in ratio of the gain.
 
