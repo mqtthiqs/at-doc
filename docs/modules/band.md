@@ -12,7 +12,6 @@ Spectral scalpel
 - precise multi-band filter
 - band-pass or band-reject
 - continuous slope setting
-- 
 
 ## Context
 
