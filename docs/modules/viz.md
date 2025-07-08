@@ -75,8 +75,12 @@ Channels can be dragged and re-arranged to better match the physical space louds
 
 ### Identifying pitch using the spectrum analyzer
 
+![A screenshot showing Viz closing in on a peak](../assets/images/modules/viz/viz-tips-peak.png)
+
 You can use the spectrum analyzer with its numerical readout to determine the pitch of an input signal. First set the **FFT size** to 16384. Press **Pause** to freeze the audio input. Then identify the highest peak in the spectrum. You drag to zoom in on it. When you move the mouse over the display you'll see a colored dot marking its current position on the x-axis and the amplitude on the y-axis. On the "head-up display" you'll see the exact frequency and musical pitch corresponding to the mouse position.
 
 ### Observing phase effects causing beat frequencies
+
+![A screenshot showing Gen and Viz](../assets/images/modules/viz/viz-tips-phasing.png)
 
 When two sounds sound at almost but not exactly the same frequency they will interfere in such a way that they will cause a beating pattern similar to a tremolo. Using the correlation meter it is easy to observe why this is the case. First create a [Gen](gen.md) module. Set **Mix** to 100%. Create two sine oscillators and space them so the have somewhere between 0.1 and 2 Hz of difference in frequency. Now insert a _Viz_ module in the chain after _Gen_. Observing the correlation meter you'll see how the white dots representing the audio signal will rhythmically oscillate between the edge of the frame and the center. When the dots are at the edge the signals are out of phase and cancel each other out. When the dot is in the center the signals reinforce each other. You can 'pin down' one of the signals on the oscilloscope by setting the **Trigger frequency** to the exact frequency of the oscillator. You'll see how the other signal is appearing to move relatively. The beat frequency in Hz is just the difference between both frequencies. So for example if you would want to create a beat frequency at 1/4 of 120 BPM just set the two oscillators to be exactly 2 Hz apart.
