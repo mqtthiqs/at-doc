@@ -19,6 +19,8 @@ Spectral scalpel
 <!-- note: latency -->
 <!-- note: FFT -> linear phase, artifact -->
 
+---
+
 ## Controls
 
 ### Cursor Area
@@ -55,6 +57,8 @@ The following parameters have as many independently-modulatable instances as the
 - **Bump:** Adds a bell-shaped boost at the transition frequencies. The bump's width is determined
   by **Slope**, and its height is in ratio of the gain.
 
+---
+
 ## Tips and tricks
 
 ### Animated formants
@@ -67,7 +71,7 @@ Feed _Band_ with a ~50Hz sawtooth wave e.g. from _Gen_. Add a few bands in the m
 
 ### Band splits
 
-![Screenshot of Band used to split signal into channels](../assets/images/modules/band/band-tips-split.png)
+![Screenshot of Band used to split signal into channels](../assets/images/modules/band/band-tips-split.png){width=40%, align=left}
 
 _Band_ can split a signal into disjoint bands, for further independent processing. Add as many bands
 as there are channels, and adjust **Slope** to taste. Place them so that they sum to zero: For this,
@@ -79,7 +83,7 @@ Factory presets 2 or 3 illustrate this technique.
 
 ### Graphic equalizer
 
-![Screenshot of Band used as a graphic equalizer](../assets/images/modules/band/band-tips-equalizer.png)
+![Screenshot of Band used as a graphic equalizer](../assets/images/modules/band/band-tips-equalizer.png){width=40%, align=left}
 
 Make a few bands covering the whole spectrum and summing to zero (see [previous tip](#band-splits)),
 with **Spread** at 0%. A slightly increased **Slope** will smoothen the bands and reduce ringing.

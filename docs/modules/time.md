@@ -23,6 +23,8 @@ transformations yet unheard of. _Time_ is the ace of spades of time-domain opera
 From the advent of magnetic tape to digital storage, using the medium as short-term storage for
 sound is an infinite source of sound manipulations.
 
+![Photo of Pierre Schaeffer manipulating the Phonogene](../assets/images/modules/time/schaeffer-phonogene.jpg){width=50%, align=right}
+
 In the late 1950s, GRM started producing a series of revolutionary tape-playing machines used as
 sound processing instruments, [the _Phonogènes_ and
 _Morphophones_](https://sites.inagrm.com/grmstudio/activities/Historique_Manipulations.xhtml). Using
@@ -31,8 +33,6 @@ independent of the tape transport, inventing the granular playback techniques th
 shifting and time stretching algorithms nowadays. Using multiple read heads, arbitrarily placed on
 the tape and filtered indepedently, they could break free from the repetition of the simple feedback
 loop, radically transforming input sound material.
-
-![Photo of Pierre Schaeffer manipulating the Phonogene](../assets/images/modules/time/schaeffer-phonogene.jpg)
 
 _Time_ takes up where these machines left off, maintaining the tape analogy that makes things
 logical and easy to understand. At its heart, _Time_ provides a large audio buffer, which the
@@ -118,7 +118,7 @@ is a precise but rewarding process, as you discover new syncopations and grooves
 
 ### Complex looping
 
-![A screenshot of Time used in a looping configuration](../assets/images/modules/time/time-looper.png)
+![A screenshot of Time used in a looping configuration](../assets/images/modules/time/time-looper.png){width=50%, align=left}
 
 With a single tap set to a long delay (several seconds), _Time_ can be used as a simple looper: just
 crank Feedback to 100% and the material in the buffer will accumulate and repeat indefinitely (this
@@ -129,7 +129,7 @@ From here, try out a few trics: modulate the delay time slightly for imperfect r
 
 ### Flangers, choruses and all that
 
-![A screenshot of Time used as a flanger or chorus](../assets/images/modules/time/time-flanger.png)
+![A screenshot of Time used as a flanger or chorus](../assets/images/modules/time/time-flanger.png){width=50%, align=right}
 
 Flanger, chorus, ensemble, vibrato... all these classic effects are just variants of the same
 concept that can easily be recreated with _Time_: short delays (1 to 50 ms) modulated by LFOs.
@@ -144,7 +144,7 @@ effects unheard of: different LFO shapes, audio-rate modulation, degrading with 
 
 ### Precedence effect
 
-![A screenshot of Time used for Haas or Precedence effect](../assets/images/modules/time/time-precedence.png)
+![A screenshot of Time used for Haas or Precedence effect](../assets/images/modules/time/time-precedence.png){width=50%, align=left}
 
 One important cue to the localization of sound is its relative time of arrival: if one ear receives
 a sound before the other, the source will appear closer to it. A delay of a couple milliseconds is

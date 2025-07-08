@@ -86,13 +86,13 @@ The following parameters have as many independently-modulatable instances as the
 
 ### Phasing
 
-![Screenshot of Play with two playheads with slight difference in pitch](../assets/images/modules/play/play-tips-phasing-large.png)
+![Screenshot of Play with two playheads with slight difference in pitch](../assets/images/modules/play/play-tips-phasing-large.png){width=50%, align=left}
 
 To achieve a phasing effect — as popularized by Steve Reich — place two playheads at the same point. Then change the **Pitch** parameter of one playhead to deviate by a very small amount. Note that holding down the shift key while dragging a slider allows for finer control. A very small difference (in the range of 0.05st) will create effects evocative of comb filtering. Slightly higher differences in playback speed result in faster alternating rhythmical patterns. This effect is easiest explored with short rhythmical loops but works on a large variety of material.
 
 ### Granular
 
-![Screenshot of four playheads at different pitches with very short smooth playback regions](../assets/images/modules/play/play-tips-granular-large.png)
+![Screenshot of four playheads at different pitches with very short smooth playback regions](../assets/images/modules/play/play-tips-granular-large.png){width=50%, align=right}
 
 Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds.
 In line with _Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the **Duration** to a very small value. Note that the absolute value of the loop duration is displayed right next to the duration slider. Next add a generous amount of **Fade** (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to **Position**. Voilà.
@@ -109,7 +109,7 @@ Tip: this might pair nicely with [Comb](comb.md) further down the chain.
 
 ### Multichannel cannon
 
-![Screenshot of Play with four playheads in a row creating a cannon effect](../assets/images/modules/play/play-tips-cannon-large.png)
+![Screenshot of Play with four playheads in a row creating a cannon effect](../assets/images/modules/play/play-tips-cannon-large.png){width=50%, align=right}
 
 When a playhead's **Start (X axis)** parameter is less than 0% it will start out muted until it reaches the playback region. This effect can be exploited to create cannons. Place several playheads in a row spacing **Start** in regular intervals. Move the playheads to the left so that the right-most playhead is exactly at the dashed 0% line. To ensure that the pitch (and thus speed) of all playheads is equal press the **Quantize** button. Now, when you press **Play**, one playhead after the other will reach the the playback region with the predefined delay. Once they reached the end of the region they will loop and start from the beginning thus creating a cannon.
 

@@ -73,7 +73,7 @@ Channels can be dragged and re-arranged to better match the physical space louds
 
 ### Identify pitches
 
-![A screenshot showing Viz closing in on a peak](../assets/images/modules/viz/viz-tips-peak.png)
+![A screenshot showing Viz closing in on a peak](../assets/images/modules/viz/viz-tips-peak.png){width=50%, align=right}
 
 You can use the spectrum analyzer with its numerical readout to determine the pitch of an input signal. First set the **FFT size** to 16384. Press **Pause** to freeze the audio input. Then identify the highest peak in the spectrum. Click + drag the mouse to zoom in on the peak. When you move the mouse over the display you'll see a colored dot marking its current position on the x-axis and the amplitude on the y-axis. On the "head-up display" you'll see the exact frequency and musical pitch corresponding to the mouse position.
 
