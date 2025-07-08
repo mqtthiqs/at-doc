@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GRMTools version="0.8" minVersion="0.8">
+  <PARAM id="morph_time" value="1.000000357627869" locked="0"/>
+  <modulations>
+    <GRMAgitation id="0">
+      <PARAM id="amp" value="1.0" locked="0"/>
+      <PARAM id="ease" value="0.0" locked="0"/>
+      <PARAM id="freq" value="0.2500001192092896" locked="0"/>
+      <PARAM id="jitter" value="0.0" locked="0"/>
+      <PARAM id="multiplicity" value="1.0" locked="0"/>
+      <PARAM id="periodicity" value="0.0" locked="0"/>
+      <PARAM id="run" value="1.0" locked="0"/>
+      <PARAM id="slant" value="0.0" locked="0"/>
+      <DATA id="name" value=""/>
+    </GRMAgitation>
+  </modulations>
+  <input>
+    <PARAM id="gain" value="0.0" locked="0"/>
+  </input>
+  <output>
+    <PARAM id="gain" value="0.0" locked="0"/>
+  </output>
+  <randomizer>
+    <PARAM id="dimension_1" value="0.0" locked="0"/>
+    <PARAM id="dimension_2" value="0.0" locked="0"/>
+    <PARAM id="dimension_3" value="0.0" locked="0"/>
+  </randomizer>
+  <units>
+    <GRMGen>
+      <PARAM id="active_0" value="1.0" locked="0"/>
+      <PARAM id="active_1" value="0.0" locked="0"/>
+      <PARAM id="active_10" value="0.0" locked="0"/>
+      <PARAM id="active_11" value="0.0" locked="0"/>
+      <PARAM id="active_12" value="0.0" locked="0"/>
+      <PARAM id="active_13" value="0.0" locked="0"/>
+      <PARAM id="active_14" value="0.0" locked="0"/>
+      <PARAM id="active_15" value="0.0" locked="0"/>
+      <PARAM id="active_2" value="0.0" locked="0"/>
+      <PARAM id="active_3" value="0.0" locked="0"/>
+      <PARAM id="active_4" value="0.0" locked="0"/>
+      <PARAM id="active_5" value="0.0" locked="0"/>
+      <PARAM id="active_6" value="0.0" locked="0"/>
+      <PARAM id="active_7" value="0.0" locked="0"/>
+      <PARAM id="active_8" value="0.0" locked="0"/>
+      <PARAM id="active_9" value="0.0" locked="0"/>
+      <PARAM id="bandwidth" value="0.004999999888241291" locked="0"/>
+      <PARAM id="bypass" value="0.0" locked="0"/>
+      <PARAM id="drywet" value="0.5" locked="0"/>
+      <PARAM id="envelope_follow" value="0.0" locked="0"/>
+      <PARAM id="freq_0" value="31.34995651245117" locked="0"/>
+      <PARAM id="freq_1" value="69.0" locked="0"/>
+      <PARAM id="freq_10" value="69.0" locked="0"/>
+      <PARAM id="freq_11" value="69.0" locked="0"/>
+      <PARAM id="freq_12" value="69.0" locked="0"/>
+      <PARAM id="freq_13" value="69.0" locked="0"/>
+      <PARAM id="freq_14" value="69.0" locked="0"/>
+      <PARAM id="freq_15" value="69.0" locked="0"/>
+      <PARAM id="freq_2" value="69.0" locked="0"/>
+      <PARAM id="freq_3" value="69.0" locked="0"/>
+      <PARAM id="freq_4" value="69.0" locked="0"/>
+      <PARAM id="freq_5" value="69.0" locked="0"/>
+      <PARAM id="freq_6" value="69.0" locked="0"/>
+      <PARAM id="freq_7" value="69.0" locked="0"/>
+      <PARAM id="freq_8" value="69.0" locked="0"/>
+      <PARAM id="freq_9" value="69.0" locked="0"/>
+      <PARAM id="gain_0" value="-12.0" locked="0"/>
+      <PARAM id="gain_1" value="-12.0" locked="0"/>
+      <PARAM id="gain_10" value="-12.0" locked="0"/>
+      <PARAM id="gain_11" value="-12.0" locked="0"/>
+      <PARAM id="gain_12" value="-12.0" locked="0"/>
+      <PARAM id="gain_13" value="-12.0" locked="0"/>
+      <PARAM id="gain_14" value="-12.0" locked="0"/>
+      <PARAM id="gain_15" value="-12.0" locked="0"/>
+      <PARAM id="gain_2" value="-12.0" locked="0"/>
+      <PARAM id="gain_3" value="-12.0" locked="0"/>
+      <PARAM id="gain_4" value="-12.0" locked="0"/>
+      <PARAM id="gain_5" value="-12.0" locked="0"/>
+      <PARAM id="gain_6" value="-12.0" locked="0"/>
+      <PARAM id="gain_7" value="-12.0" locked="0"/>
+      <PARAM id="gain_8" value="-12.0" locked="0"/>
+      <PARAM id="gain_9" value="-12.0" locked="0"/>
+      <PARAM id="gain_noise" value="-120.0" locked="0"/>
+      <PARAM id="gain_rectangle" value="-120.0" locked="0"/>
+      <PARAM id="gain_sine" value="-120.0" locked="0"/>
+      <PARAM id="gain_triangle" value="0.0" locked="0"/>
+      <PARAM id="global_gain" value="0.0" locked="0"/>
+      <PARAM id="global_spread" value="0.5" locked="0"/>
+      <PARAM id="morph_noise" value="0.0" locked="0"/>
+      <PARAM id="morph_rectangle" value="0.0" locked="0"/>
+      <PARAM id="morph_sine" value="0.0" locked="0"/>
+      <PARAM id="morph_triangle" value="0.0" locked="0"/>
+      <PARAM id="preset" value="0.0" locked="0"/>
+      <PARAM id="ratio" value="1.0" locked="0"/>
+      <PARAM id="reactivity" value="0.09999999403953552" locked="0"/>
+      <PARAM id="spread_0" value="-0.1322751045227051" locked="0"/>
+      <PARAM id="spread_1" value="0.0" locked="0"/>
+      <PARAM id="spread_10" value="0.0" locked="0"/>
+      <PARAM id="spread_11" value="0.0" locked="0"/>
+      <PARAM id="spread_12" value="0.0" locked="0"/>
+      <PARAM id="spread_13" value="0.0" locked="0"/>
+      <PARAM id="spread_14" value="0.0" locked="0"/>
+      <PARAM id="spread_15" value="0.0" locked="0"/>
+      <PARAM id="spread_2" value="0.0" locked="0"/>
+      <PARAM id="spread_3" value="0.0" locked="0"/>
+      <PARAM id="spread_4" value="0.0" locked="0"/>
+      <PARAM id="spread_5" value="0.0" locked="0"/>
+      <PARAM id="spread_6" value="0.0" locked="0"/>
+      <PARAM id="spread_7" value="0.0" locked="0"/>
+      <PARAM id="spread_8" value="0.0" locked="0"/>
+      <PARAM id="spread_9" value="0.0" locked="0"/>
+      <DATA id="editorAspectRatio" value="0.6000000238418579"/>
+      <DATA id="editorMaximized" value="0"/>
+      <presets/>
+    </GRMGen>
+    <GRMBand>
+      <PARAM id="active_0" value="1.0" locked="0"/>
+      <PARAM id="active_1" value="1.0" locked="0"/>
+      <PARAM id="active_10" value="0.0" locked="0"/>
+      <PARAM id="active_11" value="0.0" locked="0"/>
+      <PARAM id="active_12" value="0.0" locked="0"/>
+      <PARAM id="active_13" value="0.0" locked="0"/>
+      <PARAM id="active_14" value="0.0" locked="0"/>
+      <PARAM id="active_15" value="0.0" locked="0"/>
+      <PARAM id="active_2" value="0.0" locked="0"/>
+      <PARAM id="active_3" value="0.0" locked="0"/>
+      <PARAM id="active_4" value="0.0" locked="0"/>
+      <PARAM id="active_5" value="0.0" locked="0"/>
+      <PARAM id="active_6" value="0.0" locked="0"/>
+      <PARAM id="active_7" value="0.0" locked="0"/>
+      <PARAM id="active_8" value="0.0" locked="0"/>
+      <PARAM id="active_9" value="0.0" locked="0"/>
+      <PARAM id="bump" value="1.0" locked="0"/>
+      <PARAM id="bypass" value="0.0" locked="0"/>
+      <PARAM id="gain" value="0.0" locked="0"/>
+      <PARAM id="gain_0" value="0.0" locked="0"/>
+      <PARAM id="gain_1" value="0.0" locked="0"/>
+      <PARAM id="gain_10" value="0.0" locked="0"/>
+      <PARAM id="gain_11" value="0.0" locked="0"/>
+      <PARAM id="gain_12" value="0.0" locked="0"/>
+      <PARAM id="gain_13" value="0.0" locked="0"/>
+      <PARAM id="gain_14" value="0.0" locked="0"/>
+      <PARAM id="gain_15" value="0.0" locked="0"/>
+      <PARAM id="gain_2" value="0.0" locked="0"/>
+      <PARAM id="gain_3" value="0.0" locked="0"/>
+      <PARAM id="gain_4" value="0.0" locked="0"/>
+      <PARAM id="gain_5" value="0.0" locked="0"/>
+      <PARAM id="gain_6" value="0.0" locked="0"/>
+      <PARAM id="gain_7" value="0.0" locked="0"/>
+      <PARAM id="gain_8" value="0.0" locked="0"/>
+      <PARAM id="gain_9" value="0.0" locked="0"/>
+      <PARAM id="mix" value="1.0" locked="0"/>
+      <PARAM id="pitch_0" value="81.0" locked="0"/>
+      <PARAM id="pitch_1" value="78.33663940429688" locked="0"/>
+      <PARAM id="pitch_10" value="81.0" locked="0"/>
+      <PARAM id="pitch_11" value="81.0" locked="0"/>
+      <PARAM id="pitch_12" value="81.0" locked="0"/>
+      <PARAM id="pitch_13" value="81.0" locked="0"/>
+      <PARAM id="pitch_14" value="81.0" locked="0"/>
+      <PARAM id="pitch_15" value="81.0" locked="0"/>
+      <PARAM id="pitch_2" value="81.0" locked="0"/>
+      <PARAM id="pitch_3" value="81.0" locked="0"/>
+      <PARAM id="pitch_4" value="81.0" locked="0"/>
+      <PARAM id="pitch_5" value="81.0" locked="0"/>
+      <PARAM id="pitch_6" value="81.0" locked="0"/>
+      <PARAM id="pitch_7" value="81.0" locked="0"/>
+      <PARAM id="pitch_8" value="81.0" locked="0"/>
+      <PARAM id="pitch_9" value="81.0" locked="0"/>
+      <PARAM id="preset" value="0.0" locked="0"/>
+      <PARAM id="slope" value="5.999999523162842" locked="0"/>
+      <PARAM id="spread" value="0.0" locked="0"/>
+      <PARAM id="transpose" value="0.0" locked="0">
+        <MODULATION source="0" scale="1.0"/>
+      </PARAM>
+      <PARAM id="width_0" value="0.6464465856552124" locked="0"/>
+      <PARAM id="width_1" value="0.6464465856552124" locked="0"/>
+      <PARAM id="width_10" value="0.0" locked="0"/>
+      <PARAM id="width_11" value="0.0" locked="0"/>
+      <PARAM id="width_12" value="0.0" locked="0"/>
+      <PARAM id="width_13" value="0.0" locked="0"/>
+      <PARAM id="width_14" value="0.0" locked="0"/>
+      <PARAM id="width_15" value="0.0" locked="0"/>
+      <PARAM id="width_2" value="0.0" locked="0"/>
+      <PARAM id="width_3" value="0.0" locked="0"/>
+      <PARAM id="width_4" value="0.0" locked="0"/>
+      <PARAM id="width_5" value="0.0" locked="0"/>
+      <PARAM id="width_6" value="0.0" locked="0"/>
+      <PARAM id="width_7" value="0.0" locked="0"/>
+      <PARAM id="width_8" value="0.0" locked="0"/>
+      <PARAM id="width_9" value="0.0" locked="0"/>
+      <DATA id="editorAspectRatio" value="0.8999999761581421"/>
+      <DATA id="editorMaximized" value="0"/>
+      <DATA id="y_axis" value="1"/>
+      <presets/>
+    </GRMBand>
+  </units>
+</GRMTools>
