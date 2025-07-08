@@ -7,6 +7,11 @@ Spectral scalpel
 
 ![Screenshot of the Band module](../assets/images/modules/band/band.png){.main-pic}
 
+From subtle timbre corrections to drastic shape alterations, _Band_ carves into frequencies like in
+clay. Feed it audio and start isolating spectral regions, put forth or gently reduce some tonal
+elements, or totally change the frequency profile of your material. Unlike a traditional EQ, more
+creative than technical, _Band_ is a spectral sculptor's tool of choice.
+
 ## Features
 
 - Precise multi-band filter with up to 16 spatializable bands
@@ -16,8 +21,13 @@ Spectral scalpel
 
 ## Context
 
-<!-- note: latency -->
-<!-- note: FFT -> linear phase, artifact -->
+!!! note
+
+    Under the hood, _Band_ uses linear-phase FFT processing; this is what makes its versatility and
+    precision, but it also implies:
+
+    - a natural latency of around 2000 samples, i.e. 20 ms at 96kHz, 40 ms at 48kHz, etc. As usual, the higher the sample rate, the smaller the latency.
+    - some pre-ringing when the slope is extremely steep. If that's a problem, increasing **Slope** to a few semitones drastically reduces ringing.
 
 ---
 
@@ -60,6 +70,10 @@ The following parameters have as many independently-modulatable instances as the
 ---
 
 ## Tips and tricks
+
+### Low pass, high pass
+
+When the **Pitch** of a band is at its minimum value, **Width** can do low and high-pass. Positive **Width** values result in a low-pass filter with increasingly low cutoff; negative **Width** values result in a high-pass filter with increasingly high cutoff.
 
 ### Animated formants
 
