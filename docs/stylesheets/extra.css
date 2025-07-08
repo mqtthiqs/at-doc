@@ -59,6 +59,6 @@
 }
 
 /* make sure screenshots don't extend past the next title */
-h1, h2, h3 {
+h2, h3 {
     clear: both;
 }
