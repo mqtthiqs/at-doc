@@ -1,4 +1,4 @@
-# ![](../assets/images/modules/gen/gen.svg){.module-logo} Gen
+# ![Gen module logo](../assets/images/modules/gen/gen.svg){.module-logo} Gen
 
 !!! warning "This section is a **work in progress**"
 

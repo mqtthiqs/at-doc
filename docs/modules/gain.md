@@ -1,7 +1,7 @@
 A volume fader. Or is it?
 {.tagline}
 
-# ![](../assets/images/modules/gain/gain.svg){.module-logo} Gain
+# ![Gain module logo](../assets/images/modules/gain/gain.svg){.module-logo} Gain
 
 ![Screenshot of the Gain module](../assets/images/modules/gain/gain.png){.main-pic}
 

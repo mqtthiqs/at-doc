@@ -1,5 +1,5 @@
 
-# ![](../assets/images/modules/pitch/pitch.svg){.module-logo} Pitch
+# ![Pitch module logo](../assets/images/modules/pitch/pitch.svg){.module-logo} Pitch
 
 !!! warning "This section is a **work in progress**"
 

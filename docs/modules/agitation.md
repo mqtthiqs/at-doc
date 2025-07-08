@@ -1,7 +1,7 @@
 Source of possibility
 {.tagline}
 
-# ![](../assets/images/modules/agitation/agitation.svg){.module-logo} Agitation
+# ![Agitation module logo](../assets/images/modules/agitation/agitation.svg){.module-logo} Agitation
 
 ![Screenshot of the Agitation module](../assets/images/modules/agitation/agitation.png){.main-pic-small}
 

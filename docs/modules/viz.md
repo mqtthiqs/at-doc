@@ -1,7 +1,7 @@
 Insight at a glance
 {.tagline}
 
-# ![](../assets/images/modules/viz/viz.svg){.module-logo} Viz
+# ![Viz module logo](../assets/images/modules/viz/viz.svg){.module-logo} Viz
 
 ![Screenshot of the Viz module](../assets/images/modules/viz/viz.png){.main-pic}
 

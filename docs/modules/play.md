@@ -1,7 +1,7 @@
 A playground for audio files
 {.tagline}
 
-# ![](../assets/images/modules/play/play.svg){.module-logo} Play
+# ![Play module logo](../assets/images/modules/play/play.svg){.module-logo} Play
 
 ![Screenshot of the Play module](../assets/images/modules/play/play.png){.main-pic}
 

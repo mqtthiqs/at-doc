@@ -1,7 +1,7 @@
 Everything transient
 {.tagline}
 
-# ![](../assets/images/modules/peak/peak.svg){.module-logo} Peak
+# ![Peak module logo](../assets/images/modules/peak/peak.svg){.module-logo} Peak
 
 ![Screenshot of the Peak module](../assets/images/modules/peak/peak.png){.main-pic-small}
 

@@ -1,7 +1,7 @@
 Resonance treasure trove
 {.tagline}
 
-# ![](../assets/images/modules/comb/comb.svg){.module-logo} Comb
+# ![Comb module logo](../assets/images/modules/comb/comb.svg){.module-logo} Comb
 
 ![Screenshot of the Comb module](../assets/images/modules/comb/comb.png){.main-pic}
 

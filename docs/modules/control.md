@@ -1,7 +1,7 @@
 Patch tamer
 {.tagline}
 
-# ![](../assets/images/modules/control/control.svg){.module-logo} Control
+# ![Control module logo](../assets/images/modules/control/control.svg){.module-logo} Control
 
 ![Screenshot of the Control module](../assets/images/modules/control/control.png){.main-pic-small}
 

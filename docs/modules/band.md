@@ -1,7 +1,7 @@
 Spectral scalpel
 {.tagline}
 
-# ![](../assets/images/modules/band/band.svg){.module-logo} Band
+# ![Band module logo](../assets/images/modules/band/band.svg){.module-logo} Band
 
 !!! warning "This section is a **work in progress**"
 
