@@ -26,7 +26,7 @@ parameter manually, a _modulator_ generates a signal that moves it automatically
 instance modulate the gain of some audio input with a sine LFO (low frequency oscillator) to get a
 tremolo effect.
 
-![An LFO connect to gain creating a tremolo effect](../assets/images/atelier/modulation/modulation-tremolo.png)
+![An LFO connected to gain creating a tremolo effect](../assets/images/atelier/modulation/modulation-tremolo.png)
 
 Click the "+" button in the bottom row of the interface to instantiate a modulator (e.g.
 [_Agitation_](../modules/agitation.md)). Each modulator has a handle in the top right corner
