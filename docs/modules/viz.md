@@ -43,7 +43,7 @@ _Viz_ is split into four zones that can be freely resized.
 
 - **Pause:** When toggled on freezes inputs. Views can be explored (zoomed etc.) during pause.
 - **Channel Mute:** Clicking toggles channel. Cmd + click solos a channel. Use click + drag to toggle several channels at once.
-- **VU-Meters:** Show the loudness of a channel in the channel color. Underlayed in white the sum of all channels. Hover over a channel VU-Meter to see a numerical read-out in the help area at the bottom of _Atelier_'s window.
+- **VU-Meters:** Show the loudness of a channel in the channel's color. Underlayed in white is the sum of all channels. Hover the mouse over a channel VU-Meter to see a numerical readout in the help area at the bottom of _Atelier_'s window.
 
 ### Spectrum analyzer and spectrogram
 
@@ -58,7 +58,7 @@ _Viz_ is split into four zones that can be freely resized.
 
 Channels can be dragged and re-arranged to better match the physical space loudspeakers are arranged in.
 
-- **Correlation meter zoom:** Display zoom. Adjustable from 0.1 to 1. Default: 0.5.
+- **Correlation meter zoom:** Display zoom.
 
 ### Oscilloscope
 
@@ -67,20 +67,20 @@ Channels can be dragged and re-arranged to better match the physical space louds
     - Autocorrelation
     - Frequency
     - Rising Edge
-- **Trigger frequency:** Adjust the frequency when **Trigger source** is set to "Frequency"
+- **Trigger frequency:** Controls the retrigger frequency when **Trigger source** is set to "Frequency"
 
 ---
 
 ## Tips and tricks
 
-### Identifying pitch using the spectrum analyzer
+### Identify pitches
 
 ![A screenshot showing Viz closing in on a peak](../assets/images/modules/viz/viz-tips-peak.png)
 
-You can use the spectrum analyzer with its numerical readout to determine the pitch of an input signal. First set the **FFT size** to 16384. Press **Pause** to freeze the audio input. Then identify the highest peak in the spectrum. You drag to zoom in on it. When you move the mouse over the display you'll see a colored dot marking its current position on the x-axis and the amplitude on the y-axis. On the "head-up display" you'll see the exact frequency and musical pitch corresponding to the mouse position.
+You can use the spectrum analyzer with its numerical readout to determine the pitch of an input signal. First set the **FFT size** to 16384. Press **Pause** to freeze the audio input. Then identify the highest peak in the spectrum. Click + drag the mouse to zoom in on the peak. When you move the mouse over the display you'll see a colored dot marking its current position on the x-axis and the amplitude on the y-axis. On the "head-up display" you'll see the exact frequency and musical pitch corresponding to the mouse position.
 
-### Observing phase effects causing beat frequencies
+### Observe phase effects on beat frequencies
 
 ![A screenshot showing Gen and Viz](../assets/images/modules/viz/viz-tips-phasing.png)
 
-When two sounds sound at almost but not exactly the same frequency they will interfere in such a way that they will cause a beating pattern similar to a tremolo. Using the correlation meter it is easy to observe why this is the case. First create a [Gen](gen.md) module. Set **Mix** to 100%. Create two sine oscillators and space them so the have somewhere between 0.1 and 2 Hz of difference in frequency. Now insert a _Viz_ module in the chain after _Gen_. Observing the correlation meter you'll see how the white dots representing the audio signal will rhythmically oscillate between the edge of the frame and the center. When the dots are at the edge the signals are out of phase and cancel each other out. When the dot is in the center the signals reinforce each other. You can 'pin down' one of the signals on the oscilloscope by setting the **Trigger frequency** to the exact frequency of the oscillator. You'll see how the other signal is appearing to move relatively. The beat frequency in Hz is just the difference between both frequencies. So for example if you would want to create a beat frequency at 1/4 of 120 BPM just set the two oscillators to be exactly 2 Hz apart.
+When two sounds sound at almost but not exactly the same frequency they will interfere in such a way that they will cause a beating pattern similar to a tremolo. Using the correlation meter it is easy to observe why this is the case. First create a [Gen](gen.md) module. Set **Mix** to 100% and **Spread** to 0%. Create two sine oscillators and space them so that they have somewhere between 0.1 and 2 Hz of difference in frequency. Now insert a _Viz_ module in the chain after _Gen_. Observing the correlation meter you'll see how the white dots representing the audio signal will rhythmically oscillate between the edge of the frame and the center. When the dots are at the edge the signals are out of phase and cancel each other out. When the dot is in the center the signals reinforce each other. You can 'pin down' one of the signals on the oscilloscope by setting the **Trigger frequency** to the exact frequency of the oscillator. You'll see how the other signal appears to slowly move by sometimes aligning in phase and sometimes going out of phase. The beat frequency in Hz is simply the difference between both frequencies. So for example if you would want to create a beat frequency at 1/4 of 120 BPM just set the two oscillators to be exactly 2 Hz apart.
