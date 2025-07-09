@@ -125,7 +125,9 @@ crank Feedback to 100% and the material in the buffer will accumulate and repeat
 is Snapshot 5). Start here: feed some live-played input (voice, guitar, synth) and build layers upon
 layers, interacting with past material as if it was another player.
 
-From here, try out a few trics: modulate the delay time slightly for imperfect repetitions, lower **Speed** and/or increase **Bandpass** for generational degradation, add a second tap closeby for complex stereo interplays... the world of delays is your oyster.
+From here, try out a few tricks: modulate the delay time slightly for imperfect repetitions, lower
+**Speed** and/or increase **Bandpass** for generational degradation, add a second tap closeby for
+complex stereo interplays... the world of delays is your oyster.
 
 ### Flangers, choruses and all that
 
