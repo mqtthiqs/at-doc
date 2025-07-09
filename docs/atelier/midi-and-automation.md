@@ -4,7 +4,7 @@ _Remote control in your paw_
 
 There are points where you want to get hands-on with your instrument. Be it for searching a sweetspot with your eyes closed or to perform a patch acting on multiple parameters at once. _Atelier_ provides a simple and straight forward way to map your hardware controllers, MIDI keys etc. to pretty much all controls you can see on screen; liberating you from the mouse and the necessity to look at the display.
 
-In the context of a composition, when _Atelier_ is used as a [plug-in](../atelier/getting-started.md#use-as-a-plugin), automations can be used to control aspects of your patches evolving over time.
+In the context of a composition, when _Atelier_ is loaded as a [plug-in](../atelier/getting-started.md#use-as-a-plugin), automations can be used to control aspects of your patches evolving over time.
 
 ## Features
 
@@ -40,7 +40,7 @@ Once your setup is ready mapping a control is very simple:
 
         If you want one controller to control several parameters just create a [Control](../modules/control.md) module and [set it up to control several parameters](#control-several-parameters-with-a-macro-control).
 
-  4.  Once the mapping of a parameter is complete a dashed blue outline is drawn around the control to signify that it is mapped.
+  4.  Once the mapping of a parameter is complete a dashed blue outline is drawn around the control to indicate that it is mapped.
 
 ## Automations (when used as plugin)
 
@@ -73,4 +73,4 @@ Sometimes it is desirable to control several parameters with a single hardware c
 
 ![Control as a proxy to smooth the pitch parameter of an oscillator](../assets/images/atelier/midi-and-automation/midi-tips-smooth-low-res-ctl.png)
 
-MIDI as a standard stood the test of time. But with its wide adoption comes the legacy of old digital systems. MIDI control change values only have a resolution of 7 bits. That means they can only adapt values between 0 and 127. While _Atelier_ applies a certain amount of smoothing to all parameters for some musical applications the low resolution output of MIDI controls might sound too 'step-y'. If this is the case you can create a [Control](../modules/control.md) and map your controller to the **Value** parameter of [Control](../modules/control.md). Then set **Smooth** to 250ms. Create a modulation from [Control](../modules/control.md) to the desired parameter.
+MIDI as a standard stood the test of time. But with its wide adoption comes the legacy of old digital systems. MIDI control change values only have a resolution of 7 bits. That means they can only adapt values between 0 and 127. While _Atelier_ applies a certain amount of smoothing to all parameters for some musical applications the low resolution output of MIDI controls might sound too 'step-y'. If this is the case you can create a [Control](../modules/control.md) module and map your controller to the **Value** parameter of [Control](../modules/control.md). Then set **Smooth** to 250ms. Create a modulation from [Control](../modules/control.md) to the desired parameter.
