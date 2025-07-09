@@ -1,16 +1,18 @@
 # MIDI and automations
 
 _Remote control in your paw_
-<!-- hands on? -->
 
 !!! warning "This section is a **work in progress**"
 
-<!-- performance -->
-<!-- using in a track? -->
+There are points where you want to get hands-on with your instrument. Be it for searching a sweetspot with your eyes closed or to perform a patch acting on multiple parameters at once. _Atelier_ provides a simple and straight forward way to map your hardware controllers, MIDI keys etc. to pretty much all controls you can see on screen; liberating you from the mouse and the necessity to look at the display.
 
-All sliders and buttons can be controlled by MIDI or when _Atelier_ is loaded as plug-in be automated. 
+In the context of a composition, when _Atelier_ is used as a [plug-in](../atelier/getting-started.md#use-as-a-plugin), automations can be used to control aspects of your patches evolving over time.
 
 ## Features
+
+- Simple mapping of faders, knobs and MIDI keys to controls
+- Feedback to hardware controllers with motorized faders or endless encoders
+- Freely assignable automations for use in a DAW
 
 ## MIDI
 
@@ -18,7 +20,8 @@ _Atelier_ can be remote controlled by external MIDI control surfaces. You can us
 
 You can configure the MIDI devices in the [Audio and MIDI setup](../atelier/getting-started.md#application-audio-midi-setup). In the list of available MIDI devices select all MIDI devices that you want to use to control _Atelier_. If you have a MIDI control surface with motorized faders or endless encoders you can select it in **MIDI Output**. In this case whenever your change a patch or move a control using the mouse the hardware will reflect the current parameter value.
 
-If you use _Atelier_ as a plug-in you might need to setup your DAW to forward MIDI messages to the track.
+!!! note
+    If you use _Atelier_ as a plug-in you might need to setup your DAW to forward MIDI messages to the track.
 
 Once your setup is ready mapping a control is very simple:
 
@@ -28,7 +31,7 @@ Once your setup is ready mapping a control is very simple:
 
     This will bring up the **Parameter mappings window** with the selected parameter highlighted.
 
-    ![Parameter mappings window waiting for MIDI input](../assets/images/atelier/midi-and-automation/midi-learn-waiting.png){width=50%}
+    ![Parameter mappings window waiting for MIDI input](../assets/images/atelier/midi-and-automation/midi-learn-waiting.png)
 
 3.  Send a MIDI message by moving a fader, turning a knob or pressing a key.
 
