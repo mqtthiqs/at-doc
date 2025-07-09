@@ -1,9 +1,7 @@
-Spectral scalpel
+Spectral chisel
 {.tagline}
 
 # ![Band module logo](../assets/images/modules/band/band.svg){.module-logo} Band
-
-!!! warning "This section is a **work in progress**"
 
 ![Screenshot of the Band module](../assets/images/modules/band/band.png){.main-pic}
 
@@ -14,17 +12,27 @@ creative than technical, _Band_ is a spectral sculptor's tool of choice.
 
 ## Features
 
-- Precise multi-band filter with up to 16 spatializable bands
+- Precise filter bank with up to 16 spatializable bands
 - Continuous slope setting for razor-sharp selectivity or gentle pushes
 - Adjustable formant-shaping bumps at transition frequencies
 - Band-pass or band-reject modes per band
 
 ## Context
 
+A staple of the electronic music studio, the filter bank is a transformative tool, letting you
+freely shape the spectral content of your sounds.
+
+_Band_ is a bank of independently-controlled filters, cutting, reducing or amplifying parts of its
+input's spectrum. Each band lets you either remove the low and high frequencies, keeping only a
+precise band of interest (band-pass), or notch out a band, keeping everything surrounding it intact
+(band-reject). Each band has an independent gain; band shapes are then combined additively,
+resulting in any desired frequency response. And like all other modules, bands are assigned to one
+or several channels, for multichannel filtering.
+
 !!! note
 
     Under the hood, _Band_ uses linear-phase FFT processing; this is what makes its versatility and
-    precision, but it also implies:
+    precision, but also implies:
 
     - a natural latency of around 2000 samples, i.e. 20 ms at 96kHz, 40 ms at 48kHz, etc. As usual, the higher the sample rate, the smaller the latency.
     - some pre-ringing when the slope is extremely steep. If that's a problem, increasing **Slope** to a few semitones drastically reduces ringing.
