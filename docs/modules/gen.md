@@ -9,9 +9,15 @@ TODO
 
 ## Features
 
+- Up to 16 TODO
+- Wide sonic palette thanks to four mixable waveforms, each with morph parameter
+- Envelope follower
+
 ## Context
 
 <!-- generators share waveforms unless modulated -->
+
+---
 
 ## Controls
 
@@ -48,6 +54,8 @@ All parameters in the waveform area have as many independently-modulatable insta
  independently-modulatable instances as there are generators (see
  [Modulation](../atelier/modulation.md)).
 
+- **Quantize** button: click to quantize all generator pitches to the closest semitone.
+
 The following parameters are local to each generator:
 
 - **Pitch:** Pitch of the generator.
@@ -65,6 +73,8 @@ The following parameters have as many independently-modulatable instances as the
 
 - **Spread:** Global channel-locality of all generators. This value is added to the local **Spread** of each generator.
 - **Gain:** Global gain of all generators.
+
+---
 
 ## Tips and tricks
 
