@@ -61,4 +61,15 @@ As a shortcut to map parameters in quick succession there is a special patch poi
 
 ### Control several parameters with a macro control
 
+![Control controlling several parameters](../assets/images/atelier/midi-and-automation/midi-tips-macro-control.png)
+
+Sometimes it is desirable to control several parameters with a single hardware control or automation. You might for instance want to change the 'intensity' of a sound: increasing the gain at the same time as the complexity of its waveform. Just add a [Control](../modules/control.md) modulation and connect it to the parameters you want to control. Then map the **Value** parameter of the [Control](../modules/control.md) to an automation or a MIDI controller.
+
+!!! note
+    If you want the value of one parameter to decrease as the others increase you can change the modulation amount of a parameter to a negative number.
+
 ### Smooth low-res MIDI using Control
+
+![Control as a proxy to smooth the pitch parameter of an oscillator](../assets/images/atelier/midi-and-automation/midi-tips-smooth-low-res-ctl.png)
+
+MIDI as a standard stood the test of time. But with its wide adoption comes the legacy of old digital systems. MIDI control change values only have a resolution of 7 bits. That means they can only adapt values between 0 and 127. While _Atelier_ applies a certain amount of smoothing to all parameters for some musical applications the low resolution output of MIDI controls might sound too 'step-y'. If this is the case you can create a [Control](../modules/control.md) and map your controller to the **Value** parameter of [Control](../modules/control.md). Then set **Smooth** to 250ms. Create a modulation from [Control](../modules/control.md) to the desired parameter.
