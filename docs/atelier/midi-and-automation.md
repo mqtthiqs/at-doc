@@ -42,7 +42,7 @@ Once your setup is ready mapping a control is very simple:
 
 ## Automations (when used as plugin)
 
-When used as a plug-in in a DAW you can automate parameters to record movements and schedule changes that should happen over time. Due to limitations of plug-in formats and plug-in hosts only a limited pre-defined number of parameters can be made available to DAWs for automation. _Atelier_ provides 64 'slots' of freely assignable automations that can be mapped to any control inside the plug-in for control in the DAW.
+When used as a plug-in in a DAW you can automate parameters to record movements and schedule changes that should happen over time. Due to limitations of plug-in formats only a limited pre-defined number of parameters can be made available to DAWs for automation. _Atelier_ provides 64 'slots' of freely assignable automations that can be mapped to any control inside the plug-in. Mapped parameters can then be controlled from the DAW.
 
 To expose a parameter to the DAW's automation system just right-click on the button or slider you want to automate. In the parameter menu choose **Automate Parameter**. _Atelier_ will automatically map the parameter to the next available automation slot. To indicate that a control is mapped its outline is highlighted with a dashed blue line. You can see what automation slot it is mapped to either by right-clicking on the control or by clicking the mappings button in the status bar to bring up the mappings window.
 
