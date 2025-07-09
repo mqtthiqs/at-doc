@@ -49,6 +49,14 @@ To expose a parameter to the DAW's automation system just right-click on the but
 
 ## The parameter mappings window
 
+![Screenshot of the parameter mappings window with some parameters mapped to automations and MIDI controls](../assets/images/atelier/midi-and-automation/midi-automations-parameter-mappings-window.png)
+
+The parameter mappings window is the central hub for managing mappings to automations and MIDI controls. It is the place to correct automatically assigned automation slot, manually choose the desired MIDI event from a drop down menu or re-map a control with MIDI learn.
+
+Hovering the mouse over the patch points at the beginning of each row will show a virtual cable helping you to find the mapped control. You can drag a wire from the patch point to a control if you want to re-map an automation and/or MIDI event to a different parameter.
+
+As a shortcut to map parameters in quick succession there is a special patch point at the bottom of the window. Drag a cable from here to the control you wish to map. A new row in the mappings table will be created and **MIDI Learn** mode will be active for this parameter.
+
 ## Tips and tricks
 
 ### Control several parameters with a macro control
