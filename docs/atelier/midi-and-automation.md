@@ -28,6 +28,7 @@ Once your setup is ready mapping a control is very simple:
 
     This will bring up the **Parameter mappings window** with the selected parameter highlighted.
 
+    ![Parameter mappings window waiting for MIDI input](../assets/images/atelier/midi-and-automation/midi-learn-waiting.png){width=50%}
 
 3.  Send a MIDI message by moving a fader, turning a knob or pressing a key.
 
