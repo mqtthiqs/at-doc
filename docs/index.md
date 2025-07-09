@@ -33,7 +33,7 @@ connectible:
   are simple and understandable, yet reward curiosity and creative misuse.
 * **Hybrid Workflow:** Sound generation and processing in one place; build an advanced synth, a
   granular FX chain, or something never seen before.
-* **Parameter Morphing:** Transition between module presets or randomize parameters with smooth
+* **Parameter Morphing:** Transition between module snapshots or randomize parameters with smooth
   sonic interpolation, ideal for performance, evolving patches or simply to be surprised.
 
 ## Philosophy

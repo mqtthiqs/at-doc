@@ -101,7 +101,7 @@ temporarily set **Spread** to 100%, make the frequency response (solid white lin
 possible, then set **Spread** back to 0%. You can follow _Band_ with e.g. a _Pitch_ instance, to
 pitch-shift and/or delay each band by a different amount.
 
-Factory presets 2 or 3 illustrate this technique.
+Factory snapshots 2 or 3 illustrate this technique.
 
 ### Graphic equalizer
 
@@ -112,4 +112,4 @@ with **Spread** at 0%. A slightly increased **Slope** will smoothen the bands an
 Now display Gain on the Y axis (**Y axis parameter**), and adjust the gain of each band as desired.
 Use the Option key to lock the X axis when dragging a band. You now have a graphic equalizer.
 
-Factory presets 4 and 5 illustrate this technique.
+Factory snapshots 4 and 5 illustrate this technique.

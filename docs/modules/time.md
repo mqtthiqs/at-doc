@@ -122,7 +122,7 @@ is a precise but rewarding process, as you discover new syncopations and grooves
 
 With a single tap set to a long delay (several seconds), _Time_ can be used as a simple looper: just
 crank Feedback to 100% and the material in the buffer will accumulate and repeat indefinitely (this
-is Preset 5). Start here: feed some live-played input (voice, guitar, synth) and build layers upon
+is Snapshot 5). Start here: feed some live-played input (voice, guitar, synth) and build layers upon
 layers, interacting with past material as if it was another player.
 
 From here, try out a few trics: modulate the delay time slightly for imperfect repetitions, lower **Speed** and/or increase **Bandpass** for generational degradation, add a second tap closeby for complex stereo interplays... the world of delays is your oyster.

@@ -57,12 +57,12 @@ it:
 - In the popup, enter `~/Library/Application Support/`
 - The configuration file is `com.INAgrm.GRMTools.Atelier.settings`
 
-### I customized my module presets, but they disappeared after starting a new patch
+### I saved some snapshots on a module, but they disappeared after starting a new patch
 
-Module presets are saved and can be different for each instances of each module. There is no way to
-save (yet). Do reach out if you think it would be useful to you.
+Module snapshots are saved in a patch and can be different for each instances of each module. There
+is no way to save (yet). Do reach out if you think it would be useful to you.
 
-### Presets morphing is cool, but where do I set the morph time?
+### Morphing is cool, but where do I set the morph time?
 
 The _Morph Time_ slider is in the sidebar on the right. It applies to morphing when loading a
-preset, when randomizing, and sets the speed of elastic moves.
+snapshot, when randomizing, and sets the speed of elastic moves.
