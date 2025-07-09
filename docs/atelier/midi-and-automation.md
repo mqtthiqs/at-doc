@@ -2,8 +2,6 @@
 
 _Remote control in your paw_
 
-!!! warning "This section is a **work in progress**"
-
 There are points where you want to get hands-on with your instrument. Be it for searching a sweetspot with your eyes closed or to perform a patch acting on multiple parameters at once. _Atelier_ provides a simple and straight forward way to map your hardware controllers, MIDI keys etc. to pretty much all controls you can see on screen; liberating you from the mouse and the necessity to look at the display.
 
 In the context of a composition, when _Atelier_ is used as a [plug-in](../atelier/getting-started.md#use-as-a-plugin), automations can be used to control aspects of your patches evolving over time.
