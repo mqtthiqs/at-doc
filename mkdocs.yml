@@ -35,14 +35,14 @@ nav:
   - Modules:
       - modules/index.md
       - Processors:
-          - modules/viz.md
-          - modules/gain.md
+          - modules/play.md
           - modules/gen.md
           - modules/comb.md
           - modules/band.md
           - modules/pitch.md
-          - modules/play.md
           - modules/time.md
+          - modules/gain.md
+          - modules/viz.md
       - Modulators:
           - modules/agitation.md
           - modules/control.md

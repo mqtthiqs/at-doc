@@ -14,5 +14,5 @@
 ## Modulators
 
 [![Screenshot of the Agitation module](../assets/images/modules/agitation/agitation.png){.carousel-img-small}](agitation.md)
-[![Screenshot of the Peak module](../assets/images/modules/peak/peak.png){.carousel-img-small}](peak.md)
 [![Screenshot of the Control module](../assets/images/modules/control/control.png){.carousel-img-small}](control.md)
+[![Screenshot of the Peak module](../assets/images/modules/peak/peak.png){.carousel-img-small}](peak.md)
