@@ -19,28 +19,30 @@ _Atelier_ can be remote controlled by external MIDI control surfaces. You can us
 You can configure the MIDI devices in the [Audio and MIDI setup](../atelier/getting-started.md#application-audio-midi-setup). In the list of available MIDI devices select all MIDI devices that you want to use to control _Atelier_. If you have a MIDI control surface with motorized faders or endless encoders you can select it in **MIDI Output**. In this case whenever your change a patch or move a control using the mouse the hardware will reflect the current parameter value.
 
 !!! note
+
     If you use _Atelier_ as a plug-in you might need to setup your DAW to forward MIDI messages to the track.
 
 Once your setup is ready mapping a control is very simple:
 
-1.  Right-click on the slider or button you want to control to bring up the parameter menu.
+1. Right-click on the slider or button you want to control to bring up the parameter menu.
 
-2.  Choose **Learn MIDI**.
+2. Choose **Learn MIDI**.
 
-    This will bring up the **Parameter mappings window** with the selected parameter highlighted.
+   This will bring up the **Parameter mappings window** with the selected parameter highlighted.
 
-    ![Parameter mappings window waiting for MIDI input](../assets/images/atelier/midi-and-automation/midi-learn-waiting.png)
+   ![Parameter mappings window waiting for MIDI input](../assets/images/atelier/midi-and-automation/midi-learn-waiting.png)
 
-3.  Send a MIDI message by moving a fader, turning a knob or pressing a key.
+3. Send a MIDI message by moving a fader, turning a knob or pressing a key.
 
-    You will see a description of the MIDI event in the MIDI column of the mappings table. Click anywhere to exit MIDI learn mode and accept the controller assignment. Click on the trash bin icon if you want to abort.
+   You will see a description of the MIDI event in the MIDI column of the mappings table. Click anywhere to exit MIDI learn mode and accept the controller assignment. Click on the trash bin icon if you want to abort.
 
-    !!! note
-        If the hardware control was previously assigned to another parameter a warning icon will appear next to the MIDI event description. Hover with the mouse over the warning icon to see what parameter it was previously assigned to. Once you accept the new mapping the old one will be overwritten.
+!!! note
+   
+      If the hardware control was previously assigned to another parameter a warning icon will appear next to the MIDI event description. Hover with the mouse over the warning icon to see what parameter it was previously assigned to. Once you accept the new mapping the old one will be overwritten.
 
-        If you want one controller to control several parameters just create a [Control](../modules/control.md) module and [set it up to control several parameters](#control-several-parameters-with-a-macro-control).
+   If you want one controller to control several parameters just create a [Control](../modules/control.md) module and [set it up to control several parameters](#control-several-parameters-with-a-macro-control).
 
-  4.  Once the mapping of a parameter is complete a dashed blue outline is drawn around the control to indicate that it is mapped.
+1. Once the mapping of a parameter is complete a dashed blue outline is drawn around the control to indicate that it is mapped.
 
 ## Automations (when used as plugin)
 
@@ -67,7 +69,8 @@ As a shortcut to map parameters in quick succession there is a special patch poi
 Sometimes it is desirable to control several parameters with a single hardware control or automation. You might for instance want to change the 'intensity' of a sound: increasing the gain at the same time as the complexity of its waveform. Just add a [Control](../modules/control.md) modulation and connect it to the parameters you want to control. Then map the **Value** parameter of the [Control](../modules/control.md) to an automation or a MIDI controller.
 
 !!! note
-    If you want the value of one parameter to decrease as the others increase you can change the modulation amount of a parameter to a negative number.
+
+      If you want the value of one parameter to decrease as the others increase you can change the modulation amount of a parameter to a negative number.
 
 ### Smooth low-res MIDI using Control
 

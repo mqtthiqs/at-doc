@@ -17,11 +17,9 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 
 ## Context
 
-Spliced tape, varispeed and reversed reels: in the hands of musique concrète artists, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation.
-_Play_ taps into this history enabling polyphonic exploration of the source material without cluttering your desk with snippets of magnetic tape.
+Spliced tape, varispeed and reversed reels: in the hands of musique concrète artists, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation. _Play_ taps into this history enabling polyphonic exploration of the source material without cluttering your desk with snippets of magnetic tape.
 
-When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave. Playing the same material
-in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
+When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave. Playing the same material in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
 
 Each cursor can have an independent pitch and playback position. Fade is applied on play and pause as an envelope. In looped mode it additionally determines the overlap of the loop region. If fade is at 100% the sound will always overlap. When a region changes during playback the playhead will attempt to restart within the new region. To ensure a smooth and consistent playback it will keep fading out from its original position.
 
@@ -43,8 +41,7 @@ _Play_ you can load mono, stereo and multichannel audio files. If the number of 
 
 ### Region overview
 
-The region overview integrates a view of the entire file, the playback region and the envelope. When hovering the mouse over the waveform the pointer becomes a hand. Click-and-drag allows to pan and zoom the viewed region.
-The playback region is represented by a blue bar at the top of the region overview. It can be manipulated by drag and drop: vertical drag shrinks/enlarges the region, horizontal drag moves it. Additionally start and end points can be adjusted by dragging the vertical bars at the beginning or end of the region. Holding down alt while dragging anywhere on the waveform allows to define a new playback region.
+The region overview integrates a view of the entire file, the playback region and the envelope. When hovering the mouse over the waveform the pointer becomes a hand. Click-and-drag allows to pan and zoom the viewed region. The playback region is represented by a blue bar at the top of the region overview. It can be manipulated by drag and drop: vertical drag shrinks/enlarges the region, horizontal drag moves it. Additionally start and end points can be adjusted by dragging the vertical bars at the beginning or end of the region. Holding down alt while dragging anywhere on the waveform allows to define a new playback region.
 
 ### Cursor area
 
@@ -96,8 +93,7 @@ To achieve a phasing effect — as popularized by Steve Reich — place two play
 
 ![Screenshot of four playheads at different pitches with very short smooth playback regions](../assets/images/modules/play/play-tips-granular-large.png){width=50%, align=right}
 
-Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds.
-In line with _Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the **Duration** to a very small value. Note that the absolute value of the loop duration is displayed right next to the duration slider. Next add a generous amount of **Fade** (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to **Position**. Voilà.
+Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds. In line with _Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the **Duration** to a very small value. Note that the absolute value of the loop duration is displayed right next to the duration slider. Next add a generous amount of **Fade** (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to **Position**. Voilà.
 
 Time and pitch stretching effects can be achieved by modulating **Duration** with a linearly increasing curve (e.g. using [Peak](peak.md) in loop mode with **Slant** at 100%). Adjust the modulator's time to vary the speed; adjust the playhead's pitch to repitch while keeping the overall tempo.
 
@@ -105,8 +101,7 @@ Time and pitch stretching effects can be achieved by modulating **Duration** wit
 
 ![Screenshot of Play with envelopes adjusted to create percussive sounds from a drone chained with Comb](../assets/images/modules/play/play-tips-percussive-large.png)
 
-Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to or close to 0%. Adjust **Ease** to make a fast decay. Note that **Declick** adds a bit of smoothing even if **Slant** is at 0%. If you want very sharp attacks set **Declick** to 0ms. To get a great variety of sounds slowly modulate **Position**.
-Tip: this might pair nicely with [Comb](comb.md) further down the chain.
+Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to or close to 0%. Adjust **Ease** to make a fast decay. Note that **Declick** adds a bit of smoothing even if **Slant** is at 0%. If you want very sharp attacks set **Declick** to 0ms. To get a great variety of sounds slowly modulate **Position**. Tip: this might pair nicely with [Comb](comb.md) further down the chain.
 
 
 ### Multichannel cannon
