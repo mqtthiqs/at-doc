@@ -1,6 +1,5 @@
-TODO
+Not a pitch shifter
 {.tagline}
-
 
 # ![Pitch module logo](../assets/images/modules/pitch/pitch.svg){.module-logo} Pitch
 
@@ -9,6 +8,9 @@ TODO
 ![Screenshot of the Pitch module](../assets/images/modules/pitch/pitch.png){.main-pic}
 
 ## Features
+
+- Delay buffer, granular pitch shifter
+-  
 
 ## Context
 
