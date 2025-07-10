@@ -69,7 +69,7 @@ The following parameters have as many independently-modulatable instances as the
 
 - **Position:** Center position of the playback region.
 - **Duration:** Duration of the playback region in percentage of the total file length.
-- **Spread:** Channel-locality of each playhead. At 0%, each playhead processes only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, each playhead processes all channels in parallel (multi-mono).
+- **Spread:** Channel-locality of each play head. At 0%, each play head reads only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, each play head reads all channels in parallel (multi-mono).
 - **Gain:** Output gain of all playheads. Combined with the gain of playhead.
 - **Fade:** Combined length of the fade-in and fade-out envelope. In loop mode it determines the cross fade time.
 - **Slant:** Distribution of fade time between fade in and fade out. At 0% the attack is instant and the entire time is used for the fade out; at 50% the envelope is symmetric; at 100% the envelope is slanted towards the right.
