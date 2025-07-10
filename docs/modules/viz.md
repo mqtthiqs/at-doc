@@ -27,9 +27,10 @@ The **oscilloscope** is maybe one of the oldest electronic sound visualization t
 The **spectrum analyzer** analyzes very short fragments of audio computing the amplitudes of frequencies that make up the analyzed signal. In the digital world this is done using the _Fast Fourier Transform (FFT)_ where the spectrum is split into a discrete set of frequency bins that are analyzed. An FFT of bigger size is more accurate because it analyzes a longer segment of the signal, which allows it to distinguish between frequencies that are very close together. The more data points it uses, the finer the frequency resolution, so you can see smaller differences between pitches in the spectrum. However the bigger the size of an FFT the slower it reacts. So choosing the size of an FFT is a trade of between frequency accuracy and precision in the time domain.
 
 !!! note
+
     Due to the non-linearity in pitch perception but the linear nature of frequency bin distribution in FFTs generally a larger window has to be chosen to analyze low-frequency content.
 
-The **correlation meter** visualizes the similarity between multiple audio channels over time. It is especially useful for analyzing phase relationships. _Viz_ brings this to a whole new dimension correlating not only stereo channels with each other but highlighting the relationship between all channels. 
+The **correlation meter** visualizes the similarity between multiple audio channels over time. It is especially useful for analyzing phase relationships. _Viz_ brings this to a whole new dimension correlating not only stereo channels with each other but highlighting the relationship between all channels.
 
 ---
 
