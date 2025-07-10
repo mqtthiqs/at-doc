@@ -5,11 +5,11 @@ Temporal machine
 
 ![Screenshot of the Time module](../assets/images/modules/time/time.png){.main-pic}
 
-_Time_ is a delay unlike any other. It an exploration of how far the concept of a delay can be
-pushed into uncharted territories. In its simplest form, it takes audio as input, stores it in a
-buffer and replays it a while later. But with up to 32 freely-tunable taps, variable transport
-speed, continuous granular playback and per-tap band-pass filters, it can reach sound
-transformations yet unheard of. _Time_ is the ace of spades of time-domain operations.
+_Time_ is a delay unlike any other. An exploration of how far the concept of a delay can be pushed
+into uncharted territories. In its simplest form, it takes audio as input, stores it in a buffer and
+replays it a while later. But with up to 32 freely-tunable taps, variable transport speed,
+continuous granular playback and per-tap band-pass filters, it can reach sound transformations yet
+unheard of. _Time_ is the ace of spades of time-domain operations.
 
 ## Features
 
