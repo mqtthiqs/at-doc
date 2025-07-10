@@ -12,20 +12,18 @@ creative than technical, _Band_ is a spectral sculptor's tool of choice.
 
 ## Features
 
-- Precise filter bank with up to 16 spatializable bands
+- Precise filter bank with up to 16 independent & spatializable bands
 - Continuous slope setting for razor-sharp selectivity or gentle pushes
 - Adjustable formant-shaping bumps at transition frequencies
 - Band-pass or band-reject modes per band
 
 ## Context
 
-A staple of the electronic music studio, the filter bank is a transformative tool, letting you
-freely shape the spectral content of your sounds.
-
-_Band_ is a bank of independently-controlled filters, cutting, reducing or amplifying parts of its
-input's spectrum. Each band lets you either remove the low and high frequencies, keeping only a
-precise band of interest (band-pass), or notch out a band, keeping everything surrounding it intact
-(band-reject). Each band has an independent gain; band shapes are then combined additively,
+Filtering can be a transformative tool, letting you freely shape the spectral content of your
+sounds. _Band_ is a bank of independently-controlled filters, cutting, reducing or amplifying parts
+of its input's spectrum. Each band lets you either remove the low and high frequencies, keeping only
+a precise band of interest (band-pass), or notch out a band, keeping everything surrounding it
+intact (band-reject). Each band has an independent gain; band shapes are then combined additively,
 resulting in any desired frequency response. And like all other modules, bands are assigned to one
 or several channels, for multichannel filtering.
 
