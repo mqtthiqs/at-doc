@@ -1,4 +1,6 @@
-TODO
+<!-- les signaux naîssent/surgissent; la source des signaux; le printemps des signaux -->
+<!-- alt: Where signals spring -->
+Signals spring
 {.tagline}
 
 # ![Gen module logo](../assets/images/modules/gen/gen.svg){.module-logo} Gen
