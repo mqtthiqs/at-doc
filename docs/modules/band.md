@@ -61,7 +61,7 @@ Each band has three parameters:
 
 ### Global controls
 
-- **Mix:** Crossfades the dry signal (0%) with the wet signal (100%).
+- **Mix:** Crossfades between the dry (0%) and the wet signal (100%).
 
 The following parameters have as many independently-modulatable instances as there are bands (see [Modulation](../atelier/modulation.md)).
 
