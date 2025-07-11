@@ -5,7 +5,12 @@ Resonance treasure trove
 
 ![Screenshot of the Comb module](../assets/images/modules/comb/comb.png){.main-pic}
 
-At its heart, the comb filter is arguably the most basic building block of signal processing. Let's turn it into a creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple component into it a fun and versatile physical modeling-inspired instrument with wide sonic possibilities: realistic string chords & bells, subtle coloring or massive reverberations, all nuances of wooden, metallic, hollow or full tones... Whether used as an end-of-chain effect or as an integral synthesis block, _Comb_ is a resonance treasure trove.
+The comb filter is arguably the most basic building block of signal processing. Let's turn it into a
+creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple component into it
+a fun and versatile physical modeling-inspired instrument with wide sonic possibilities: realistic
+string chords & bells, subtle coloring or massive reverberations, all nuances of wooden, metallic,
+hollow or full tones... Whether used as an end-of-chain effect or as an integral synthesis block,
+_Comb_ is a resonance treasure trove.
 
 ## Features
 
