@@ -20,6 +20,12 @@ Use it for old tricks (tuning or harmonize, thickening), or explore a wealth of 
 
 ## Context
 
+Feed a voice into _Pitch_, click to make a pitch shifter: the voice is well... transposed and delayed. But what actually happens is not magic: the input is recorded into the buffer like a tape, and the content of the buffer is cut into small grains. Two overlapping play heads continuously read the grains around the cursor (the delay time) at a speed proportional to the transposition required. Pitch shifting is just playing small overlapping grains of sound at a speed different than the recording speed!
+
+This overlap/add mechanism is one of the oldest ideas in signal, and was even. 
+
+and each grain is replayed at a speed dependent on the . Grains are then overlapped
+
 <!-- DHM -->
 <!-- archetype of a pitch shifter; much more -->
 <!-- focus on artifacts -->
@@ -29,6 +35,8 @@ Use it for old tricks (tuning or harmonize, thickening), or explore a wealth of 
 ## Controls
 
 ### Cursor area
+
+Click to add a pitch shifter; double-click a pitch shifter to remove it. All pitch shifter run in parallel with their own buffer, and are then mixed to the output.
 
 - **Quantize** button: click to quantize all pitches to the closest semitone.
 - **Clear all buffers** button: click to silence all delay buffers
