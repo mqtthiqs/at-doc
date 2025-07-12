@@ -44,6 +44,8 @@ All parameters in the waveform area have as many independently-modulatable insta
 
 ### Cursor area
 
+Click to add a generator; double-click a generator to remove it.
+
 - **Ratio:** Ratio by which all generator's frequencies are multiplied. Has as many independently-modulatable instances as there are generators (see [Modulation](../atelier/modulation.md)).
 
 - **Quantize** button: click to quantize all generator pitches to the closest semitone.
