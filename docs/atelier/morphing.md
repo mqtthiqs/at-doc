@@ -8,7 +8,7 @@ These changes can be instantaneous or continuously transition over time. Shiftin
 
 During such a transition _Atelier_ keeps a map of all effected parameter values of the current state and a map of the target values. It will continuously update the parameters with an interpolated value until it reaches the target. You can trigger several morphing operations simultaneously. The duration of each operation is determined by the value of **Morph time** at the moment you initiate it. This means that you could for example set **Morph time** to one minute, recall a snapshot in a module to initiate a very slow and gradual transition and then set **Morph time** to a much shorter value to randomize a few parameters. All the while the morphing recall is still on its way.
 
-If you touch any of the effected parameters during a morphing operation that parameter will stay at the value you selected and won't be effected by the morph anymore.
+If you touch any of the effected parameters during a morphing operation that parameter will stay at the value you selected and won't be effected by the ongoing morph anymore.
 
 !!! tip
 
