@@ -46,7 +46,7 @@ When first started, Atelier greets you with an empty patch, showing the list of 
 
     Subsequently when the application is started, it opens the last opened patch.
 
-Insert a processor from the splash screen and start playing around. Click the "+" buttons to add other modules, either processors or modulators. Processors process sound in series, from left to right; drag a module from its title bar to move it. Drag a wire from the colored round handle of a modulator and start modulating a parameter.
+Insert a processor from the splash screen and start playing around. All controls are documented in the info area in the status bar. Click the "+" buttons to add other modules, either processors or modulators. Processors process sound in series, from left to right; drag a module from its title bar to move it. Drag a wire from the colored round handle of a modulator and start modulating a parameter.
 
 ![A screenshot showing Atelier's patch browser](../assets/images/atelier/getting-started/patch-library.png)
 
