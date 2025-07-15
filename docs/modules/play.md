@@ -33,7 +33,7 @@ _Play_ you can load mono, stereo and multichannel audio files. If the number of 
 
 - **Play/pause:** Global transport state. Toggles playback of all playheads. When playing after pause the playheads will resume from their last position. This parameter has as many independently-modulatable instances as there are playheads (see [Modulation](../atelier/modulation.md)).
 - **Stop:** Immediately stops playback of all playheads. Per-playhead transport controls will be reset. When playing the next time start positions will be determined by the playhead’s start position parameter.
-- **Loop/single shot:** When toggled on: playback will be looped until paused. When toggled off: the region will play only once until Play/Pause is toggled another time.
+- **Loop/single shot:** When toggled on, playback loops until paused. When toggled off, the region plays once until Play/Pause is toggled another time.
 - **File browser:** Shows the currently loaded file. Click to bring up a list of audio files in the same directory.
 - **Record:** Records the input of the module into a temporary buffer (max. 1 minute).
 - **Save:** Save temporary buffer to file.
@@ -47,20 +47,19 @@ The region overview integrates a view of the entire file, the playback region an
 
 Click to add a playhead; double-click a playhead to remove it.
 
--	**Quantize button:** Click to quantize all playhead pitches to the closest semitone.
-
-- **Rate:** Rate multiplier of playback speed. 0x stops advancing a playhead’s position; positive plays forward; negative plays backwards. This parameter has as many independently-modulatable instances as there are playheads (see [Modulation](../atelier/modulation.md)).
+- **Quantize button:** Click to quantize all playhead pitches to the closest semitone.
+- **Rate:** Playback speed, relative to nominal file speed. Negative means reverse. This parameter has as many independently-modulatable instances as there are playheads (see [Modulation](../atelier/modulation.md)).
 
 Each playhead has four controls:
 
-- **Play/Pause (button):** Play/pause each individual playhead. A playhead will play if and only if its play/pause state is the opposite of the global playback parameter (XOR relationship)
-- **Start (X axis):** Start position in the current region. If the start position lays outside of the playback region (less than 0% or more than 100%) playback will start with a delay.
-- **Pitch (Y axis):** Pitch relative to input material in semitones. Lower pitch slows down playback, higher pitch speeds it up.
-- **Gain (Z axis):** Output gain of the playhead.
+- **Play/Pause (button):** Play head playback state. If global playback is enabled, this control is inverted.
+- **Start (X axis):** Play head position after it ended playing, or the Stop button was pressed. If the start position lays outside of the playback region (less than 0% or more than 100%) playback will start with a delay.
+- **Pitch (Y axis):** Play head playback speed, in semitones relative to nominal file speed.
+- **Gain (Z axis):** Play head output gain.
 
 ### Global controls
 
-- **Mix:** Crossfades the dry signal (0%) with the wet signal (100%).
+- **Mix:** Crossfades between the input signal (0%) and the play heads signal (100%).
 
 The following parameters have as many independently-modulatable instances as there are playheads (see [Modulation](../atelier/modulation.md)).
 
@@ -69,9 +68,9 @@ The following parameters have as many independently-modulatable instances as the
 - **Spread:** Channel-locality of each play head. At 0%, each play head reads only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, each play head reads all channels in parallel (multi-mono).
 - **Gain:** Output gain of all playheads. Combined with the gain of playhead.
 - **Fade:** Combined length of the fade-in and fade-out envelope. In loop mode it determines the cross fade time.
-- **Slant:** Distribution of fade time between fade in and fade out. At 0% the attack is instant and the entire time is used for the fade out; at 50% the envelope is symmetric; at 100% the envelope is slanted towards the right.
+- **Slant:** Ratio of time spent fading in vs. fading out. At 0% the attack is instant and the entire time is used for the fade out; at 50% the envelope is symmetric; at 100% the envelope is slanted towards the right.
 - **Ease:** Easing curve of the applied fades, from linear (0%), to abrupt (100%).
-- **Declick:** Time of short fade that is applied to suppress clicking. This fade is applied on play, pause and loops.
+- **Declick:** Minimum time of any fades. A value of 0 allows clicks; anything above smoothly fades any transition: start, stop, (cross-)fade.
 
 ---
 
