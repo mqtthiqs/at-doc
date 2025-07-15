@@ -16,6 +16,8 @@ If you touch any of the effected parameters during a morphing operation that par
 
 ## Module snapshots
 
+![A screenshot showing a bank of snapshots at the bottom of a module](../assets/images/atelier/morphing/morphing-snapshot-banks.png)
+
 Each individual module in the effects chain has the ability to take snapshots of its current state. To take and store a snapshot of a module's parameters and cursor settings hold down `⌘` while you click on one of the eight buttons at the very bottom of the module. The selected button will light up indicating that there is a custom snapshot stored on its position. When you save your patch the snapshots will be saved alongside.
 
 To recall a snapshot simply click on the corresponding number in the row of snapshot banks. Then the module will transition from its current state to the state stored in the snapshot. The duration of the transition can be adjusted with the **Morph time** slider on the sidebar of the main window. The little blinking dot in the corner of the snapshot button is indicating an ongoing morph. It stops blinking once the morph is complete.
@@ -28,12 +30,12 @@ As is the case with most parameters in _Atelier_ you can automate and modulate t
 
 ## Randomizer
 
+
+
 <!-- randomization amount -->
 <!-- randomizing whole patches -->
 <!-- randomizing modules -->
-<!-- what's part, what not? -->
-<!--    not cursor activation -->
-<!--    nor modulations or modulation amount -->
+<!-- contrary to module snapshots no rand of cursor activeness -->
 <!-- randomizing parameters -->
 <!-- randomizing parameter groups -->
 
