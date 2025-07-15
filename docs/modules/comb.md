@@ -5,25 +5,19 @@ Resonance treasure trove
 
 ![Screenshot of the Comb module](../assets/images/modules/comb/comb.png){.main-pic}
 
-The comb filter is arguably the most basic building block of signal processing. Let's turn it into a
-creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple component into it
-a fun and versatile physical modeling-inspired instrument with wide sonic possibilities: realistic
-string chords & bells, subtle coloring or massive reverberations, all nuances of wooden, metallic,
-hollow or full tones... Whether used as an end-of-chain effect or as an integral synthesis block,
-_Comb_ is a resonance treasure trove.
+The comb filter is arguably the most basic building block of signal processing. Let's turn it into a creative tool! With a handful of carefully-chosen additions, _Comb_ makes a simple component into it a fun and versatile physical modeling-inspired instrument with wide sonic possibilities: subtle coloring, massive reverberations, nuances of wooden or metallic tones... Whether used as an end-of-chain effect or as an integral synthesis block, _Comb_ is a resonance treasure trove.
 
 ## Features
 
 - Bread-and-butter, reinvented: from simple delay line to complex evolving tones
-- Multiple, precisely tunable comb filters, with independent control of pitch, decay and gain
-- Advanced physical modeling-inspired controls for a wide sonic palette
-- Simple and functional user interface
+- Multiple, precisely tunable comb filters with independent controls
+- Advanced physical modeling-inspired parameters for a wide sonic palette
 
 ## Context
 
-A comb filter is simply a very short delay with feedback. It realizes what happens in nature when sound bounces back and forth between two surfaces (standing waves); it is what makes the particular sound of a physical enclosure (instrument, room...).
+A comb filter is simply a very short delay with feedback. It mimics what happens in nature when sound bounces back and forth between two surfaces; it is what makes the particular sound of a physical enclosure (instrument, room...).
 
-As the delay gets shorter, we stop perceiving the repeats as echoes, and start hearing them as timbre coloration, or as pitch: the shorter the delay, the higher the pitch. If, just like nature does, we shave off some of the high frequencies at each repeats, the tone gets more mellow over time, simulating the travel of a displacement along a string. Fed with bursts of noise, this is often called _Karplus-Strong_ synthesis. _Comb_ takes this classic to new _digital waveguide_ territories with precise control over damping, unique inharmonic warping of partials and pick-up positioning for interesting phase-cancellation effects.
+As the delay gets shorter, we stop perceiving the repeats as echoes, and start hearing them as pitches: the shorter the delay, the higher the pitch. If, just as in nature, we shave off some of the high frequencies at each repetition, the tone gets more mellow over time, simulating the propagation of a wave along a string. Fed with bursts of noise, this is often called _Karplus-Strong_ synthesis. _Comb_ takes this classic to new _digital waveguide_ territories with precise control over damping, unique inharmonic warping of partials and pick-up positioning for interesting phasing effects.
 
 ---
 
@@ -31,20 +25,20 @@ As the delay gets shorter, we stop perceiving the repeats as echoes, and start h
 
 ### Cursor area
 
-Click to add a comb filter; double-click a comb filter to remove it. Each comb filter processes each input channel with the same parameters; they run in parallel and are mixed to the output.
-
-- **Quantize** button: click to quantize all filter frequencies to the closest semitone.
+Click to add a comb filter; double-click a comb filter to remove it. Each comb filter processes each input channel; they run in parallel and are mixed to the output.
 
 Each comb filter has three controls:
 
-- **Pitch** (X axis): Resonance frequency, in Hz or MIDI pitch.
-- **Decay** (Y axis): Decay time, in seconds, to -60dB. If the decay time is set to more than 20 sec, the decay is infinite: fed with a short impulse it will ring forever.
+- **Pitch** (X axis): Resonance frequency.
+- **Decay** (Y axis): Decay time to -60dB. If the decay time is set to more than 20 sec, the decay is infinite: fed with a short impulse it will ring forever.
 - **Gain** (Z axis): Output gain of the comb filter.
 
 The following parameters have as many independently-modulatable instances as there are comb filters (see [Modulation](../atelier/modulation.md)).
 
 - **Transposition:** Transposes all comb filters by a given amount of semitones.
-- **Decay scale:** Scales the decay time by the given multiplier.
+- **Decay scale:** Scales all decay times.
+
+Finally the **Quantize** button quantizes all filter frequencies to the closest semitone.
 
 ### Global controls
 
@@ -53,9 +47,9 @@ The following parameters have as many independently-modulatable instances as the
 The following parameters have as many independently-modulatable instances as there are comb filters (see [Modulation](../atelier/modulation.md)).
 
 - **Spread:** Channel-locality of each comb filter's processes. At 0%, each comb filter processes only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, each comb filter processes all channels in parallel (multi-mono).
-- **Gain:** Output gain of all comb filters. Combined with the gain of each filter.
-- **Damp:** Amount of damping, or how much high frequencies (higher than the resonance) are attenuated as decay progresses. At 0% no or very minimal damping is applied, leading to a metallic tone; at 100%, the harmonic content of the input is immediately attenuated into a sine at the resonance frequency.
-- **Warp:** Warps the resonant partials, from purely harmonic (0%) to weirdly dissonant. It works by introducing a complex all-pass filter in the feedback loop, delaying some frequencies more than others at each round-trip.
+- **Gain:** Output gain of all comb filters.
+- **Damp:** Amount of damping, or how much high frequencies are attenuated as decay progresses. At 0%, no damping is applied, leading to metallic tones; at 100%, the filter rapidly converges to the resonance frequency.
+- **Warp:** Warps the resonance partials, from purely harmonic (0%) to weirdly dissonant. It works by introducing a complex all-pass filter in the feedback loop, delaying some frequencies more than others at each round-trip.
 - **Phase:** Controls where in the delay loop the output signal is picked up, i.e. only at the end (0%) or in the middle as the sum of the forward and backward direction (100%). At 100%, phase cancellations are such that only odd harmonics ring.
 - **Predelay:** Introduces a short delay before the input signal hits the comb filter loop.
 
@@ -89,10 +83,10 @@ When **Decay** is set to more than 20 sec and **Warp** is 0%, decay is _infinite
 
 ![A screenshot showing Play feeding into Comb and Agitation agitating Comb's transposition](../assets/images/modules/comb/comb-tips-reverb.png)
 
-Early digital reverberation units (now refered to as [Schröder reverbs](https://ieeexplore.ieee.org/document/6161610)) worked by simply feeding the input signal through several dampened comb filters in parallel. With **Mix** around 20%, make a cloud of a dozen comb filters with frequencies around 20-50 Hz (around the ear's integration time). Set **Damp** around 20% will get you a relatively natural reverberation, where the global decay time controls the reverb time. Adjust **Predelay** to taste; slightly and slowly agitating **Transpose** will help attenuating some the metallic resoance.
+Early digital reverberation units (now refered to as [Schröder reverbs](https://ieeexplore.ieee.org/document/6161610)) worked by simply feeding the input signal through several dampened comb filters in parallel. With **Mix** around 20%, make a cloud of a dozen comb filters with frequencies around 20-50 Hz (the ear's integration time). Set **Damp** around 20% will get you a relatively natural reverberation, where the global decay time controls the reverb time (Snapshot 7). Adjust **Predelay** to taste; slightly and slowly agitating **Transpose** will help attenuating some the metallic resoance.
 
 ### At time rate
 
 ![A screenshot showing Gen feeding into Comb to produce delay effects](../assets/images/modules/comb/comb-tips-time-rate.png)
 
-A comb filter is a very short delay... but _Comb_ also supports longer delay! These will be heard as normal repetitions, so you can use _Comb_ as (a set of) regular delays, with some twists. Add a single comb filter towards the lower frequencies, and put **Transposition** all the way down; you can reach delay times up to about half a second (2 Hz). **Decay** then controls the delay feedback, and the other controls well... you will have to experiment for yourself! Remember that everything (especially frequency/delay time) is modulatable.
+A comb filter is a very short delay... but _Comb_ also does longer delay! These will be heard as normal repetitions, so you can use _Comb_ as (a set of) regular delays, with some twists. Add a single comb filter towards the lower frequencies, and put **Transposition** all the way down; you can reach delay times up to about half a second (2 Hz). **Decay** then controls the delay feedback, and the other controls well... you will have to experiment for yourself! Remember that everything (especially frequency/delay time) is modulatable.
