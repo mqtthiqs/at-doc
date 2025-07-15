@@ -12,7 +12,7 @@ If you touch any of the effected parameters during a morphing operation that par
 
 !!! tip
 
-    As a way to smooth out movements, controls such as sliders and cursors support **elastic drag**. Hold down ⌘ while dragging the control with the mouse to smoothly move it to the desired position. You can control the elasticity of the drag operation using the **Morph time** slider.
+    To smooth out movements controls such as sliders and cursors support **elastic drag**. Hold down `⌘` while dragging the control with the mouse to smoothly move it to the desired position. You can control the elasticity of the drag operation using the **Morph time** slider.
 
 ## Module snapshots
 
@@ -20,7 +20,7 @@ If you touch any of the effected parameters during a morphing operation that par
 
 Each individual module in the effects chain has the ability to take snapshots of its current state. To take and store a snapshot of a module's parameters and cursor settings hold down `⌘` while you click on one of the eight buttons at the very bottom of the module. The selected button will light up indicating that there is a custom snapshot stored on its position. When you save your patch the snapshots will be saved alongside.
 
-To recall a snapshot simply click on the corresponding number in the row of snapshot banks. Then the module will transition from its current state to the state stored in the snapshot. The duration of the transition can be adjusted with the **Morph time** slider on the sidebar of the main window. The little blinking dot in the corner of the snapshot button is indicating an ongoing morph. It stops blinking once the morph is complete.
+To recall a snapshot simply click on the corresponding number in the row of snapshot banks. Then the module will transition from its current state to the state stored in the snapshot. The duration of the transition can be adjusted with the **Morph time** slider on the sidebar of the main window. A little blinking dot in the corner of the snapshot button indicates an ongoing morph. It stops blinking once the morph is complete.
 
 As is the case with most parameters in _Atelier_ you can automate and modulate the recalling of snapshots. You can thus turn snapshots into a living part of your patch; rhythmically or aleatorily invoking interesting scenes. Just experiment by dragging a wire from a modulation like [Agitation](../modules/agitation.md) onto the row of snapshot banks.
 
@@ -30,18 +30,31 @@ As is the case with most parameters in _Atelier_ you can automate and modulate t
 
 ## Randomizer
 
+Randomization is a way to unstuck yourself, to find interesting settings you hadn't thought of before or just to sprinkle a bit of surprise on top of your patch. It works by automatically choosing a new random value for each effected parameter. Using the **Random amount** slider on the sidebar of the main window you can control how subtle or dramatic the randomization should be. The lower the amount, the closer the values will remain to their current position.
 
+Randomization can be applied on different levels of your patch:
 
-<!-- randomization amount -->
-<!-- randomizing whole patches -->
-<!-- randomizing modules -->
-<!-- contrary to module snapshots no rand of cursor activeness -->
-<!-- randomizing parameters -->
-<!-- randomizing parameter groups -->
+- If you want to randomize the entire patch click on the dice icon in the sidebar.
+
+- To randomize only a specific module, click on the dice icon at the very bottom right of the module. This will generate new random values for all parameters within that module, while leaving the rest of your patch unchanged. Contrary to [module snapshots](#module-snapshots) randomization won't add or remove cursors.
+
+- To randomize only a specific parameter right-click on the corresponding button or slider and choose **Randomize** from the parameter menu. Alternatively you can move the mouse over the control and press the `R` button on your keyboard.
+
+!!! tip
+
+    If you have several cursors selected and randomize one if its parameters randomization will be applied to the same parameter of the whole selection.
+
+!!! warning
+
+    Because randomization affects parameters like gain and feedback, patches may suddenly produce very loud sounds. Work with low headphone levels when using this feature!
+
 
 ## Locking
 
-<!-- what's locking for -->
-<!-- locking modules -->
-<!-- locking parameters -->
-<!-- locking groups -->
+You can exclude certain parameters or whole modules from randomization or snapshot recalls using locks. Right-click on the control you want to lock and select **Lock**. A lock icon will appear next to the control indicating that it won't be effected by randomization or parameter recalls.
+
+!!! tip
+
+    If you have several cursors selected and lock one if its parameters the operation will be applied to the same parameter of the whole selection.
+
+To exclude a whole module from randomization right-click on its title bar and select **Lock**.
