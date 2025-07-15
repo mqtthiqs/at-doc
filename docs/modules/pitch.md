@@ -14,7 +14,7 @@ A pitch shifter changes the pitch of a sound without changing its duration. On t
 - Up to 8 pitch shifters/granular delays, placed on an intuitive 2D surface
 - Wide transposition & delay range: from +48 semitones to -∞, up to 10 seconds delay
 - Freeze function to scrub inside buffer
-- Adjustable window size & correlation detection
+- Widely adjustable window size & correlation detection
 
 ## Context
 
@@ -22,11 +22,9 @@ Feed sound into _Pitch_, click to add a pitch shifter: the sound is delayed and 
 
 But what actually happens is not magic: the input is recorded into a buffer, and two overlapping play heads continuously read small grains of sound around the cursor (the delay time), at a speed proportional to the transposition required. Basic pitch shifting is just this: playing small overlapping grains of the input sound at speeds different than the recording speed!
 
-Combined with grain position adjustment thanks to correlation detection, this overlap/add technique is the archetype of pitch shifting algorithm ([_WSOLA_](https://ieeexplore.ieee.org/document/319366)), and can lead to
+Combined with correlation detection to adjust grain positions, this overlap/add technique is the archetype of pitch shifting algorithms ([_WSOLA_](https://ieeexplore.ieee.org/document/319366)), and with short grain size and strong correlation detection, it works especially well on monophonic sounds; otherwise artifacts, like transient doubling or amplitude modulation, start to be heard.
 
-works especially well if the size of the grains stay in a certain goldilocks zone (around 20-100 ms), and if the grain positions are automatically adjusted to avoid phase cancellation (by measuring their mutual correlation). Otherwise, artifacts like transient doubling or amplitude modulation start to be heard.
-
-_Pitch_ default to these conditions, but allows to break free from them: with a wide range of grain sizes (from 4 ms to 2 seconds) and adjustable correlation detection, you are free to use it orthodoxically, or to play with the artifacts themselves.
+_Pitch_ can act as a convincing bank of pitch shifters, but really shines when breaking free from its traditional use, leveraging its very nature: with a wide range of grain sizes (from 4 ms to 2 seconds), and adjustable correlation detection, you can explore playing with granular scrubbing, transient doubling or amplitude modulation artifacts in new, creative ways.
 
 ---
 
@@ -35,9 +33,6 @@ _Pitch_ default to these conditions, but allows to break free from them: with a 
 ### Cursor area
 
 Click to add a pitch shifter; double-click a pitch shifter to remove it. Each pitch shifter runs in parallel with its own buffer; they are then mixed to the output.
-
-- **Quantize** button: click to quantize all pitches to the closest semitone.
-- **Clear all buffers** button: click to silence all delay buffers
 
 The following parameters are local to each pitch shifter:
 
@@ -51,6 +46,11 @@ The following parameters have as many independently-modulatable instances as the
 - **Freeze** button: Inverts the Freeze state of all pitch shifters (see local **Freeze** parameter).
 - **Delay ratio:** Scales all delays by the given ratio.
 - **Rate:** Scales all pitches by the given ratio. Negative ratios mean reverse grain playback.
+
+Finally two buttons at the top modify the state of _Pitch_:
+
+- **Quantize**: click to quantize all pitches to the closest semitone.
+- **Clear all buffers**: click to silence all delay buffers
 
 ### Global controls
 
@@ -71,7 +71,14 @@ The following parameters have as many independently-modulatable instances as the
 
 ### Harmonize
 
+![A screenshot showing Pitch used as a harmonizer](../assets/images/modules/pitch/pitch-tips-harmonize.png){width=50%, align=right}
+
+
+A staple of studio effects: with a voice or solo instrument as input, just add two 0-delay pitch shifters at pitches close to zero. Reduce **Spread** to increase the stereo effect.
+
 ### Melodies
+
+
 
 ### Ring-modulation
 
