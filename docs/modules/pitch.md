@@ -7,28 +7,26 @@ Not a pitch shifter
 
 ![Screenshot of the Pitch module](../assets/images/modules/pitch/pitch.png){.main-pic}
 
-A pitch shifter changes the pitch of a sound without changing its duration. On the surface, this is what _Pitch_ is: a bank of pitch shifters combined with delays, placed on a 2D surface. But rather than delivering just this, _Pitch_ breaks the concept apart and exposes it, piece by piece: granular playback into a buffer with variable speed, adjustable correlation detection, wide range of grain size...
-
-Use it for old tricks (tuning or harmonize, thickening), or explore a wealth of novel ideas (very long or very short grains, disable correlation, modulate anything): _Pitch_ is more than just what its name suggests.
+A pitch shifter changes the pitch of a sound without changing its duration. On the surface, this is what _Pitch_ is: a bank of pitch shifters combined with delays, placed on a convenient 2D surface. But rather than delivering just this, _Pitch_ deconstructs the concept and exposes it, piece by piece. Used for classic pitch tricks or to explore a wealth of novel ideas, _Pitch_ is more than just what its name suggests.
 
 ## Features
 
-- Up to 8 pitch shifters/delays, placed on an intuitive 2D surface
-- Transpose by a wide range range: from +48 semitones to -∞
-- Delay by up to 10 sec
-- Freeze the buffer and scrub inside it
+- Up to 8 pitch shifters/granular delays, placed on an intuitive 2D surface
+- Wide transposition & delay range: from +48 semitones to -∞, up to 10 seconds delay
+- Freeze function to scrub inside buffer
+- Adjustable window size & correlation detection
 
 ## Context
 
-Feed a voice into _Pitch_, click to make a pitch shifter: the voice is well... transposed and delayed. But what actually happens is not magic: the input is recorded into the buffer like a tape, and the content of the buffer is cut into small grains. Two overlapping play heads continuously read the grains around the cursor (the delay time) at a speed proportional to the transposition required. Pitch shifting is just playing small overlapping grains of sound at a speed different than the recording speed!
+Feed sound into _Pitch_, click to add a pitch shifter: the sound is delayed and transposed.
 
-This overlap/add mechanism is one of the oldest ideas in signal, and was even. 
+But what actually happens is not magic: the input is recorded into a buffer, and two overlapping play heads continuously read small grains of sound around the cursor (the delay time), at a speed proportional to the transposition required. Basic pitch shifting is just this: playing small overlapping grains of the input sound at speeds different than the recording speed!
 
-and each grain is replayed at a speed dependent on the . Grains are then overlapped
+Combined with grain position adjustment thanks to correlation detection, this overlap/add technique is the archetype of pitch shifting algorithm ([_WSOLA_](https://ieeexplore.ieee.org/document/319366)), and can lead to
 
-<!-- DHM -->
-<!-- archetype of a pitch shifter; much more -->
-<!-- focus on artifacts -->
+works especially well if the size of the grains stay in a certain goldilocks zone (around 20-100 ms), and if the grain positions are automatically adjusted to avoid phase cancellation (by measuring their mutual correlation). Otherwise, artifacts like transient doubling or amplitude modulation start to be heard.
+
+_Pitch_ default to these conditions, but allows to break free from them: with a wide range of grain sizes (from 4 ms to 2 seconds) and adjustable correlation detection, you are free to use it orthodoxically, or to play with the artifacts themselves.
 
 ---
 
@@ -36,7 +34,7 @@ and each grain is replayed at a speed dependent on the . Grains are then overlap
 
 ### Cursor area
 
-Click to add a pitch shifter; double-click a pitch shifter to remove it. All pitch shifter run in parallel with their own buffer, and are then mixed to the output.
+Click to add a pitch shifter; double-click a pitch shifter to remove it. Each pitch shifter runs in parallel with its own buffer; they are then mixed to the output.
 
 - **Quantize** button: click to quantize all pitches to the closest semitone.
 - **Clear all buffers** button: click to silence all delay buffers
@@ -70,6 +68,8 @@ The following parameters have as many independently-modulatable instances as the
 ---
 
 ## Tips and tricks
+
+### Harmonize
 
 ### Melodies
 
