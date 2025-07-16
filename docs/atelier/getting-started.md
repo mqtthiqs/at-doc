@@ -1,6 +1,6 @@
 # Getting Started
 
-Thanks for your interest in _GRM Tools Atelier_! Here are a few steps to help you get started making sound with _Atelier_.
+Thanks for your interest in _GRM Tools Atelier_! Here are a few steps to get you started making sound with _Atelier_.
 
 ## Installation
 
