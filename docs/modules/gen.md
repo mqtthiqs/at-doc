@@ -9,7 +9,7 @@ All music stems from a simple tone, a simple vibration through time. Shaped, att
 
 ## Features
 
-- Bank of independent signal generators (up to 16) spreadable through the multichannel space
+- Bank of signal generators (up to 16) spreadable in the multichannel space
 - Four mixable waveforms per generator, each with a different morphing parameter
 - Input envelope follower for gain following or ducking
 
@@ -17,14 +17,14 @@ All music stems from a simple tone, a simple vibration through time. Shaped, att
 
 In the pure tradition of modular synthesizers, and before them the test equipment used creatively by the pioneers of electronic music, _Gen_ is a bank of complex signal generators. As soon as a generator is activated by clicking in the [cursor area](#cursor-area), it sounds continuously until stopped. No MIDI note or triggering events required, no duration.
 
-_Gen_ can therefore be used to easily generate complex evolving drones, but it can be modulated so as to create triggerable discrete events or generative, random tones. All generators share the same complex waveform, chosen by mixing and warping the signals of four oscillators available in the [waveform area](#waveform-area):
+_Gen_ can therefore be used to easily generate complex evolving drones, but it can be modulated so as to create triggerable discrete events or generative, random tones. All generators share the same complex waveform, chosen by mixing and warping the signals of four oscillators available in the [waveform area:](#waveform-area)
 
 - **Sine** with phase modulation
 - **Triangle** with slope control
 - **Rectangle** with pulse width control
 - Filtered **noise** with filter control (from low-pass to band-pass)
 
-Just like all processors, _Gen_ takes sound as input. This input can be passed through unaffected, and mixed with the generators (**Mix**), but can also influence them: each generator embeds an independent [envelope follower](#envelope-follower-section), able to modulate its own gain depending on the amplitude of the input, opening up adaptive reactions, and basic resynthesis.
+Just like all processors, _Gen_ takes sound as input. This input can be passed through unaffected, mixed with the generators (**Mix**), but can also influence them: each generator embeds an independent [envelope follower](#envelope-follower-section), able to modulate its own gain depending on the amplitude of the input, opening up adaptive reactions, and basic resynthesis.
 
 ---
 
