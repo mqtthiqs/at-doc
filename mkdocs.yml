@@ -29,7 +29,7 @@ nav:
       - atelier/getting-started.md
       - atelier/modulation.md
       - atelier/multichannel.md
-      - atelier/morphing.md
+      - atelier/snapshots-and-randomizer.md
       - atelier/midi-and-automation.md
       - atelier/faq.md
   - Modules:
