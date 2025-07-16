@@ -2,17 +2,15 @@
 
 !!! warning "This section is a **work in progress**"
 
+<!-- no limit other than CPU -->
+<!-- agnostic and discrete -->
+<!-- space at composition -->
+
 Multichannel processing is part of _GRM Tools Atelier_'s core DNA. From its inception a flexible and adaptive performance in multi channel environments was one of the key design considerations. You can as easily compose for stereo setups as for quadrophony, octophony or 64+ channels.
 
 A patch produced in one environment will automatically scale to fit any other setup. This adaptability holds precedence over surgical operations on a particular channel in a particular setup. Likewise _Atelier_ doesn't operate in specific surround formats or with assumptions about the acoustic space. Instead it delivers a set of discrete channels that can be easily mixed into the required format using well established tools. For example [iem](https://plugins.iem.at/) or GRM's own [new spaces](https://inagrm.com/en/showcase/news/598/nouveaux-spaces).
 
-## Features
-
-- Deep integration of multichannel processing
-- Over 64 input and output channels
-- Automatic adoption of a patch created on one setup to a new environment
-- Wide stereo images and movement in multichannel spaces by design rather than as a mixing afterthought
-- A simple, efficient and easy to understand algorithm to distribute processing and input channels
+<!-- channel colors -->
 
 ## Multichannel processing in modules
 
