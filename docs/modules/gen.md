@@ -11,9 +11,9 @@ Signals spring
 
 ## Features
 
-- Up to 16 TODO
-- Wide sonic palette thanks to four mixable waveforms, each with morph parameter
-- Envelope follower
+- Up to 16 independent signal generators
+- Four mixable waveforms per generator, each with morph parameter
+- Input envelope follower for gain-matching or ducking
 
 ## Context
 
@@ -44,17 +44,17 @@ All parameters in the waveform area have as many independently-modulatable insta
 
 ### Cursor area
 
-Click to add a generator; double-click a generator to remove it.
-
-- **Ratio:** Ratio by which all generator's frequencies are multiplied. Has as many independently-modulatable instances as there are generators (see [Modulation](../atelier/modulation.md)).
-
-- **Quantize** button: click to quantize all generator pitches to the closest semitone.
-
-The following parameters are local to each generator:
+Click to add a generator; double-click a generator to remove it. The following parameters are local to each generator:
 
 - **Pitch:** Pitch of the generator.
 - **Spread:** Channel-locality of the generator (see **Spread** below). At 0%, the generator outputs only to the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, the generator outputs on all channels.
 - **Gain:** Individual gain of the generator.
+
+Additional controls:
+
+- **Ratio:** Ratio by which all generator's frequencies are multiplied. Has as many independently-modulatable instances as there are generators (see [Modulation](../atelier/modulation.md)).
+
+- **Quantize** button: click to quantize all generator pitches to the closest semitone.
 
 ### Global controls
 
@@ -69,4 +69,27 @@ The following parameters have as many independently-modulatable instances as the
 
 ## Tips and tricks
 
-### Vocoder
+### Modulating gain
+
+![Screenshot of Gen with agitation Gain](../assets/images/modules/gen/gen-tips-gain-mod.png)
+
+Start with a few sine generators, laid out to make a nice drone chord or cluster. Now set the global **Gain** to -10dB (centered), and agitate it. Each generator's gain is agitated independently, producing pleasantly animated swashes of sines. From there, focus on the agitation: **Cyclic** at 100% will repeat a pattern; **Slant** at -100% and **Ease** around 50% will produce decaying transients. Increase **Jitter** to 5% so the rhythmic pattern evolves slowly.
+
+### Make a vocoder
+
+![Screenshot of Gen used as a vocoder](../assets/images/modules/gen/gen-tips-vocoder.png)
+
+Feed a voice into Gen. Add 16 sine generators spread out evenly through the whole frequency range. Put **Mix** and **Spread** at 100% to get a loud drone. Put **Duck/Follow** at 100%; the drone now follows the gain of the input. Now increase **Select** so each generator follows the gain of the input selectively around its own frequency. Notice how words of the input voice become more-and-more recognizable. It is composed of only 16 sine waves.
+
+You just made a vocoder: it analyses the input signal and resynthesizes it with a small number of sine waves. Now you can play with various input material, various waveforms in _Gen_, various generator frequencies.
+
+### Slow impulses
+
+![Screenshot of Gen used to generate impulse for Comb](../assets/images/modules/gen/gen-tips-impulses.png)
+
+
+The **Ratio** control goes all the way to 0x, allowing sub-audio generator frequencies. While a sine wave won't be hearable at these rates, waveforms with discontinuities will make repeated clicks. Especially nice are 1-sample impulses from the rectangle oscillator, that can then be filtered through _Band_ or _Comb_. Several of these generators at will produce interesting chaotic rhythms.
+
+### Randomize all
+
+[Patch randomization](../atelier/snapshots-and-randomizer.md) is a fun way to explore _Gen_'s tonal palette. Add a few (4) generators anywhere, and agitate e.g. **Gain** and **Ratio** (optionally, experiment with modulating these modulators). Lock the global controls (**Mix**, **Gain** and **Spread**) as well as **Duck/Follow**. Now press the patch-wide **Randomize** button a few times. You will be surprised.
