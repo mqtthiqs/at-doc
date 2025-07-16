@@ -43,12 +43,18 @@ Every parameter has as many independently-modulatable instances as there are out
 
 ### Random triggers
 
+![Screenshot showing peak modulating Gen gain](../assets/images/modules/peak/peak-tips-random-triggers.png)
+
 Make four or five sine wave generators with _Gen_ at various frequencies (why not make a chord). Set its global **Gain** to -∞, and modulate it with a _Peak_. Set **Slant** to -100%, **Chance** to about 40%, and enable **Infinite repeat**. Since each oscillator is now driven by an independent instance of the _Peak_ engine, each oscillator will be triggered with an independent probability at fixed intervals. Increase **Repeat** to make little note clusters.
 
 ### A basic kick drum
 
+![Screenshot of Peak modulating several envelopes in Gen to create a kick drum](../assets/images/modules/peak/peak-tips-kick-drum.png)
+
 Start with a single _Peak_, with **Time**=0; its **Trigger** will act as our main trigger. Make two additional _Peak_ with **Slant**=-100%; one will be our amplitude envelope, the other our pitch envelope. Make a 50Hz sine-wave with _Gen_, and modulate **Gain** with the amplitude envelope, and **Ratio** with the pitch envelope. **Trigger**ing the main _Peak_ produces a sine Adjust times, modulation amounts and **Ease** to taste. For more impact, you can add a third pitch-modulating _Peak_ with a smaller **Time** to make a click.
 
 ### Make an ADSR
+
+![Screenshot of two Peak modules summed to create an ADSR envelope](../assets/images/modules/peak/peak-tips-adsr.png)
 
 The standard ADSR envelope (Attack-Decay-Sustain-Release) is easily constructible: take two instances of _Peak_ that will be triggered at the same time: one with **Hold** off (the AD), one with **Hold** on (the AR), and sum them together by dragging a wire from each to the same destination, adjusting their respective modulation ranges. Both rise times correspond to Attack, the fall time of the AD corresponds to Decay, the fall time of the AR corresponds to Release and the modulation range ratio corresponds to Sustain.
