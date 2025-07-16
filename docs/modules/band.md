@@ -5,7 +5,7 @@ Spectral chisel
 
 ![Screenshot of the Band module](../assets/images/modules/band/band.png){.main-pic}
 
-From subtle timbre corrections to drastic shape alterations, _Band_ carves into frequencies like in clay. Feed it audio and start isolating spectral regions, put forth or gently reduce some tonal elements, or totally change the frequency profile of your material. Unlike a traditional EQ, more creative than technical, _Band_ is a spectral sculptor's tool of choice.
+From subtle timbre corrections to drastic shape alterations, _Band_ carves into frequencies like in clay. Feed it audio and start isolating spectral regions, put forth or gently reduce tonal elements, or totally change the frequency profile of your material. Unlike a traditional EQ, more creative than technical, _Band_ is a spectral sculptor's tool of choice.
 
 ## Features
 
