@@ -1,11 +1,11 @@
-Insight at a glance
+Sound insight
 {.tagline}
 
 # ![Viz module logo](../assets/images/modules/viz/viz.svg){.module-logo} Viz
 
 ![Screenshot of the Viz module](../assets/images/modules/viz/viz.png){.main-pic}
 
-_Viz_ is a versatile tool to probe and visualize multichannel signals anywhere in the audio chain. It features VU-meters, a spectrum analyzer/spectrogram, a correlation meter and an oscilloscope, all adapting your available channel configuration. From a bird's eye view on the evolution of rhythmic patterns down to sample accurate measurements, _Viz_ is a visual insight into sound.
+_Viz_ is a versatile tool to probe and visualize multichannel signals anywhere in the audio chain. It features VU-meters, a spectrum analyzer/spectrogram, a correlation meter and an oscilloscope, all adapting your available channel configuration. From a bird's eye view down to sample accurate measurements, _Viz_ is a visual insight into sound.
 
 ## Features
 
