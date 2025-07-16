@@ -44,8 +44,12 @@ Every parameter has as many independently-modulatable instances as there are out
 
 ### Agitate it
 
+![A screenshot showing a slow low-amplitude agitation agitating Gen and Time](../assets/images/modules/agitation/agitation-tips-agitate-it.png)
+
 Many parameters in Atelier will benefit from a slow (5-30 seconds-long) and very small (0.1% to 1% amplitude) agitation. A bank of tuned oscillators in _Gen_ will spring to analog life when their frequency **Ratio** is very slightly agitated. An aggregate of comb filters around 50 Hz will turn from metallic resonance to soft reverberation when **Transposition** slowly moves. The **Feedback** of _Time_, set up with a few taps, will easily be tamed with tiny movements in the delay times (**Delay scale**).
 
 ### Statues
+
+![A screenshot showing one agitation agitating the running state of another](../assets/images/modules/agitation/agitation-tips-statues.png)
 
 Agitate a bunch of parameters in your patch at a relatively high frequency (5 Hz). With another, slower agitation in "unison mode" (**Multiplicity** off), modulate the **Running** button of the first. Parameters will regularly stall at random values, before continuing their run. A slightly different effect can be achieved by modulating **Frequency** with a rectangular wave reaching 0 Hz.
