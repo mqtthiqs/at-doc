@@ -43,8 +43,7 @@ _Viz_ is split into four zones that can be freely resized.
 
 Displays the spectrum or the spectrogram. Hover over the display to get a readout of the current value. Drag vertically to zoom in, horizontally to pan into the view. Double-click to reset. 
 
-<!-- TODO: document channel selectors + sum channel -->
-
+- **Channel selectors:** Clicking toggles channel visibility. White toggles display of the sum of all channels.
 - **Spectrogram button:** Toggles between spectrum and spectrogram display.
 - **FFT size:** FFT size of the spectrum analyzer (tradeoff between time and frequency precision).
 - **Smooth:** Frequency smoothing amount. The more smoothing applied, the less frequency-domain details are visible.
@@ -61,9 +60,9 @@ Each square represents a channel; squares can be dragged and re-arranged for bet
 
 Displays the raw waveform of input signal, with a history of 20 sec. Hover over the display to get a readout of the current value. Drag vertically drag to zoom; drag horizontally to pan into the view. Double-click to reset.
 
-<!-- TODO: document channel selectors + sum channel -->
-<!-- TODO: explain better each trigger source + risign edge threshold -->
+<!-- TODO: explain better each trigger source + rising edge threshold -->
 
+- **Channel selectors:** Clicking toggles channel visibility. White toggles display of the sum of all channels.
 - **Trigger source:** Trigger source of oscilloscope. Options are:
     - Autocorrelation
     <!-- TODO with bar + pitch -->
