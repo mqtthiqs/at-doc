@@ -2,9 +2,9 @@
 
 _A new modulation paradigm_
 
-In Atelier just like on modern modular synthesizers, all parameters (sliders, cursors, buttons etc.) can be modulated. But Atelier's _polyadic_ modulation system goes far further than its analog parent, offering a new paradigm to interact with your modules. It is the key to constructing living, evolving patches, provoke surprises and program complex interactions.
+In _Atelier_ just like on modern modular synthesizers, all parameters (sliders, cursors, buttons etc.) can be modulated. But _Atelier_'s _polyadic_ modulation system goes far further than its analog parent, offering a new paradigm to interact with your modules. It is the key to constructing living, evolving patches, provoke surprises and program complex interactions.
 
-Animate a whole family of parameters in one click, let complex random movements guide your explorations ([_Agitation_](../modules/agitation.md)), construct tailor-made macro-controls for live interaction ([_Control_](../modules/control.md)), or trigger advanced envelopes with customizable contours ([_Peak_](../modules/peak.md))... If the modules of Atelier are its sound-processing heart, the modulation system is certainly its brain.
+Animate a whole family of parameters in one click, let complex random movements guide your explorations ([_Agitation_](../modules/agitation.md)), construct tailor-made macro-controls for live interaction ([_Control_](../modules/control.md)), or trigger advanced envelopes with customizable contours ([_Peak_](../modules/peak.md))... If the modules of _Atelier_ are its sound-processing heart, the modulation system is certainly its brain.
 
 ## Features
 
@@ -32,7 +32,7 @@ Hovering over a modulator's handle displays its outgoing wires. Hold "w" or pres
 
 ## Polyadic modulation
 
-In Atelier, all modulations are _polyadic_: if a modulator is connected to several destination parameters, each destination gets its own independent modulation engine. Each of these modulations, while sharing the modulator's parameters (speed, amplitude etc.), can have its own internal phase, random state etc.
+In _Atelier_, all modulations are _polyadic_: if a modulator is connected to several destination parameters, each destination gets its own independent modulation engine. Each of these modulations, while sharing the modulator's parameters (speed, amplitude etc.), can have its own internal phase, random state etc.
 
 Try connecting the same modulator, say, an [_Agitation_](../modules/agitation.md), to two different parameters: the two parameters will be agitated differently. Changing, say, the agitation's frequency will act on the two parameters, but the random trajectories of each modulations will stay independent.
 
@@ -79,7 +79,7 @@ For instance, if three oscillator in **Gen** have their pitch modulated by the s
 
     Because of their polyadic nature, modulation feedback loops do not make sense (they would
     require infinitely many parameter instances). The signal path of modulations must therefore be
-    loop-free; Atelier will warn you whenever your patch involves a feedback loop.
+    loop-free; _Atelier_ will warn you whenever your patch involves a feedback loop.
 
 ## Tips & tricks
 

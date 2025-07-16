@@ -9,7 +9,7 @@ One big slider; its position _is_ the modulation. Connect it to several destinat
 
 ## Context
 
-Atelier's modules expose parameters to the user that are mostly technical in nature (Pitch, Window, Spread...). Often, controlling a patch in a specific perceptual or artistic way involves moving several controls at once, in various proportions; this is where _Control_ comes into play. At its core, it is a single slider, **Value:** when moved up or down, all its destination parameters move up or down by as much, taking modulation range into account. Therefore, patch-programming a complex macro-control amounts to connecting a Control to several parameters and adjusting each connection's modulation range, and mapping it to e.g. a MIDI controller:
+_Atelier_'s modules expose parameters to the user that are mostly technical in nature (Pitch, Window, Spread...). Often, controlling a patch in a specific perceptual or artistic way involves moving several controls at once, in various proportions; this is where _Control_ comes into play. At its core, it is a single slider, **Value:** when moved up or down, all its destination parameters move up or down by as much, taking modulation range into account. Therefore, patch-programming a complex macro-control amounts to connecting a Control to several parameters and adjusting each connection's modulation range, and mapping it to e.g. a MIDI controller:
 
 _[Screenshot]_
 
@@ -25,7 +25,7 @@ Furthermore, _Control_ provides additional tools to filter and transform the mov
 * _Delaying_ introduces a delay between the movement of **Value** and that of the destination,
 * _Looping_ allows to partially or completely repeat previous movements, and acts like a delay feedback, not on audio but on modulation.
 
-Keep in mind that like all parameters in Atelier, the **Value** slider can itself be modulated, and that this modulation itself is polyadic (see [Modulations](../atelier/modulation.md)). _Control_ can therefore be used as a filter for modulation signals, to smoothen, delay or loop them.
+Keep in mind that like all parameters in _Atelier_, the **Value** slider can itself be modulated, and that this modulation itself is polyadic (see [Modulations](../atelier/modulation.md)). _Control_ can therefore be used as a filter for modulation signals, to smoothen, delay or loop them.
 
 ---
 
