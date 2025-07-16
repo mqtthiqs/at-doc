@@ -43,7 +43,7 @@ First, if you think you encountered a bug, please contact us! You are probably n
 The application's audio configuration, recent files and last loaded patch are stored in a hidden file in your `Application Support` directory. In case you need to delete it, back it up or restore it:
 
 - Open a Finder window
-- In the "_Go_" menu, select "_Go to folder..._" or type ⇧-⌘-G
+- In the "_Go_" menu, select "_Go to folder..._" or type `⇧-⌘-G`
 - In the popup, enter `~/Library/Application Support/`
 - The configuration file is `com.INAgrm.GRMTools.Atelier.settings`
 
