@@ -13,7 +13,7 @@ Standing on decades of research in audio signal processing and electronic luther
 
 ## What's in the box
 
-_Atelier_ is a standalone application and a plugin for DAWs (VST3, AUv2, AAX) for macOS (Windows support coming soon). Atelier comprises a set of _modules_, which are freely chainable and connectible:
+_Atelier_ is a standalone application and a plug-in for DAWs (VST3, AUv2, AAX) for macOS (Windows support coming soon). Atelier comprises a set of _modules_, which are freely chainable and connectible:
 
 * **Processors** which generate or transform sound, and
 * **Modulators** which generate modulations, freely assignable to any parameter

@@ -7,7 +7,7 @@ Thanks for your interest in _GRM Tools Atelier_! Here are a few steps to get you
 Running the installer will install on your system:
 
 * The standalone application in `/Applications`;
-* The _GRM Tools Atelier_ plugin, in all the supported plugin formats:
+* The _GRM Tools Atelier_ plug-in, in all the supported plug-in formats:
     - AAX for use with _Avid Pro Tools_, in `/Library/Application Support/Avid/Audio/Plug-ins`;
     - AU for use with _Apple Logic_ and compatible hosts, in `/Library/Audio/Plugins/Components`;
     - VST3 for use in most other hosts, in `/Library/Audio/Plugins/VST3`;
@@ -32,9 +32,9 @@ Then, set up your audio interface. In the status bar, click the gear icon to rev
 
 The number of output channels set up determines how many channels the processors will work with.
 
-## Use as a plugin
+## Use as a plug-in
 
-_Atelier_ can be used as a plugin in a VST3/AU/AAX host. The plugin and the standalone app offer the exact same functionality; patches created on one can be used with the other.
+_Atelier_ can be used as a plug-in in a VST3/AU/AAX host. The plug-in and the standalone app offer the exact same functionality; patches created on one can be used with the other.
 
 ## And now?
 
