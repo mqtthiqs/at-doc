@@ -1,6 +1,7 @@
-# Atelier
-
 _Creative Audio Workbench_
+{.tagline}
+
+# ![Atelier logo](../assets/app_icon.svg){.module-logo} Atelier
 
 ![Screenshot of a large patch](assets/images/atelier/atelier.png)
 
