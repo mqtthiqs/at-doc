@@ -64,17 +64,26 @@ Each square represents a channel; squares can be dragged and re-arranged for bet
 
 ### Oscilloscope
 
-Hover over the display to get a readout of the current value. Drag vertically drag to zoom; drag horizontally to pan into the view. Double-click to reset.
+Hover over the display to get a readout of the current values. Drag vertically to zoom; drag horizontally to pan into the view. Double-click to reset zoom.
 
-<!-- TODO: explain better each trigger source + rising edge threshold -->
+- **Vertical range:** Zooms vertically into signal amplitude
+- **Channel selector:** Toggles channel visibility. The white button toggles the display of the sum of all channels.
+- **Trigger source:** Selects which event triggers a refresh of the scope's display:
+    - _Frequency_: the scope is refreshed at regular intervals, according to **Trigger frequency**.
+    - _Rising Edge_: the scope is refreshed whenever the **Trigger channel** goes from below to above the **Rising edge threshold**, which is by default zero.
+    - _Autocorrelation_: the signal's most probable period is computed, and the scope is triggered regularly at this period. This is the easiest way to get a steady reading of periodic waveforms.
 
-- **Channel selectors:** Clicking toggles channel visibility. White toggles display of the sum of all channels.
-- **Trigger source:** Trigger source of oscilloscope. Options are:
-    - Autocorrelation
-    <!-- TODO with bar + pitch -->
-    - Frequency
-    - Rising Edge
-- **Trigger frequency:** Controls the retrigger frequency when **Trigger source** is set to "Frequency"
+!!! note
+
+    When _Autocorrelation_ is selected, additional info is overlaid on top of the waveform view:
+
+    - the autocorrelation waveform is displayed as a grey line
+    - a vertical dotted bar indicates the most probable period
+    - the hover display shows the signal's determined frequency and period
+
+- **Trigger channel:** When **Trigger source** is _Rising Edge_ or _Autocorrelation_, sets the channel used for triggering.
+- **Trigger frequency:** Controls how often the display is refreshed when **Trigger source** is set to _Frequency_
+- **Rising edge threshold:** When **Trigger source** is _Rising Edge_, a draggable horizontal dotted line appears on the display. It sets the threshold the signal must pass to trigger a refresh.
 
 ---
 
