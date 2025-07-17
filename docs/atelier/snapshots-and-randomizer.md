@@ -1,5 +1,7 @@
 # Snapshots and randomizer
 
+!!! warning "This section is a **work in progress**"
+
 In _Atelier_ there are multiple ways for a patch or parts of it to transition from one state to another. Module snapshots for instance allow you to store and recall all cursors and parameters that make up a specific sound. Randomization on the other hand is a tool to leave the charted territories and embark on a journey to surprises by the roll of a dice.
 
 These state changes can be instantaneous or continuously transition over time. Shifting shapes and **morphing** from one place to the other. All controlled by a single **Morph time** slider on the sidebar of the main window.
