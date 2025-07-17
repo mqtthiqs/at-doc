@@ -1,18 +1,25 @@
 # Multichannel processing
 
-!!! warning "This section is a **work in progress**"
+Spatial thinking is often put aside during composition, and left as a mixing afterthought. Where most creative audio tools only work in mono or stereo, _Atelier_ brings spatial decisions to the composition stage. Want to process mono sound? Fine. Want to render your generative patch on a 32-channel loudspeaker dome? Works too. There are no limits other than your available CPU.
 
-<!-- no limit other than CPU -->
-<!-- agnostic and discrete -->
-<!-- space at composition -->
+Essentially, _Atelier_ does not care how many channels you use, nor makes any assumption where they are placed. All processors apply the same processing on all the channels. The result can then be downmixed or spatialized into the required format using [any](https://plugins.iem.at/) [available](https://inagrm.com/en/store/product/15/spaces) [tool](https://forum.ircam.fr/projects/detail/spat/). Therefore, a patch produced in one setup will automatically scale to fit any other setup, following a few simple rules.
 
-Multichannel processing is part of _GRM Tools Atelier_'s core DNA. From its inception a flexible and adaptive performance in multi channel environments was one of the key design considerations. You can as easily compose for stereo setups as for quadrophony, octophony or 64+ channels.
+## Setup
 
-A patch produced in one environment will automatically scale to fit any other setup. This adaptability holds precedence over surgical operations on a particular channel in a particular setup. Likewise _Atelier_ doesn't operate in specific surround formats or with assumptions about the acoustic space. Instead it delivers a set of discrete channels that can be easily mixed into the required format using well established tools. For example [iem](https://plugins.iem.at/) or GRM's own [new spaces](https://inagrm.com/en/showcase/news/598/nouveaux-spaces).
+All processors work with the number of _outputs_ set up.
 
-<!-- channel colors -->
+- In the app, set it in the [Audio and MIDI configuration](getting-started.md#application-audio-midi-setup).
+- The plug-in adapts to the numbers of channels of the track it is instantiated on.
+
+If the number of inputs and outputs differ, [fanning and folding](#fanning-and-folding) applies to distribute the channels as evenly as possible. For instance, the mono input from a microphone will be available on all channels.
+
+## Channel colors
+
+Throughout the system, channels are identified with specific colors (Ch. 1 is green, 2 is red etc.). They are chosen so that their superposition is always white. Therefore, throughout _Atelier_, a saturated color identifies a specific channel, and the closer to white it gets, the more it represents a blend of several channel.
 
 ## Multichannel processing in modules
+
+!!! warning "This section is a **work in progress**"
 
 Whenever you add a tone generator or a filter in a module each of them will automatically have one or more channels associated with it. 
 
@@ -33,9 +40,3 @@ In the case there are as many filters as there are channels it is easy: each fil
 To control the amount of channel-locality of each generator, playhead or filter most modules provide a **Spread** control. If **Spread** is at 0% they will only sound on their associated channels. When the value is above 0% also filters that aren't assigned to a channel will be processed and mixed in by the specified amount. For instance if a [Comb](../modules/comb.md) module had two filters at different frequencies and **Spread** is at 50% the filter assigned to the processed channel would sound at full gain while the other filter would only be half as loud. Cursors that visually represent a generator, playhead or filter in a module are drawn using colors representing the assigned channels. The higher the **Spread** amount is the whiter cursors will appear in the cursor area.
 
 Note that the **Spread** parameter has as many [parameter instances](modulation.md#parameter-instances) as there are cursors. Meaning that when you modulate **Spread** each filter has its own spread value and will "bleed" to other channels accordingly.
-
-## Setup
-
-The numbers of channels in modules is equal to the number of output channels of the application. The hardware output channels can be configured in the [Audio and MIDI Setup](getting-started.md#application-audio-midi-setup). The number of input channels may differ from the number of output channels. In this case the [fanning and folding](#fanning-and-folding) technique described above is applied to distribute the channels as evenly as possible. That means for instance that the mono input from a microphone will be available on all channels.
-
-When _Atelier_ is used as a plug-in it automatically adapts to the numbers of channels of the track it is instantiated on.
