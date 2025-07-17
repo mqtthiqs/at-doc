@@ -16,19 +16,19 @@ _Viz_ is a complete toolset to probe and visualize multichannel signals anywhere
 
 ## Introduction
 
-_Viz_ was originally conceived as an internal tool for development and debugging, but quickly turned out to be a valuable asset for signal processing education, patch troubleshooting... or simply for the good looks. So here it is!
+_Viz_ was originally conceived as an internal tool for development and debugging, but quickly turned out to be a valuable asset for audio signal processing education, patch troubleshooting... or simply for the good looks. So here it is!
 
 It consists of four analysis tools: a [VU-meter](#controls-and-vu-meters), a [spectrum analyzer](#spectrum-analyzer), a [correlation meter](#correlation-meter), and an [oscilloscope](#oscilloscope). The window is split accordingly into four zones that can be freely resized.
 
 ## Controls and VU-meters
 
 - **Pause:** Pauses input when toggled on, freezing all displays. Views can be explored (zoomed etc.) during pause.
-- **Channel mute:** Clicking toggles channel muting;  `⌘`-click solos a channel. Click and toggles several channels at once.
-- **VU-Meters:** Shows the RMS loudness of each channel as a gradient in the channel's color, and its peak value as a solid bar. Underlaid in white is the sum of all channels. Hover over a VU-Meter to see a numerical readout in the info area.
+- **Channel mute:** Clicking toggles channel muting;  `⌘`-click solos a channel. Dragging toggles several channels at once.
+- **VU-Meters:** Shows the RMS loudness of each channel as a gradient in the channel's color, and its peak value as a solid bar. At the top, a red square indicates peak values above 0 dBFS (i.e. potential clipping). Underlaid in white is the sum of all channels. Hover over a VU-Meter to see a numerical readout in the info area. Click to reset clipping indicator.
 
 ## Spectrum analyzer
 
-The **spectrum analyzer** displays the frequency contents of the incoming audio in two different views: the [spectrum](https://en.wikipedia.org/wiki/Spectral_density) display and the [spectrogram](https://en.wikipedia.org/wiki/Spectrogram). Like on the oscilloscope, each channel is toggleable and overlaid with its own color. Both views are zoomable. Raw FFT signals can be hard to read out; therefore two adjustable smoothings are applied before display: frequency axis smoothing to get a broader view of the spectrum (**Smooth**), and time axis decay smoothing to better identify peaks  (**Release**).
+The **spectrum analyzer** displays the frequency contents of the incoming audio in two different views: the [spectrum](https://en.wikipedia.org/wiki/Spectral_density) display and the [spectrogram](https://en.wikipedia.org/wiki/Spectrogram). Each channel is toggleable and overlaid with its own color. Both views are zoomable. Raw FFT signals can be hard to parse, therefore two adjustable smoothings are applied before display: frequency axis smoothing to get a broader view of the spectrum (**Smooth**), and time axis decay smoothing to better identify peaks  (**Release**).
 
 Hover over the display to get a readout of the current value. Drag vertically to zoom in, horizontally to pan into the view. Double-click to reset.
 
@@ -37,7 +37,7 @@ Hover over the display to get a readout of the current value. Drag vertically to
 - **FFT size:** FFT size of the spectrum analyzer (tradeoff between time and frequency precision).
 - **Smooth:** Frequency smoothing amount. The more smoothing applied, the less frequency-domain details are visible.
 - **Release:** Each frequency's release time.
-- **Spectrum amplitude range:** Adjusts the dynamic range of spectrum analyzer.
+- **Spectrum amplitude range:** Adjusts the displayed dynamic range.
 
 ## Correlation meter
 
