@@ -9,11 +9,10 @@ _Viz_ is a complete toolset to probe and visualize multichannel signals anywhere
 
 ## Features
 
-- Fully multichannel signal analyzer
+- Fully multichannel signal analyzer, with zoomable and pausable views
 - Oscilloscope with large, freely-explorable buffer
 - Precise spectrum analyzer and spectrogram
 - Unique multichannel correlation meter
-- Zoomable and pausable views
 
 ## Context
 
