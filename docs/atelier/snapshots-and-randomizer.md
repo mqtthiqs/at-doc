@@ -51,8 +51,4 @@ Randomization can be applied on different levels of your patch:
 
 You can exclude certain parameters or whole modules from randomization or snapshot recalls using locks. Right-click on the control you want to lock and select **Lock**. A lock icon will appear next to the control indicating that it won't be effected by randomization or parameter recalls.
 
-!!! tip
-
-    If you have several cursors selected and lock one if its parameters the operation will be applied to the same parameter of the whole selection.
-
 To exclude a whole module from randomization right-click on its title bar and select **Lock**.
