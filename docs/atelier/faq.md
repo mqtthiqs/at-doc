@@ -54,3 +54,9 @@ Module snapshots are saved in a patch and can be different for each instances of
 ### Morphing is cool, but where do I set the morph time?
 
 The _Morph Time_ slider is in the sidebar on the right. It applies to morphing when loading a snapshot, when randomizing, and sets the speed of elastic moves.
+
+### I've found a bug. How do i report it?
+
+We are eager to hear your feedback! If you encounter a bug contact us at [grmtools.support@ina.fr](mailto:grmtools.support@ina.fr). Please include step-by-step instructions and patches to help us reproduce the bug. The about dialog (found by clicking on the INA GRM logo) includes all necessary information about your system. Please include a screenshot.
+
+Thanks again for you help to improve _Atelier_!
