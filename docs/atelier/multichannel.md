@@ -6,7 +6,7 @@ Essentially, _Atelier_ does not care how many channels you use, nor makes any as
 
 ## Setup
 
-All processors work with the number of _outputs_ set up.
+The number of _outputs_ set up determines how many channels processors work with.
 
 - In the app, set it in the [Audio and MIDI configuration](getting-started.md#application-audio-midi-setup).
 - The plug-in adapts to the numbers of channels of the track it is instantiated on.
