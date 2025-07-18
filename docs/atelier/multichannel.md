@@ -40,8 +40,10 @@ The **Spread** parameter determines what channel each unit (here, comb filter) p
 
 ## Fanning and folding
 
-Then how are channels assigned to units?
+Channels are assigned to units so that all channels are processed and all units are used. It follows a few simple rules:
 
-!!! warning "This section is a **work in progress**"
+- If there are more channels than units, each unit is assigned several channels (_fanning_). In particular, a single unit will always be assigned all channels.
+- If there are as many or more units than channels, each unit is assigned one channel, with some units possibly sharing channels; therefore their output is mixed (_folding_). In particular, if there are as many channels than units, each unit is simply assigned a unique channel.
+- For a given unit, channels are assigned such that they are the most "spread out", i.e. minimize "clusters" of adjacent channels (1,2,3). For instance, two comb filters acting on four channels will give the assignment (1,3) for Comb 1 and (2,4) for Comb 2.
 
-In the case there are as many filters as there are channels it is easy: each filter gets one single channel. But what happens if the number of filters doesn't match the number of channels? This is where **fanning and folding** comes into play. It is a way of distributing channels ensuring that all channels are processed and all filters are applied. In essence if you have less filters than channels – under the hood – the filters are duplicated to match the number of channels. Conversely if you have more filters than channels the input channels will be duplicated and the output of the filters summed. This means that if you place for instance a single comb filter in [Comb](../modules/comb.md) at 440Hz all input channels will be resonating at that frequency. On the other hand if you have more filters than channels the filters process the channels in an alternating pattern.
+This principle applies as well to [distribute inputs to outputs](#setup), and to match file and processor channels in [_Play_](../modules/play.md).
