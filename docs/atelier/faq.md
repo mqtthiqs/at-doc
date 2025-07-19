@@ -8,7 +8,7 @@ Yes, _Atelier_ runs in demo mode until you activate it. In demo mode, saving is 
 
 ### Can I install _Atelier_ on more than one computer?
 
-Yes. Each license purchased comes with 3 activations, assignable freely.
+Yes. Each license purchased comes with **3 activations**, assignable freely.
 
 ### Do I need an internet connection to activate my copy?
 
@@ -16,7 +16,7 @@ Yes, our licensing scheme requires an internet connection on activation, but nev
 
 ### Do you offer education discount?
 
-Yes, we happily do! Students and teachers benefit from a 35% discount. When creating an account, just check the right option and the rate will be applied automatically.
+Yes, we happily do! Students and teachers benefit from a **35% discount**. When creating an account, just check the right option and the rate will be applied automatically.
 
 ### Can I resell or give my license to another user?
 
@@ -30,7 +30,8 @@ _[TODO]_
 
 ### What are the system requirements for running _Atelier_?
 
-The minimum OS requirement is macOS 10.14 Mojave (2018). It was tested and runs on a 2015 Macbook Pro with 8 Gb RAM.
+_Atelier_ runs on Intel and Apple Silicon Macs. The oldest OS supported is macOS 10.14 Mojave
+(2018). It runs fine on a 2015 Macbook Pro with 8 Gb RAM.
 
 ### Do you support 42th-order ambisonics, Dolby Atmos, DTS:X?
 
