@@ -1,0 +1,1294 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../pitch/">
+      
+      
+        <link rel="next" href="../gain/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Time - GRM Tools Atelier</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#time" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="GRM Tools Atelier" class="md-header__button md-logo" aria-label="GRM Tools Atelier" data-md-component="logo">
+      
+  <img src="../../assets/app_icon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GRM Tools Atelier
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Time
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+    
+  
+  Atelier
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Modules
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GRM Tools Atelier" class="md-nav__button md-logo" aria-label="GRM Tools Atelier" data-md-component="logo">
+      
+  <img src="../../assets/app_icon.svg" alt="logo">
+
+    </a>
+    GRM Tools Atelier
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Atelier
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Atelier
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atelier/getting-started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atelier/modulation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The modulation system
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atelier/multichannel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multichannel processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atelier/snapshots-and-randomizer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Snapshots and randomizer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atelier/midi-and-automation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MIDI and automations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atelier/faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frequently Asked Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Modules
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Modules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Processors
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Processors
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../play/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Play
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comb
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../band/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Band
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pitch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pitch
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Time
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Time
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cursor-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursor area
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips and tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tips and tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rhythmic-taps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rhythmic taps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complex-looping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complex looping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flangers-choruses-and-all-that" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flangers, choruses and all that
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precedence-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precedence effect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverb-tails" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reverb tails
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modulators
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Modulators
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agitation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agitation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../control/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peak/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peak
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cursor-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursor area
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips and tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tips and tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rhythmic-taps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rhythmic taps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complex-looping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complex looping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flangers-choruses-and-all-that" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flangers, choruses and all that
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precedence-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Precedence effect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverb-tails" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reverb tails
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<p class="tagline">Temporal machine</p>
+<h1 id="time"><img alt="Time module logo" class="module-logo" src="../../assets/images/modules/time/time.svg" /> Time</h1>
+<p><img alt="Screenshot of the Time module" class="main-pic" src="../../assets/images/modules/time/time.png" /></p>
+<p><em>Time</em> is a delay unlike any other. An exploration of how far the concept of a delay can be pushed into uncharted territories. In its simplest form, it takes audio as input, stores it in a buffer and replays it a while later. But with up to 32 freely-tunable taps, variable transport speed, continuous granular playback and per-tap band-pass filters, it can reach sound transformations yet unheard of. <em>Time</em> is the ace of spades of time-domain operations.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>freely-tunable delay with multiple tap. Up to 32 taps, from milliseconds to minutes.</li>
+<li>per-tap resonant band-pass filter</li>
+<li>variable-rate read/write speed</li>
+<li>continuous control of repitching vs. granular (crossfading) playback</li>
+</ul>
+<h2 id="context">Context</h2>
+<p>From the advent of magnetic tape to digital storage, using the medium as short-term storage for sound is an infinite source of sound manipulations.</p>
+<p><img align="right" alt="Photo of Pierre Schaeffer manipulating the Phonogene" src="../../assets/images/modules/time/schaeffer-phonogene.jpg" width="50%," /></p>
+<p>In the late 1950s, GRM started producing a series of revolutionary tape-playing machines used as sound processing instruments, <a href="https://sites.inagrm.com/grmstudio/activities/Historique_Manipulations.xhtml">the <em>Phonogènes</em> and <em>Morphophones</em></a>. Using complex pulley mechanisms and read-head drums, they could read small chunks of tapes at speeds independent of the tape transport, inventing the granular playback techniques that still power pitch shifting and time stretching algorithms nowadays. Using multiple read heads, arbitrarily placed on the tape and filtered indepedently, they could break free from the repetition of the simple feedback loop, radically transforming input sound material.</p>
+<p><em>Time</em> takes up where these machines left off, maintaining the tape analogy that makes things logical and easy to understand. At its heart, <em>Time</em> provides a large audio buffer, which the module's input is continuously written to. At any point in this buffer, one can place a read head (a <em>tap</em>), that reads the written material with a delay. The speed at which this buffer goes by is variable (<strong>Speed</strong>); like tape, the slower the speed the more delay, and the more the signal is degraded: there are less samples to record a given audio chunk.</p>
+<p>Each tap is actually made of two read heads quickly relaying each other in reading the audio at their position (granular playback). Therefore, if the delay time is changed, it smoothly crossfades to the new position without clicks or repitches. In fact, and contrarily to usual delays, this crossfade time is freely settable (<strong>Repitch/Fade:</strong>), allowing for repitches, crossfades and a wealth of interesting in-betweens.</p>
+<p>Just like on the Morphophone, each tap then goes to a band-pass filter (<strong>Bandpass</strong>) which resonant frequency can be set (<strong>Cutoff</strong>), and is then summed to the output. The feedback loop (<strong>Feedback</strong>) reinjects this sum back into the input, resulting in potentially complex impulse responses and reverberation-resonator-delay hybrids.</p>
+<hr />
+<h2 id="controls">Controls</h2>
+<h3 id="cursor-area">Cursor area</h3>
+<p>Click to add a tap; double-click a tap to remove it. Each tap reads from the same audio buffer at different delay times; it is then band-pass-filtered indepently and summed to the output and to the feedback path.</p>
+<ul>
+<li><strong>Clear audio buffer:</strong> instantly clears all audio material in the buffer.</li>
+<li><strong>Y axis parameter:</strong> The combo box determines which parameter is displayed on the Y axis (and consequently which is displayed on the Z axis, ie. cursors' halo size): either <strong>Gain</strong> or <strong>Cutoff</strong>.</li>
+</ul>
+<p>The following parameters are local to each tap:</p>
+<ul>
+<li><strong>Delay (X axis):</strong> Delay time of the tap.</li>
+<li><strong>Gain (Y or Z axis):</strong> Gain of the tap.</li>
+<li><strong>Cutoff (Z or Y axis):</strong> Band-pass filter cutoff frequency of the tap.</li>
+</ul>
+<p>The following parameters have as many independently-modulatable instances as there are taps (see <a href="../../atelier/modulation/">Modulation</a>):</p>
+<ul>
+<li><strong>Delay scale:</strong> Scales all delay times by the given ratio.</li>
+<li><strong>Transposition:</strong> Transposes the cutoff frequencies of all taps.</li>
+</ul>
+<h3 id="global-controls">Global controls</h3>
+<ul>
+<li><strong>Mix:</strong> Crossfades between the dry signal (0%) and the wet signal (100%).</li>
+<li><strong>Speed:</strong> Transport speed, or how fast the digital "tape" is moving. Affects the speed at which the input audio is written to the buffer, as well as the read speed. At speeds &lt; 1x, there are less samples to record the incoming audio, so the fidelity is (interestingly) degraded.</li>
+<li><strong>Rotate:</strong> Rotates the channels in the feedback path (see <strong>Feedback</strong>). At 0%, each channel feeds back into itself; at 100%, each channel feeds back into the next one, and the last one feeds back into the first, resulting in a generalized ping-pong delay-like effect.</li>
+</ul>
+<p>The following parameters have as many independently-modulatable instances as there are taps (see <a href="../../atelier/modulation/">Modulation</a>):</p>
+<ul>
+<li><strong>Spread:</strong> Channel-locality of each tap. At 0%, each tap outputs only on the channels it is assigned to (see the global <a href="../../atelier/multichannel/#spread">Spread</a> section); at 100%, each tap plays all channels in parallel (multi-mono).</li>
+<li><strong>Gain:</strong> Global gain of all taps</li>
+<li><strong>Feedback:</strong> Amount of the sum of all taps that is fed back into the input. Careful: with several taps, may bloom and provoke loud sounds (even under 100%). To make blooming less aggressive, the feedback path includes a soft-clipping stage.</li>
+<li><strong>Bandpass:</strong> How much band-pass filtering is applied to each tap. The bigger this value, the more resonance (or Q-factor) the band-pass filter has. 0 means no filtering at all.</li>
+<li><strong>Repitch/Fade:</strong> Duration of the tap's playback grains. When &gt;0, a change in delay time will result in a crossfade, hence no repitch; at 0, grains are so small that playback is continuous, which repitches the input when delay time is changed. Grains are always played at speed 1, so lowering <strong>Speed</strong> while this is &gt;0 will result in constant repitching.</li>
+</ul>
+<hr />
+<h2 id="tips-and-tricks">Tips and tricks</h2>
+<h3 id="rhythmic-taps">Rhythmic taps</h3>
+<p>Feed <em>Time</em> some simple rhythmic loop. Introduce a few taps, and arrange them in time so that they repeat incoming audio in a rhythm of your choosing. Vary their gain and/or cutoff to taste. Tuning is a precise but rewarding process, as you discover new syncopations and grooves.</p>
+<h3 id="complex-looping">Complex looping</h3>
+<p><img align="left" alt="A screenshot of Time used in a looping configuration" src="../../assets/images/modules/time/time-looper.png" width="50%," /></p>
+<p>With a single tap set to a long delay (several seconds), <em>Time</em> can be used as a simple looper: just crank Feedback to 100% and the material in the buffer will accumulate and repeat indefinitely (this is Snapshot 5). Start here: feed some live-played input (voice, guitar, synth) and build layers upon layers, interacting with past material as if it was another player.</p>
+<p>From here, try out a few tricks: modulate the delay time slightly for imperfect repetitions, lower <strong>Speed</strong> and/or increase <strong>Bandpass</strong> for generational degradation, add a second tap closeby for complex stereo interplays... the world of delays is your oyster.</p>
+<h3 id="flangers-choruses-and-all-that">Flangers, choruses and all that</h3>
+<p><img align="right" alt="A screenshot of Time used as a flanger or chorus" src="../../assets/images/modules/time/time-flanger.png" width="50%," /></p>
+<p>Flanger, chorus, ensemble, vibrato... all these classic effects are just variants of the same concept that can easily be recreated with <em>Time</em>: short delays (1 to 50 ms) modulated by LFOs. Mixing the dry and delayed signals carves out pleasing peaks and troughs into the frequency content of your audio.</p>
+<p>An <em>Agitation</em> with 100% <strong>Cyclic</strong> will do the LFO. Add one or several taps around 10 ms, and modulate their delay times (use <strong>Delay scale</strong>). Increase <strong>Rotate</strong> for stereo width. Increase <strong>Feedback</strong> to taste. This is your bread-and-butter modulation effect; now explore this space for effects unheard of: different LFO shapes, audio-rate modulation, degrading with <strong>Speed</strong> and <strong>Bandpass</strong>, fade instead of repitch...</p>
+<h3 id="precedence-effect">Precedence effect</h3>
+<p><img align="left" alt="A screenshot of Time used for Haas or Precedence effect" src="../../assets/images/modules/time/time-precedence.png" width="50%," /></p>
+<p>One important cue to the localization of sound is its relative time of arrival: if one ear receives a sound before the other, the source will appear closer to it. A delay of a couple milliseconds is enough to trick our brain. It is sometimes called the Haas effect.</p>
+<p>Replicate this in <em>Time</em>: in stereo and listening on headphones, add two taps: one at 0 ms, one around 2 ms. Set <strong>Spread</strong> to 0% and <strong>Mix</strong> to 100%. Your input will sound like it leans to the left, even though the gain of each channel is the same. Vary the right-ear delay time and observe the effect.</p>
+<p>Using this creatively is a well of interesting ideas: the same principle with 4 or 8 channels (introducing the same number of taps) creates impossible spatial effects; modulating delay times instantly densifies simple material.</p>
+<h3 id="reverb-tails">Reverb tails</h3>
+<p>As soon as more than one tap is introduced, <strong>Feedback</strong> will not sound like your standard repetitions. This is because what is fed back is the <em>sum</em> of all individual taps. For instance, with two taps at 1 and 0.1 seconds respectively and feedback high enough, you will get repetitions at seconds 0.1, 1, 1.1, 2, 2.1, 2.2, 3, 3.1, 3.2, 3.3 etc.: as the repetitions tail off, they become "denser" (closer to each other). This can be used at your advantage: with &gt;4 taps and carefully choosing their times, we can come up with delay tails that quickly densify like reverbs, resulting in a variety of hybrid reverb/delay effects. This is especially true when delay times are slowly and slightly modulated, to cut off any resonance buildups.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>

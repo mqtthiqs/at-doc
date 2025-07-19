@@ -1,0 +1,1250 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../getting-started/">
+      
+      
+        <link rel="next" href="../multichannel/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>The modulation system - GRM Tools Atelier</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-modulation-system" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="GRM Tools Atelier" class="md-header__button md-logo" aria-label="GRM Tools Atelier" data-md-component="logo">
+      
+  <img src="../../assets/app_icon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GRM Tools Atelier
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The modulation system
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../.." class="md-tabs__link">
+          
+  
+    
+  
+  Atelier
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../modules/" class="md-tabs__link">
+          
+  
+    
+  
+  Modules
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GRM Tools Atelier" class="md-nav__button md-logo" aria-label="GRM Tools Atelier" data-md-component="logo">
+      
+  <img src="../../assets/app_icon.svg" alt="logo">
+
+    </a>
+    GRM Tools Atelier
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Atelier
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Atelier
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    The modulation system
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    The modulation system
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#polyadic-modulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polyadic modulation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Polyadic modulation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameter-instances" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameter instances
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accumulating-modulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accumulating modulations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modulating-the-modulators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modulating the modulators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips &amp; tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tips & tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brownian-agitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brownian agitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple connections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multichannel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multichannel processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../snapshots-and-randomizer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Snapshots and randomizer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../midi-and-automation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MIDI and automations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frequently Asked Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../modules/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Modules
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Modules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Processors
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Processors
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/play/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Play
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/gen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/comb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comb
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/band/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Band
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/pitch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pitch
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/time/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Time
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/gain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/viz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modulators
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Modulators
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/agitation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agitation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/control/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/peak/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peak
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#polyadic-modulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polyadic modulation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Polyadic modulation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameter-instances" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameter instances
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accumulating-modulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accumulating modulations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modulating-the-modulators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modulating the modulators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips &amp; tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tips & tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brownian-agitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brownian agitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple connections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="the-modulation-system">The modulation system</h1>
+<p><em>A new modulation paradigm</em></p>
+<p>In <em>Atelier</em> just like on modern modular synthesizers, all parameters (sliders, cursors, buttons etc.) can be modulated. But <em>Atelier</em>'s <em>polyadic</em> modulation system goes far further than its analog parent, offering a new paradigm to interact with your modules. It is the key to constructing living, evolving patches, provoke surprises and program complex interactions.</p>
+<p>Animate a whole family of parameters in one click, let complex random movements guide your explorations (<a href="../../modules/agitation/"><em>Agitation</em></a>), construct tailor-made macro-controls for live interaction (<a href="../../modules/control/"><em>Control</em></a>), or trigger advanced envelopes with customizable contours (<a href="../../modules/peak/"><em>Peak</em></a>)... If the modules of <em>Atelier</em> are its sound-processing heart, the modulation system is certainly its brain.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Polyadic:</strong> each destination is its own independent modulation engine</li>
+<li><strong>Accumulatable:</strong> scale and sum as many modulations to a single parameter as wanted</li>
+<li><strong>Composable:</strong> all modulators parameters are themselves modulatable, polyadically</li>
+</ul>
+<h2 id="getting-started">Getting started</h2>
+<p>Modulation is a classic technique from analog synthesis (also known as CV): instead of moving a parameter manually, a <em>modulator</em> generates a signal that moves it automatically. You may for instance modulate the gain of some audio input with a sine LFO (low frequency oscillator) to get a tremolo effect.</p>
+<p><img alt="An LFO connected to gain creating a tremolo effect" src="../../assets/images/atelier/modulation/modulation-tremolo.png" /></p>
+<p>Click the "+" button in the bottom row of the interface to instantiate a modulator (e.g. <a href="../../modules/agitation/"><em>Agitation</em></a>). Each modulator has a handle in the top right corner (colored round); drag a wire from the handle to the parameter of your choice to make a new connection.</p>
+<p>Once a connection is made, the parameter is modulated relatively to its nominal value (the current position of the slider, the state of the button etc.). Its actual value is displayed as a small grey dot on sliders and buttons. Hovering over a modulated parameter shows a popup where one can scale the modulation, or remove a connection.</p>
+<p>Hovering over a modulator's handle displays its outgoing wires. Hold "w" or press the "Show all connected wires" button in the status bar to see all wires.</p>
+<p><img alt="A video showing how to modulate the pitch of of an oscillator in Gen" src="../../assets/videos/modulation-create-modulation.mp4" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can give each modulator instance a name: click on the empty space between the "close" button and the colored handle. This helps remembering who does what.</p>
+</div>
+<h2 id="polyadic-modulation">Polyadic modulation</h2>
+<p>In <em>Atelier</em>, all modulations are <em>polyadic</em>: if a modulator is connected to several destination parameters, each destination gets its own independent modulation engine. Each of these modulations, while sharing the modulator's parameters (speed, amplitude etc.), can have its own internal phase, random state etc.</p>
+<p>Try connecting the same modulator, say, an <a href="../../modules/agitation/"><em>Agitation</em></a>, to two different parameters: the two parameters will be agitated differently. Changing, say, the agitation's frequency will act on the two parameters, but the random trajectories of each modulations will stay independent.</p>
+<p><img alt="The same Agitation source connected to two parameters" src="../../assets/images/atelier/modulation/modulation-same-mod-different-engine.png" /></p>
+<p>This is in stark contrast with classic modulation in analog synthesis: if one was to patch a single source of modulation (e.g. an LFO) into several destinations (by multing its output), each destination would receive the exact same LFO signal. This new paradigm opens up a wealth of workflow improvements and discovery avenues that would be difficult to imagine traditionally.</p>
+<h3 id="parameter-instances">Parameter instances</h3>
+<p>Moreover, when a single parameter actually controls several things at once, each of these things is modulated independently: parameters can have several <em>instances</em>. For instance, the <strong>Ratio</strong> slider in <em>Gen</em> applies a ratio to all oscillators' frequencies; if there are three oscillators enabled, <strong>Ratio</strong> has three instances: agitating <strong>Ratio</strong> will agitate the three actual ratios independently.</p>
+<p><img alt="Agitation independently modulating the pitch ratio of three oscillators in Gen" src="../../assets/images/atelier/modulation/modulation-three-instances.png" /></p>
+<p>The number of instances of a modulated parameter is shown on its wire (e.g. "x3"), and its actual values are displayed as grey dots on the button/slider.</p>
+<h3 id="accumulating-modulations">Accumulating modulations</h3>
+<p>A parameter can receive several connections from several modulator (and even from the same modulator). Just drag several wires to the same parameter; modulations are summed together, and the parameter's popup displays the list of connections. Each connection has its own range (-200% to 200%).</p>
+<p><img alt="Two modulations influencing the same pitch parameter. A popup allows editing modulations" src="../../assets/images/atelier/modulation/modulation-accumulation.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The 100% range of all modulators is able to span the entire range of a parameter, either
+bipolarly (plus or minus half the range), or unipolarly (0 to full range). If at some point the sum
+of the nominal parameter value and all its modulations exceed the limit of the parameter, it is
+clamped to the limit.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On/off buttons (like <em>Play</em>'s play/pause buttons) can also be modulated, but they differ from
+continuous parameters: if the sum of their modulation is positive, their actual value is the same 
+as their nominal value (the state of the button); if it is negative, it is inverted.</p>
+</div>
+<h3 id="modulating-the-modulators">Modulating the modulators</h3>
+<p>All modulators parameters are themselves modulatable: just drag a wire from one modulator to another modulator's parameter. These connections themselves are also polyadic: A modulator parameter has as many instances as there are connections going out of it. In other words, if a modulator's parameter is in turn modulated, each of its destination will spawn an individually-modulated modulator!</p>
+<p><img alt="An agitation modulating the frequency parameter of an agitation that modulates the pitch ratio of Gen with three oscillators" src="../../assets/images/atelier/modulation/modulation-modulating-modulations-square.png" /></p>
+<p>For instance, if three oscillator in <strong>Gen</strong> have their pitch modulated by the same agitation, and another agitation modulates its frequency, then each of the three pitch modulations will see its frequency agitated independently.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Because of their polyadic nature, modulation feedback loops do not make sense (they would
+require infinitely many parameter instances). The signal path of modulations must therefore be
+loop-free; <em>Atelier</em> will warn you whenever your patch involves a feedback loop.</p>
+</div>
+<h2 id="tips-tricks">Tips &amp; tricks</h2>
+<h3 id="brownian-agitation">Brownian agitation</h3>
+<p><img alt="A screenshot showing three agitations with different frequency and amplitude settings modulating the frequency band of a noise generator" src="../../assets/images/atelier/modulation/modulation-brownian-agitation.png" /></p>
+<p>Make 3 <a href="../../modules/agitation/"><em>Agitations</em></a>, and set them up with increasing frequencies (say, 0.1 Hz, 1 Hz and 10 Hz) and decreasing amplitudes (say, 60%, 30% and 5%). Now modulate a parameter with these three; the three agitations are summed together and result in a multi-scale agitation: large, smooth movements are combined with smaller, faster one. Increasing the number of agitations involved, we get closer and closer to what is known in physics as <a href="https://en.wikipedia.org/wiki/Brownian_motion">brownian motion</a> (see also <a href="https://en.wikipedia.org/wiki/Perlin_noise">Perlin noise</a>).</p>
+<h3 id="multiple-connections">Multiple connections</h3>
+<p><img alt="A screenshot showing the same agitation modulating the pitch of an oscillator five times" src="../../assets/images/atelier/modulation/modulation-multiple-connections-trick.png" /></p>
+<p>What happens if we connect a modulator, say an <a href="../../modules/agitation/"><em>Agitation</em></a>, to the same parameter multiple times, say 5 times? Each connection spawns an independent random oscillator, and they are all summed together. Let's reduce the amplitude to 20% (1/5th of 100%) so it does not risk clamping the parameter. The sum of all agitations is a random signal that has more chance to be found around 0 (close to the nominal parameter value), much like rolling 5 dices and summing the figures will get you a number likely close to 15 (5 * 6 / 2).</p>
+<p>Got it? Now try to predict what will happen with a <a href="../../modules/peak/"><em>Peak</em></a> set to 50% chance of triggering.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
