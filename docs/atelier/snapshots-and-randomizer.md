@@ -65,5 +65,4 @@ If you modify any affected parameters during morphing, it stops morphing. The mo
 
 ![A screenshot showing a slider being dragged elastically](../assets/images/atelier/morphing/morphing-elastic.png){align=right width=45%}
 
-
 To ease smooth movements, sliders and cursors also support **elastic drag**. Hold down `⌘` while dragging the control to smoothly move it to the desired position. You can control the elasticity of the drag operation using the **Morph time** slider.
