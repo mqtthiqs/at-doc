@@ -62,3 +62,16 @@
 h2, h3 {
     clear: both;
 }
+
+div#modules-list {
+  overflow: auto;
+  white-space: nowrap;}
+
+div#modules-list li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+div#modules-list img {
+    height: 450px;
+}

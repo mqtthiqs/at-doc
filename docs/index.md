@@ -26,6 +26,21 @@ _Atelier_ is a standalone application and a plug-in for DAWs (VST3, AUv2, AAX) f
 * **Hybrid Workflow:** Sound generation and processing in one place; build an advanced synth, a granular FX chain, or something never seen before.
 * **Parameter Morphing:** Transition between module snapshots or randomize parameters with smooth sonic interpolation, ideal for performance, evolving patches or simply to be surprised.
 
+## Modules
+
+<div markdown="block" id="modules-list">
+
+* [![Screenshot of the Play module](assets/images/modules/play/play.png)](modules/play.md)
+* [![Screenshot of the Gen module](assets/images/modules/gen/gen.png)](modules/gen.md)
+* [![Screenshot of the Comb module](assets/images/modules/comb/comb.png)](modules/comb.md)
+* [![Screenshot of the Band module](assets/images/modules/band/band.png)](modules/band.md)
+* [![Screenshot of the Pitch module](assets/images/modules/pitch/pitch.png)](modules/pitch.md)
+* [![Screenshot of the Time module](assets/images/modules/time/time.png)](modules/time.md)
+* [![Screenshot of the Gain module](assets/images/modules/gain/gain.png)](modules/gain.md)
+* [![Screenshot of the Viz module](assets/images/modules/viz/viz.png)](modules/viz.md)
+
+</div>
+
 ## Philosophy
 
 * **By enthusiasts, for enthusiasts:** Like you, we are all passionate musicians and curious minds. We exchange every day with avant-garde electronic music composers at GRM. _Atelier_ is built by a small and dedicated team inside a public institution. Our favorite question is "what if?". We have a unique goal: make the universally-accessible instrument we are dreaming of. No market considerations: all decisions taken by enthusiasts, for enthusiasts.
