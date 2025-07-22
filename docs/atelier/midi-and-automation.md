@@ -17,23 +17,18 @@ Once your setup is ready:
 
 4. A dashed blue outline is drawn around the control to indicate that it is mapped.
 
-!!! note
-
-    If you use _Atelier_ as a plug-in and need MIDI mappings, you might need to set up your DAW to forward MIDI messages to the track.
-
-!!! note
-
-      If you want one controller to control several parameters just create a [Control](../modules/control.md) module and [set it up to control several parameters](../modules/control.md#live-controls).
-
 _Atelier_ understands three kinds of MIDI messages:
 
 1. **Control Changes (CC):** their values (0-127) map to parameter values linearly.
 2. **Pitch wheel:** same thing.
 3. **Individual MIDI notes:** Each MIDI note is a separately assignable control. Note-on messages map to the value of their velocity; note-off messages map to the minimum value.
 
-!!! note
 
-       Classic VST instrument playing ("hit a key to make a note") is not supported. Yet.
+!!! notes
+
+      - If you want one controller to control several parameters just create a [Control](../modules/control.md) module and [set it up to control several parameters](../modules/control.md#live-controls).
+      - If you use _Atelier_ as a plug-in and need MIDI mappings, you might need to set up your DAW to forward MIDI messages to the track.
+      - Classic VST instrument playing ("hit a key to make a note") is not supported. Yet.
 
 ## Automations
 
