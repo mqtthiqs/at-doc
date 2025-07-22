@@ -100,13 +100,12 @@ Try repeating tiny segments — or grains — of audio (typically 1 to 100 milli
 
 ![Screenshot of Play with envelopes adjusted to create percussive sounds from a drone chained with Comb](../assets/images/modules/play/play-tips-percussive-large.png)
 
-Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to or close to 0%. Adjust **Ease** to make a fast decay. Note that **Declick** adds a bit of smoothing even if **Slant** is at 0%. If you want very sharp attacks set **Declick** to 0ms. To get a great variety of sounds slowly modulate **Position**. Tip: this might pair nicely with [Comb](comb.md) further down the chain.
-
+Using envelope shapes it is easy to reappropriate drone-y material for percussive sounds. Create one or more playheads, adjust the duration and bring **Slant** to 0%. Adjust **Ease** to make a fast decay. If you want sharp, clicky attacks set **Declick** to 0ms. Optionally modulate **Position** to get more variety. Tip: this might pair nicely with [Comb](comb.md) further down the chain.
 
 ### Multichannel cannon
 
 ![Screenshot of Play with four playheads in a row creating a cannon effect](../assets/images/modules/play/play-tips-cannon-large.png){width=50%, align=right}
 
-When a playhead's **Start (X axis)** parameter is less than 0% it will start out muted until it reaches the playback region. This effect can be exploited to create cannons. Place several playheads in a row spacing **Start** in regular intervals. Move the playheads to the left so that the right-most playhead is exactly at the dashed 0% line. To ensure that the pitch (and thus speed) of all playheads is equal press the **Quantize** button. Now, when you press **Play**, one playhead after the other will reach the the playback region with the predefined delay. Once they reached the end of the region they will loop and start from the beginning thus creating a cannon.
+When a playhead's **Start (X axis)** parameter is less than 0% it will start out muted until it reaches the playback region. This effect can be exploited to create cannons. Place several playheads in a row, spacing **Start** at regular intervals before 0%. Make sure all **Pitch** are equal. Now, when you press **Play**, one playhead after the other will reach the the playback region with the predefined delay. Once they reached the end of the region they will loop and start from the beginning, creating a cannon.
 
-If you want to play the cannon reversed move all the playheads so that the left-most playhead is at the 100% marker. Now set **Rate** to -1x.
+If you want to play the cannon in reverse, move all the playheads so their **Start** is after the 100% marker, and set **Rate** to -1x.
