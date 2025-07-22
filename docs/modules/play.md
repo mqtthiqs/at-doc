@@ -71,10 +71,10 @@ The following parameters have as many independently-modulatable instances as the
 - **Duration:** Duration of the playback region, as a percentage of the total file length. The actual duration in seconds is indicated next to this slider.
 - **Spread:** Channel-locality of each playhead. At 0%, each playhead reads only the channels it is assigned to (see the global [Spread](../atelier/multichannel.md#spread) section); at 100%, each playhead reads all channels of the file.
 - **Gain:** Output gain of all playheads. Added to the gain of playhead.
-- **Fade:** Combined length of the fade-in and fade-out envelope. In loop mode it determines the cross fade time.
+- **Fade:** Combined length of the fade-in and fade-out envelope. In loop mode, it determines the cross fade time.
 - **Slant:** Ratio of time spent fading in vs. fading out. At 0% the attack is instant and the entire time is used for the fade out; at 50% the envelope is symmetric; at 100% the envelope is slanted towards the right.
 - **Ease:** Easing curve of the applied fades, from linear (0%), to abrupt (100%).
-- **Declick:** Minimum time of any fades. A value of 0 allows clicks; anything above smoothly fades any transition: start, stop, (cross-)fade.
+- **Declick:** Minimum time of any fades. A value of 0 allows clicks; anything above quickly fades any transition: start, stop, (cross-)fade.
 
 ---
 
@@ -88,15 +88,13 @@ The following parameters have as many independently-modulatable instances as the
 
 ![Screenshot of Play with two playheads with slight difference in pitch](../assets/images/modules/play/play-tips-phasing-large.png){width=50%, align=left}
 
-To achieve a phasing effect — as popularized by Steve Reich — place two playheads at the same point. Then change the **Pitch** parameter of one playhead by a very small amount. Note that holding down the shift key while dragging a slider allows for finer control. A very small difference (in the range of 0.05st) will create effects evocative of comb filtering. Slightly higher differences in playback speed result in faster alternating rhythmical patterns. This effect is easiest explored with short rhythmical loops but works on a large variety of material.
+To achieve a phasing effect — as popularized by Steve Reich — place two playheads at the same exact spot. Changing the **Start** of one playhead introduces a fixed time gap between both heads; slightly changing **Pitch** instead gradually desynchronizes both playheads. Hold `⇧` while dragging for fine control. This effect is easiest explored with short rhythmical loops.
 
-### Granular
+### Granular playback
 
-![Screenshot of four playheads at different pitches with very short smooth playback regions](../assets/images/modules/play/play-tips-granular-large.png){width=50%, align=right}
+![Screenshot of four playheads at different pitches with very short smooth playback regions](../assets/images/modules/play/play-tips-granular-large.png)
 
-Granular synthesis is a sound synthesis method that works by layering audio of tiny segments called "grains", typically lasting from 1 to 100 milliseconds. In line with _Atelier_'s philosophy the parameter range of loop durations can be as short as one sample or as long as the whole file. To create a granular effect set the **Duration** to a very small value. Note that the absolute value of the loop duration is displayed right next to the duration slider. Next add a generous amount of **Fade** (in granular parlance "windowing") to smooth out the grains. You can add several playheads with different pitches to create chords. Reset the position to 50%. Note that double clicking any slider will reset its position to the default value. Now add a modulation to **Position**. Voilà.
-
-Time and pitch stretching effects can be achieved by modulating **Duration** with a linearly increasing curve (e.g. using [Peak](peak.md) in loop mode with **Slant** at 100%). Adjust the modulator's time to vary the speed; adjust the playhead's pitch to repitch while keeping the overall tempo.
+Try repeating tiny segments — or grains — of audio (typically 1 to 100 milliseconds), and modulating the region. Set the **Duration** to a very small value. Add a generous amount of **Fade** to smooth out the grains. Add several playheads with different pitches to create a chord. Reset the position to 50%. Now add a modulation to **Position**, [Peak](peak.md) to create a constant ascending slope, or [Agitation](agitation.md) for unexpected scrubbing. Adjust its time to vary the granular scrubbing speed.
 
 ### Percussions with drone material using fades
 
