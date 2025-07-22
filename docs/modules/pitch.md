@@ -18,7 +18,7 @@ A pitch shifter changes the pitch of a sound without changing its duration. On t
 
 Feed sound into _Pitch_, click to add a pitch shifter: the sound is delayed and transposed.
 
-But what actually happens is not magic: the input is recorded into a buffer, and two overlapping play heads continuously read small grains of sound around the cursor (the delay time), at a speed proportional to the transposition required. Basic pitch shifting is just this: playing small overlapping grains of the input sound at speeds different than the recording speed!
+But what actually happens is not magic: the input is recorded into a buffer, and two overlapping playheads continuously read small grains of sound around the cursor (the delay time), at a speed proportional to the transposition required. Basic pitch shifting is just this: playing small overlapping grains of the input sound at speeds different than the recording speed!
 
 Combined with correlation detection to adjust grain positions, this overlap/add technique is the archetype of pitch shifting algorithms ([_WSOLA_](https://ieeexplore.ieee.org/document/319366)), and with short grain size and strong correlation detection, it works especially well on monophonic sounds; otherwise artifacts start to be heard.
 
