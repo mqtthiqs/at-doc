@@ -5,7 +5,7 @@ Audio file playground
 
 ![Screenshot of the Play module](../assets/images/modules/play/play.png){.main-pic}
 
-_Play_ is a multi-playhead file player with versatile playback region and envelope controls. It allows mangling any source material into a wide variety of outcomes. From percussive glitches to mesmerizing drones. Its built-in recording functionality allows sampling of inputs or resampling of whole patches.
+Simple file playback, turned into an instrument. _Play_ is a virtual tape recorder with creative feature: multiple playheads, versatile playback region, envelope control, and built-in recording functionality allowing input sampling or even resampling your own patches. Endless sound material exploration without cluttering your desk with snippets of magnetic tape.
 
 ## Features
 
@@ -17,13 +17,15 @@ _Play_ is a multi-playhead file player with versatile playback region and envelo
 
 ## Context
 
-Spliced tape, varispeed and reversed reels: in the hands of musique concrète artists, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation. _Play_ taps into this history enabling polyphonic exploration of the source material without cluttering your desk with snippets of magnetic tape.
+Spliced tape, varispeed and reversed reels: in the hands of musique concrète composers, the reel-to-reel recorder became an instrument, turning sound itself into material for playful experimentation. _Play_ taps into this history and brings it to modern standards, while treasuring the joy of experimenting.
 
-When playing sound from a tape speed and pitch are invariably linked. Doubling the playback speed pitches the recorded material up by an octave. Halving it pitches it down by an octave. Playing the same material in a loop with a difference of 7st (perfect fifth) creates a 3:2 pattern.
+![ François Bayle at the GRM studio in 1962. Photo by Laszlo Ruszka.](../assets/images/modules/play/bayle-reel-to-reel.jpg)
 
-Each cursor can have an independent pitch and playback position. Fade is applied on play and pause as an envelope. In looped mode it additionally determines the overlap of the loop region. If fade is at 100% the sound will always overlap. When a region changes during playback the playhead will attempt to restart within the new region. To ensure a smooth and consistent playback it will keep fading out from its original position.
+Once a file is loaded, place one or several _readheads_. Each readhead is represented by a cursor, that has independent pitch, playback position and gain. Its position is confined to a _playback region_ (in blue in the [region overview](#region-overview)).
 
-_Play_ can load mono, stereo and multichannel audio files. If the number of channels in the audio file don't match the number of channels of the module [fanning and folding](../atelier/multichannel.md#fanning-and-folding) will be employed to distribute the channels to your outputs.
+An envelope is applied while reading the region (**Fade**, **Slant**). In single-shot playback, playheads start fading in at the beginning of the region, then fades out again at its end. In looped mode, it determines crossfade: as soon as fade out starts, the region starts playing again from the start. With **Fade** at 100% the playback continuously overlaps.
+
+_Play_ can load mono, stereo and multichannel audio files. If the number of channels in the audio file don't match the number of channels of the module [fanning and folding](../atelier/multichannel.md#fanning-and-folding) is employed to distribute the channels to your outputs.
 
 ---
 
