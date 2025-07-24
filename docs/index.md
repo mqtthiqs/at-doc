@@ -28,7 +28,7 @@ _Atelier_ is a standalone application and a plug-in for DAWs (VST3, AUv2, AAX) f
 
 ## Modules
 
-<div markdown="block" id="modules-list">
+<div markdown="block" id="processors-list">
 
 * [![Screenshot of the Play module](assets/images/modules/play/play.png)](modules/play.md)
 * [![Screenshot of the Gen module](assets/images/modules/gen/gen.png)](modules/gen.md)
@@ -41,6 +41,15 @@ _Atelier_ is a standalone application and a plug-in for DAWs (VST3, AUv2, AAX) f
 
 </div>
 
+<div markdown="block" id="modulators-list">
+
+* [![Screenshot of the Agitation module](assets/images/modules/agitation/agitation.png)](modules/agitation.md)
+* [![Screenshot of the Control module](assets/images/modules/control/control.png)](modules/control.md)
+* [![Screenshot of the Peak module](assets/images/modules/peak/peak.png)](modules/peak.md)
+
+</div>
+
+
 ## Philosophy
 
 * **By enthusiasts, for enthusiasts:** Like you, we are all passionate musicians and curious minds. We exchange every day with avant-garde electronic music composers at GRM. _Atelier_ is built by a small and dedicated team inside a public institution. Our favorite question is "what if?". We have a unique goal: make the universally-accessible instrument we are dreaming of. No market considerations: all decisions taken by enthusiasts, for enthusiasts.
@@ -51,4 +60,4 @@ _Atelier_ is a standalone application and a plug-in for DAWs (VST3, AUv2, AAX) f
 
 ## The beginning of a beautiful friendship
 
-_Atelier_ is built to grow. As we develop new features it will evolve over time, including new modules, processors and modulators, and new core features. Your purchase of _Atelier_ `v1.x` is a lifetime purchase: no subscription, no recurring fees. It includes all features that will be introduced in point-updates, i.e. about 1.5—2 years worth of upgrades. When `v2.0` is released, we will propose discounted upgrade paths for existing `v1.x` user.
+_Atelier_ is built to grow. As we develop new features it will evolve over time, including new modules, processors and modulators, and new core features. Your purchase of _Atelier_ `v1.x` is a lifetime purchase: no subscription, no recurring fees. It includes all features that will be introduced in point-updates, (about 1.5—2 years worth of upgrades). When `v2.0` is released, we will propose discounted upgrade paths for existing `v1.x` user.

@@ -63,15 +63,28 @@ h2, h3 {
     clear: both;
 }
 
-div#modules-list {
+div#processors-list {
   overflow: auto;
   white-space: nowrap;}
 
-div#modules-list li {
+div#processors-list li {
     display: inline-block;
     text-decoration: none;
 }
 
-div#modules-list img {
+div#processors-list img {
     height: 450px;
+}
+
+div#modulators-list {
+  overflow: auto;
+  white-space: nowrap;}
+
+div#modulators-list li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+div#modulators-list img {
+    height: 150px;
 }
