@@ -50,6 +50,11 @@
     font-size: 2em;
 }
 
+.md-tabs a {
+    font-weight: bold;
+    font-size: 150%;
+}
+
 .tagline {
     float: right;
     font-size: 1.1em;
