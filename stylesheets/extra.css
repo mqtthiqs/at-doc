@@ -1,0 +1,95 @@
+:root>* {
+    --md-primary-fg-color: #2e3133;
+    --md-default-bg-color: #1a1d1d;
+    --md-typeset-a-color: #3782AA !important;
+    --md-accent-fg-color: #79C2E7 !important;
+}
+
+.md-header__button.md-logo img {
+    height: 3rem;
+}
+
+.md-header__title {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* rescale retina images to correspond to their logical (not physical) size */
+.screenshot {
+    width: 50%;
+}
+
+.main-pic {
+    display: block;
+    height: 600px !important;
+    margin: auto;
+}
+
+.main-pic-small {
+    display: block;
+    height: 200px !important;
+    margin: auto;
+}
+
+.carousel-img {
+    height: 330px !important;
+    padding: 5px;
+}
+
+.carousel-img-small {
+    height: 150px !important;
+    padding: 5px;
+}
+
+.module-logo {
+    width: 3em;
+    vertical-align: middle;
+}
+
+.md-typeset h1 {
+    font-size: 2em;
+}
+
+.md-tabs a {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.tagline {
+    float: right;
+    font-size: 1.1em;
+    margin: 1.9em;
+    font-style: italic;
+    color: var(--md-default-fg-color--light);
+}
+
+/* make sure screenshots don't extend past the next title */
+h2, h3 {
+    clear: both;
+}
+
+div#processors-list {
+  overflow: auto;
+  white-space: nowrap;}
+
+div#processors-list li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+div#processors-list img {
+    height: 450px;
+}
+
+div#modulators-list {
+  overflow: auto;
+  white-space: nowrap;}
+
+div#modulators-list li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+div#modulators-list img {
+    height: 150px;
+}

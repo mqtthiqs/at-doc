@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GRMTools version="0.8" minVersion="0.8">
+  <PARAM id="morph_time" value="1.000000357627869" locked="0"/>
+  <modulations/>
+  <input>
+    <PARAM id="gain" value="0.0" locked="0"/>
+  </input>
+  <output>
+    <PARAM id="gain" value="0.0" locked="0"/>
+  </output>
+  <randomizer>
+    <PARAM id="dimension_1" value="0.0" locked="0"/>
+    <PARAM id="dimension_2" value="0.0" locked="0"/>
+    <PARAM id="dimension_3" value="0.0" locked="0"/>
+  </randomizer>
+  <units>
+    <GRMBand>
+      <PARAM id="active_0" value="1.0" locked="0"/>
+      <PARAM id="active_1" value="1.0" locked="0"/>
+      <PARAM id="active_10" value="1.0" locked="0"/>
+      <PARAM id="active_11" value="1.0" locked="0"/>
+      <PARAM id="active_12" value="1.0" locked="0"/>
+      <PARAM id="active_13" value="1.0" locked="0"/>
+      <PARAM id="active_14" value="1.0" locked="0"/>
+      <PARAM id="active_15" value="1.0" locked="0"/>
+      <PARAM id="active_2" value="1.0" locked="0"/>
+      <PARAM id="active_3" value="1.0" locked="0"/>
+      <PARAM id="active_4" value="1.0" locked="0"/>
+      <PARAM id="active_5" value="1.0" locked="0"/>
+      <PARAM id="active_6" value="1.0" locked="0"/>
+      <PARAM id="active_7" value="1.0" locked="0"/>
+      <PARAM id="active_8" value="1.0" locked="0"/>
+      <PARAM id="active_9" value="1.0" locked="0"/>
+      <PARAM id="bump" value="0.0" locked="0"/>
+      <PARAM id="bypass" value="0.0" locked="0"/>
+      <PARAM id="gain" value="0.0" locked="0"/>
+      <PARAM id="gain_0" value="-19.82899475097656" locked="0"/>
+      <PARAM id="gain_1" value="-7.49346923828125" locked="0"/>
+      <PARAM id="gain_10" value="-23.05451202392578" locked="0"/>
+      <PARAM id="gain_11" value="-12.31031036376953" locked="0"/>
+      <PARAM id="gain_12" value="3.027572631835938" locked="0"/>
+      <PARAM id="gain_13" value="-10.11613464355469" locked="0"/>
+      <PARAM id="gain_14" value="-16.67151641845703" locked="0"/>
+      <PARAM id="gain_15" value="0.0" locked="0"/>
+      <PARAM id="gain_2" value="6.18048095703125" locked="0"/>
+      <PARAM id="gain_3" value="0.0" locked="0"/>
+      <PARAM id="gain_4" value="-5.614067077636719" locked="0"/>
+      <PARAM id="gain_5" value="7.602676391601562" locked="0"/>
+      <PARAM id="gain_6" value="-14.20085906982422" locked="0"/>
+      <PARAM id="gain_7" value="-5.492416381835938" locked="0"/>
+      <PARAM id="gain_8" value="13.84014892578125" locked="0"/>
+      <PARAM id="gain_9" value="7.743759155273438" locked="0"/>
+      <PARAM id="mix" value="1.0" locked="0"/>
+      <PARAM id="pitch_0" value="25.56919479370117" locked="0"/>
+      <PARAM id="pitch_1" value="33.42398071289062" locked="0"/>
+      <PARAM id="pitch_10" value="100.1715393066406" locked="0"/>
+      <PARAM id="pitch_11" value="107.5791091918945" locked="0"/>
+      <PARAM id="pitch_12" value="114.9610290527344" locked="0"/>
+      <PARAM id="pitch_13" value="122.3343505859375" locked="0"/>
+      <PARAM id="pitch_14" value="137.1582946777344" locked="0"/>
+      <PARAM id="pitch_15" value="129.7602386474609" locked="0"/>
+      <PARAM id="pitch_2" value="41.28118896484375" locked="0"/>
+      <PARAM id="pitch_3" value="48.69179534912109" locked="0"/>
+      <PARAM id="pitch_4" value="56.09103775024414" locked="0"/>
+      <PARAM id="pitch_5" value="63.41982269287109" locked="0"/>
+      <PARAM id="pitch_6" value="70.66813659667969" locked="0"/>
+      <PARAM id="pitch_7" value="78.01520538330078" locked="0"/>
+      <PARAM id="pitch_8" value="85.40390777587891" locked="0"/>
+      <PARAM id="pitch_9" value="92.78957366943359" locked="0"/>
+      <PARAM id="preset" value="5.0" locked="0"/>
+      <PARAM id="slope" value="1.99999988079071" locked="0"/>
+      <PARAM id="spread" value="1.0" locked="0"/>
+      <PARAM id="transpose" value="0.0" locked="0"/>
+      <PARAM id="width_0" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_1" value="0.796735405921936" locked="0"/>
+      <PARAM id="width_10" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_11" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_12" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_13" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_14" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_15" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_2" value="0.8060376644134521" locked="0"/>
+      <PARAM id="width_3" value="0.8060376644134521" locked="0"/>
+      <PARAM id="width_4" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_5" value="0.8078347444534302" locked="0"/>
+      <PARAM id="width_6" value="0.8078347444534302" locked="0"/>
+      <PARAM id="width_7" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_8" value="0.8063508272171021" locked="0"/>
+      <PARAM id="width_9" value="0.8063508272171021" locked="0"/>
+      <DATA id="editorAspectRatio" value="0.8999999761581421"/>
+      <DATA id="editorMaximized" value="0"/>
+      <DATA id="y_axis" value="2"/>
+      <presets/>
+    </GRMBand>
+  </units>
+</GRMTools>
