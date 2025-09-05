@@ -15,6 +15,12 @@ if [ "$1" = "--profile" ]; then
   <VALUE name="modulationPaneHeight" val="74.2503%"/>
   <VALUE name="windowState" val="200 200 2400 1076"/>
 EOF
+  elif [ "$2" = "Principale" ]; then
+   cat >> "$path" <<EOF
+  <VALUE name="windowState" val="742 334 1309 907"/>
+  <VALUE name="scaleFactor" val="0.9170040488243103"/>
+  <VALUE name="modulationPaneHeight" val="68.3206%"/>
+EOF
   else
    echo "Unknown profile"
    exit 1
